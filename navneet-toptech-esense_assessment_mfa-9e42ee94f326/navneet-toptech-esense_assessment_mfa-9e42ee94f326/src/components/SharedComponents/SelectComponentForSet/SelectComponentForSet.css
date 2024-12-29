@@ -1,0 +1,25 @@
+.SelectComponentForSetstyling {
+  display: flex;
+  align-items: center;
+}
+.SelectComponentForSetstyling .MuiFormControl-root,
+.SelectComponentForSetstyling .MuiFormControl-root .MuiInputBase-root {
+  width: 65px;
+  height: 40px;
+  margin: 0;
+}
+.SelectComponentForSetstyling p {
+  margin-bottom: 0;
+  margin-right: 15px;
+}
+
+.MuiPopover-root .MuiPaper-root .MuiPaper-elevation {
+  width: 100px;
+}
+.SelectComponentForSetstyling .MuiFormControl-root .MuiInputBase-root fieldset {
+  border: 1px solid #dedede;
+  border-radius: 8px;
+}
+.SelectComponentForSetstyling .MuiFormControl-root .MuiInputBase-root {
+  background-color: #ffffff;
+}

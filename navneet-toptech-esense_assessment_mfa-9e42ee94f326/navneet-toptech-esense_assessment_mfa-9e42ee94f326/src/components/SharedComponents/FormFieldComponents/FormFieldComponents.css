@@ -1,0 +1,22 @@
+.multiSelectDefaultCheck label[data-shrink="true"] + .MuiInputBase-root fieldset{
+    background-color: transparent;
+    border: 1px solid var(--textEditorBgGrey);
+}
+.multiSelectDefaultCheck label[data-shrink="true"] + .MuiInputBase-root > .MuiButtonBase-root{
+    height: auto;
+}
+.multiSelectDefaultCheck label[data-shrink="true"] + .MuiInputBase-root > .MuiButtonBase-root > span{
+    font-size: 12px;
+}
+.multiSelectDefaultCheck label[data-shrink="true"] + .MuiInputBase-root > .MuiButtonBase-root > svg{
+    width: 16px;
+    background: transparent;
+}
+.multiSelectDefaultCheck label[data-shrink="true"]{
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 600;
+    transform: translate(14px, -10px) scale(1);
+    opacity: 1;
+    padding: 0px 5px;
+}

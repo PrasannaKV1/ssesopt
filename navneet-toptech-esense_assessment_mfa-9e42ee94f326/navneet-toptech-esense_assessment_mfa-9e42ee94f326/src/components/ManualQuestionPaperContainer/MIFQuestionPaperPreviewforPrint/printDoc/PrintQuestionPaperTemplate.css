@@ -1,0 +1,21 @@
+/* @page { size: auto;  margin: 8mm 0mm 10mm 0mm; } */
+
+/* Print-specific styles */
+@media print {
+    /* Hide the browser URL bar */
+    body {
+      -webkit-print-color-adjust: exact; /* This is to ensure colors are printed properly in Chrome */
+    }
+  
+   
+  
+    /* Hide the browser address bar (URL bar) */
+    @supports (-webkit-hyphens: auto) or (hyphens: auto) {
+      body::after {
+        content: url(''); /* Add an empty URL as the pseudo-element content */
+        height: 1px; /* Set the height to 1px to hide the URL bar in most browsers */
+        display: block; /* Display the pseudo-element as a block */
+      }
+    }
+  }
+  

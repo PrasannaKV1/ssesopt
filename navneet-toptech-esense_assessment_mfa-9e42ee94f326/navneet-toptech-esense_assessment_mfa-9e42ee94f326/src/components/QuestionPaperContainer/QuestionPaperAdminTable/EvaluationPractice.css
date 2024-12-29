@@ -1,0 +1,54 @@
+.evaluation-asses1-container{
+   border: 1px solid #DEDEDE;
+   padding: 18px 22px;
+   border-radius: 16px;
+   /* width: 95%; */
+   background-color: white;
+   margin: 20px 0px
+}
+
+.error-evaluation-asses1-container{
+    background: rgba(255, 255, 255, 1);
+    padding: 18px 24px;
+    width: 94.5%;
+    background-color: white;
+    margin: 20px
+ }
+ 
+.assessment-details div:first-child{
+    color: #1B1C1E;
+    font-size: 24px;
+    font-weight: 700;
+}
+.assess-card-cont{
+    display: flex;
+    gap: 10px;
+}
+.assess-card-cont .card-data{
+    flex-grow: 1;
+}
+.marks-details{
+    color: #9A9A9A;
+    font-size: 16px;
+    font-weight: 400;
+}
+.assess-online-card-container .assess-card-data > div{
+    flex-grow: 1 !important;
+}
+@media screen and (max-width:500px){
+    .error-evaluation-asses1-container{
+        padding: 5px;
+        width: 100% !important;
+        margin: 0px !important;
+     }
+     .error-evaluation-asses1-container .MuiPaper-root{
+        padding: 0px !important;
+     }
+     .error-evaluation-asses1-container .MuiPaper-root .MuiCardContent-root{
+        padding: 10px !important;
+     }
+     .assess-card-cont div:nth-child(2){
+        flex-grow: 1 !important;
+     }
+     
+}

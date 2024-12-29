@@ -1,0 +1,199 @@
+.quePapPreviewforPrint{
+    padding: 40px 60px 0px 100px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.quePapPreviewforPrintContent{
+    background-color: white;
+    height: calc(100vh - 255px);
+    padding: 15px 10px 0px 10px;
+    border-radius: 8px;
+    display: flex;
+}
+
+.quePapPreviewSection{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.qstnPprInstructions{
+    border: 1px solid black;
+    width: auto;
+}
+
+.qntpaperHeadingOne{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-top: 2px solid black;
+}
+
+.questionPaperSubHeaders{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 18px 0px 28px;
+}
+
+.questionPaperContent{
+    margin: 8px 0px 5px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.quesPaperPreviewPrintFooter{
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    bottom: 0px;
+    z-index: 99;
+}
+.quesPaperPreviewPrintFooterSect h5{
+    font-weight: 500;
+    font-size: 18px !important;
+    line-height: 25px;
+}
+.quesPaperPreviewPrintFooterSect{
+    margin: 0 auto;
+    max-width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 104px;
+    box-shadow: 0px -4px 2px rgba(27, 28, 30, 0.06)
+}
+.questionPaperPreviewSect{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.MIFQuestionPaperPreviewSect{
+    padding-top: unset !important;
+}
+.questionPaperPreviewSectLeft{
+    display: flex;
+    flex-direction: column;
+}
+.questionPaperPreviewSectLeft h2{
+    font-weight: 600;
+    font-size: 24px !important;
+    line-height: 29px;
+    margin-bottom: 13px;
+    margin-top: 7px;
+}
+.questionPaperPreviewSectLeft p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 4px;
+}
+.questionPaperPreviewSectRight{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 10px;
+}
+.questionPaperPreviewSectRightAction button:hover{
+background-color: transparent;
+}
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersion{
+    width: 380px;
+    padding: 15px 10px 15px 30px;
+    /* border-right: 1px solid #DEDEDE; */
+    /* overflow-y: scroll; */
+}
+.quePapPreviewforPrintContent .quePapPreviewforPrintPreview{
+    /* width: calc(100% - 280px); */
+    width: 100%;
+    overflow: auto;
+    padding-bottom: 35px;
+}
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersion > h2{
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersion > p{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #9A9A9A;
+    padding-right: 70px;
+}
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersion ul{
+    list-style: none;
+    padding-left: 15px;
+    /* height: calc(100vh - 360px); */
+    overflow: auto;
+}
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersion ul > li{
+    position: relative;
+    padding-bottom: 30px;
+}
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersion ul > li h4{
+    font-weight: 600;
+    line-height: 22px;
+    color: rgba(154, 154, 154, 1);
+    margin-bottom: 5px;
+}
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersion ul > li.activeDot h4{
+    color: #01B58A;
+}
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersion ul > li > div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersion ul > li > div p{
+    background: rgba(239, 239, 239, 1);
+    color: rgba(154, 154, 154, 1);    
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    margin: 0px;
+}
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersion ul > li.activeDot > div p{
+    background: rgba(1, 181, 138, 0.1);
+    color:#01B58A;
+}
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersion ul > li > div span{
+    font-size: 10px;
+    line-height: 16px;
+    font-weight: 700;
+}
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersion ul > li:before {
+    left: -15px;
+    top: 5px;
+    content: "";
+    background: #DEDEDE;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    z-index: 1;
+    border-radius: 20px;
+}
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersion ul > li:not(:last-child):after{
+    content: "";
+    position: absolute;
+    border-left: 3px solid #DEDEDE;
+    height: calc(100% - 0px);
+    top: 6px;
+    left: -13px;
+}
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersion ul > li.activeDot::before{
+    background: #01B58A;
+}
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersion ul > li.activeLine::after{
+    border-color: #01B58A;
+}
+.gap-8{
+    gap:8px;
+}
+.preview-eval-hidden{
+    display: none;
+  }
+.quePapPreviewforPrint .InstructionsSectionBlock .instructionsSect .ql-editor ol li:before{
+    display: none;
+}

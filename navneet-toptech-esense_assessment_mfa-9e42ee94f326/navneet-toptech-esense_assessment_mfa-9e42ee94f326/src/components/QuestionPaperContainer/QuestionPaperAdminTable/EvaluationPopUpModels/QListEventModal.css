@@ -1,0 +1,79 @@
+.assement-q-modal .modal-title {
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 30px;
+    color: #1B1C1E;
+}
+
+.assement-q-modal .modal-subtitle {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #9A9A9A;
+}
+@media screen and (max-width:500px){
+   .assement-q-modal .modal-subtitle {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #9A9A9A;
+}
+}
+
+.main-container{
+    background-color: white;
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.evaluation-modal-header{
+    display: flex;
+    flex-direction: column;
+    padding-left: 18px;
+    padding-top: 20px;
+}
+
+.close-icon{
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+.modal-body .MuiGrid-container .MuiGrid-item .MuiFormControl-root .MuiInputBase-root{
+    background-color: white !important;
+    border-radius: 8px !important;
+}
+.evaluation-modal-header .MuiGrid-item .MuiFormControl-root .MuiInputBase-root{
+    background-color: white !important;
+    border-radius: 8px !important;
+}
+
+.modal-body .MuiGrid-container .MuiGrid-item .MuiFormControl-root .MuiInputBase-root fieldset, 
+.modal-body .MuiGrid-container .MuiGrid-item .MuiFormControl-root .MuiInputBase-root:hover fieldset
+{
+    border: 1px solid #DEDEDE !important;
+}
+.modal-body .MuiGrid-container .MuiGrid-item .MuiFormControl-root .MuiInputBase-root.Mui-focused fieldset{
+    border: 1px solid  #01B58A!important;
+}
+.modal-body .MuiGrid-container .MuiGrid-item .MuiFormControl-root .MuiInputBase-root fieldset legend{
+    font-size: medium !important;
+}
+
+.section-filled-div{
+    width: 150px;
+    background-color: black;
+    color: white;
+    height: 50px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    font-size: 14px;
+}
+@media screen and (max-width:500px){
+    .modal-body{
+        height: calc(100vh - 400px) !important;
+    overflow-y: auto !important;
+    }
+}

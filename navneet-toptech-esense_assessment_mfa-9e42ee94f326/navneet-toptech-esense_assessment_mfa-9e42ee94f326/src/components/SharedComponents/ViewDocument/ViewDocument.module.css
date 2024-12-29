@@ -1,0 +1,103 @@
+.uploadDoc {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+    gap: 40px;
+    position: absolute;
+    width: 80%;
+    height: 95%;
+    left: 140px;
+    top: 16px;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.uploadDownload {
+    text-align: center;
+    margin-top: -18px;
+    margin-left: 140px;
+    cursor: pointer;
+    
+}
+.downloadIcon{
+    padding: 0px;
+    background: #01B58A !important;
+    border-radius: 5.92593px;
+    height: 30px;
+    margin-left: 7px;
+}
+
+
+.uploadDocTitle {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #1B1C1E;
+    margin-top: -30px;
+}
+
+.uploadDocTitleCard {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9A9A9A;
+}
+
+.pdf {
+    box-sizing: border-box;
+    position: absolute;
+    width: calc(34vw);
+    height: calc(80vh);
+    left: 35.5%;
+    top: 16%;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.docPreview {
+    box-sizing: border-box;
+    position: absolute;
+    width: calc(72vw);
+    height: calc(80vh);
+    left: 14.5%;
+    top: 16%;
+    text-align: center;
+    margin-top: 0%;
+}
+
+.iconBack {
+    position: absolute;
+    left: 240px;
+    top: 445px;
+    cursor: pointer;
+}
+
+.iconFord {
+    position: absolute;
+    left: 650px;
+    top: 445px;
+    cursor: pointer;
+}
+
+.btn {
+    cursor: pointer;
+}
+.closeView{
+    margin-left: 150px;
+     margin-top: -50px; 
+}
+
+.view{
+    height: 95%;
+    width: 180%;
+    margin-left: -44%;
+    margin-top: -12%;
+}
+
+.imagePreview{
+    width: 100%;
+    height: 80%;
+}

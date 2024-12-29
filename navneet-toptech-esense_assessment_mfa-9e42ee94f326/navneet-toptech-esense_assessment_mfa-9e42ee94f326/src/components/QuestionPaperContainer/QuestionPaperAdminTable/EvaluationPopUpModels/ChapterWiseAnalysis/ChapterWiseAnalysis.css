@@ -1,0 +1,59 @@
+.chapterName {
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    color: #1B1C1E !important;
+}
+.topic-coverage{
+    border-bottom: 1px solid black !important;
+}
+.topic_List{
+    padding: 0 !important;
+}
+.topicsListBox{
+    margin: 20px 0px 0px -50px !important;
+}
+.prefixSelectThings .MuiFormControl-root .MuiInputBase-root {
+    border-radius: 8px;
+    border: 1px solid var(--esense-light-grey, #DEDEDE);
+    background-color: white;
+    height: 40px;
+    padding: 9px 12px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #1B1C1E;
+}
+
+.prefixSelectThings .MuiFormControl-root .MuiInputAdornment-root .MuiTypography-root {
+    color: #9A9A9A;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.prefixSelectThings .MuiFormControl-root {
+    width: 250px;
+}
+
+.prefixMultiSelectGrid .prefixSelectThings .MuiFormControl-root {
+    margin: 0;
+}
+
+
+.topics-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px; 
+}
+
+.topic_List {
+    margin: 0; 
+}
+
+.chapterChallengeMainDiv {
+    padding: 20px;
+    text-align: center;
+    border-radius: 16px;
+    background-color: white;
+    max-width: 94%;
+    border:1px solid rgb(222, 222, 222);
+    margin: 1% 1% 1% 1.4%;
+}

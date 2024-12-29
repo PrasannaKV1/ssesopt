@@ -1,0 +1,344 @@
+.quePapPreviewforPrint{
+    padding: 40px 60px 0px 100px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.quePapPreviewforPrintContent{
+    background-color: white;
+    height: calc(100vh - 255px);
+    padding: 15px 10px 0px 10px;
+    border-radius: 8px;
+    display: flex;
+}
+.quePapPreviewforPrintContentOnline{
+    background-color: white;
+    padding-bottom: 100px !important;
+    padding: 15px 10px 0px 10px;
+    border-radius: 8px;
+    display: flex;
+}
+.quePapPreviewSection{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.qstnPprInstructions{
+    border: 1px solid black;
+    width: auto;
+}
+
+.qntpaperHeadingOne{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-top: 2px solid black;
+}
+
+.questionPaperSubHeaders{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 18px 0px 28px;
+}
+
+.questionPaperContent{
+    margin: 8px 0px 5px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.quesPaperPreviewPrintFooter{
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    bottom: 0px;
+    z-index: 99;
+}
+.quesPaperPreviewPrintFooterSect h5{
+    font-weight: 500;
+    font-size: 18px !important;
+    line-height: 25px;
+}
+.quesPaperPreviewPrintFooterSect{
+    margin: 0 auto;
+    max-width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 104px;
+    box-shadow: 0px -4px 2px rgba(27, 28, 30, 0.06)
+}
+.questionPaperPreviewSect{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding-top: 45px;
+}
+.questionPaperPreviewSectLeft{
+    display: flex;
+    flex-direction: column;
+}
+.questionPaperPreviewSectLeft h2{
+    font-weight: 600;
+    font-size: 24px !important;
+    line-height: 29px;
+    margin-bottom: 13px;
+    margin-top: 7px;
+}
+.questionPaperPreviewSectLeft p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 4px;
+}
+.questionPaperPreviewSectRight{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 10px;
+}
+.questionPaperPreviewSectRightAction button.disableWrapper:hover,
+.questionPaperPreviewSectRightAction button.disableWrapper{
+background-color: transparent;
+border: none;
+}
+.questionPaperPreviewSectRightAction button:not(.disableWrapper){
+    border-width: 1px !important;
+    background-color: transparent;
+}
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersion{
+    width: 380px;
+    padding: 15px 10px 15px 30px;
+    border-right: 1px solid #DEDEDE;
+    /* overflow-y: scroll; */
+}
+.quePapPreviewforPrintContent .quePapPreviewforPrintPreview{
+    width: calc(100% - 0px);
+    overflow: auto;
+    padding-bottom: 35px;
+}
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersion > h2{
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersion > p{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #9A9A9A;
+    padding-right: 70px;
+}
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersion ul{
+    list-style: none;
+    padding-left: 15px;
+    height: calc(100vh - 400px);
+    overflow: auto;
+}
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersion ul > li{
+    position: relative;
+    padding-bottom: 30px;
+}
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersion ul > li h4{
+    font-weight: 600;
+    line-height: 22px;
+    color: rgba(154, 154, 154, 1);
+    margin-bottom: 5px;
+}
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersion ul > li.activeDot h4{
+    color: #01B58A;
+}
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersion ul > li > div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersion ul > li > div p{
+    background: rgba(239, 239, 239, 1);
+    color: rgba(154, 154, 154, 1);    
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    margin: 0px;
+}
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersion ul > li.activeDot > div p{
+    background: rgba(1, 181, 138, 0.1);
+    color:#01B58A;
+}
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersion ul > li > div span{
+    font-size: 10px;
+    line-height: 16px;
+    font-weight: 700;
+}
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersion ul > li:before {
+    left: -15px;
+    top: 5px;
+    content: "";
+    background: #DEDEDE;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    z-index: 1;
+    border-radius: 20px;
+}
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersion ul > li:not(:last-child):after{
+    content: "";
+    position: absolute;
+    border-left: 3px solid #DEDEDE;
+    height: calc(100% - 0px);
+    top: 6px;
+    left: -13px;
+}
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersion ul > li.activeDot::before{
+    background: #01B58A;
+}
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersion ul > li.activeLine::after{
+    border-color: #01B58A;
+}
+.qpPreviewforPrintPrev{
+    padding: 0px;
+}
+.qpPreviewforPrintPrev .TemplateCreationBox{
+    border: none;
+}
+.qpPreviewforPrintPrev .InstructionsSectionBlock .instructionsSect .ql-editor ol li:before{
+    display: none;
+}
+.instructionsSect .ql-editor ol li{
+    list-style: unset;
+    padding-left: 0px;
+}
+.instructionsSectionText ol, ul{
+    margin-bottom: 0px;
+}
+.instructionsSection .instructionsSectionText{
+    padding: 10px;
+    border: 1px solid #000;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    white-space: break-spaces;
+    word-break: break-all;
+}
+.instructionsSection .instructionsSectionText p{
+    /* line-height: 16px; */
+    margin: 0px;
+}
+.instructionsSection .instructionsSectionText ol li[data-list="bullet"]{
+    list-style: disc;
+}
+.instructionsSection .instructionsSectionText ol li .ql-ui{
+    display: none;
+}
+.instructionsSection .instructionsSectionText ul{
+    list-style-type: unset;
+}
+.qpPreviewforPrintPrev .quePapPreviewforPrintContent .quePapPreviewforPrintVersionSect .quePapPreviewforPrintVersion.feedbackVisible ul {
+    height: calc(50vh - 215px)!important;
+}
+.qpPreviewforPrintPrev .quePapPreviewforPrintContent .quePapPreviewforPrintVersionSect .versionHistFeedBackScroll {
+    height: calc((100vh - 457px) / 2);
+    padding-bottom: 20px;
+}
+.printForPreviewEditEnable .previewTemplateBodySect .subQuestionBlk{
+    margin-bottom: 10px;
+}
+.printForPreviewEditEnable .previewTemplateBodySect .subQuestionBlk .sequenceTextEdit{
+    margin: 0px;
+}
+.printForPreviewEditEnable .previewTemplateBodySect .subQuestionLisOption{
+    padding-left: 140px;
+}
+.printForPreviewEditEnable .previewTemplateBodySect .subQuestionCompreBlk{
+    padding-left: 120px;
+}
+.printForPreviewEditEnable .previewTemplateBodySect .subQuestionCompreBlkOptions{
+    padding-left: 210px;
+}
+.printForPreviewEditEnable .previewTemplateBodySect .subQuestionCompreBlkMft{
+    padding-left: 190px !important;
+}
+.printForPreviewEditEnable .matchFollowingTable{
+    padding-right: 200px;
+    padding-left: 120px;
+}
+.printDateFieldPopupSect .ql-toolbar{
+    text-align: start !important;
+}
+#quePapPreviewforPrintPreviewContent{
+    display: none;
+}
+
+.preview-eval-hidden{
+    display: none;
+}
+
+@media print {
+    .quePapPreviewforPrintContent .quePapPreviewforPrintPreview{
+        overflow: unset !important;
+    }
+}
+
+ /* @page {
+    size: auto;
+    margin: 0;
+    @bottom-right {
+        content: 'Page ' counter(page) ' of ' counter(pages);
+        font-size: 10px;
+        padding-left: 20px;
+        font-weight: 400;
+    }
+  } */
+
+@media print {
+    .questionPaperPreviewSect,
+    .quesPaperPreviewPrintFooter{
+        display: none;
+    }
+    .quePapPreviewforPrintContent{
+        width:100%;
+        height: 100%;
+        background-color: transparent;
+    }
+    .dateSectionText{
+        display: block !important;
+    }
+    .bgcontainer {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        background-size: 250px 250px;
+        background-position: center;
+        background-repeat: no-repeat;
+        opacity: 0.1;
+        z-index: 0
+      }
+      .quePapPreviewforPrintContent .quePapPreviewforPrintPreview{
+        position: relative;
+        z-index: 9px
+    }
+    .previewTemplateBodySect{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+ }
+
+ .questionPaperPreviewSectPrintSolution{
+    display: flex;
+    gap: 20px;
+ }
+ .questionPaperPreviewSectPrintSolution button[aria-label="Print Model Answer Paper"],
+ .questionPaperPreviewSectPrintSolution button[aria-label="Print Model Answer Paper"]:hover{
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+ }
+ .questionPaperPreviewSectPrintSolution button.disableWrapper{
+    border-color: #01b58a;
+}
+
+.unset_height {
+    height: unset !important;
+    padding-bottom: 5% !important;
+}

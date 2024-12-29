@@ -1,0 +1,157 @@
+*{
+  position: relative;
+}
+.assesContainerQuestionStyling{
+    /* width: 889px; */
+    height: 635px;  
+    background: var(--white);
+    border-radius: 14px;
+    margin: auto;
+    padding-right: 20px;
+}
+.assesContainerQuestionStyling .header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.assessQuestionPaperBoxStyling{
+    padding-top: 15px;
+    padding-bottom: 16px;
+    padding-left: 25px;
+    margin-left: 15px;
+    /* width: 854px; */
+    background: #ECF0FD;
+    border-radius: 8px 8px 0px 0px;
+}
+.assessQuestionPaperBoxStyling .timeAndMarksTrack{
+    display: flex;
+    gap: 20px;
+    color: var(--black);
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Manrope';
+    font-style: normal;
+}
+
+.assessQuestionPaperBoxStyling .questionPaperandassignBox{
+    display: flex;
+    gap: 15px;
+   
+}
+.assessQuestionPaperBoxStyling .questionPaperandassignBox .questionPaperBox{
+  height: 411px;
+  width: 300px;
+  background-image: url("../../../assets/images/RectangleQsnPaper.png");
+}
+.assessQuestionPaperBoxStyling .questionPaperandassignBox .questionAssignBox p,
+.assessQuestionPaperBoxStyling .questionPaperandassignBox .questionAssignBox .dateandtimepickerdiv
+{
+  color: var(--black);
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.datetimepickerboxstyling{
+  display: flex;
+  gap: 27px;
+  margin-top: 9px;
+}
+
+.assessQuestionPaperBoxStyling .inputFieldStylingSect .MuiFormControl-root .MuiInputBase-root{
+    height: 38px;
+    
+}
+.assessQuestionPaperBoxStyling .inputFieldStylingSect .MuiFormControl-root label{
+    margin-top: -8px;
+    color: rgba(154, 154, 154, 0.5);
+    font-weight: 400;
+}
+.assessQuestionPaperBoxStyling .questionPaperandassignBox .questionAssignBox .inputFieldStylingSect .MuiFormControl-root .MuiInputBase-root{
+    /* width: 494px; */
+    background-color:var(--white);
+    border: 1px solid #DEDEDE;
+    border-radius: 8px;
+}
+.assessQuestionPaperBoxStyling .questionPaperandassignBox .questionAssignBox .inputFieldStyling .MuiOutlinedInput-root.Mui-focused {
+  background-color:var(--white);
+    border: 1px solid var(--green) !important;
+  }
+  .questionAssignBox .inputFieldStylingSect .MuiTextField-root label.Mui-focused
+  {
+    top: 5px;
+    transform: translate(14px, -9px) scale(1);
+    opacity: 1;
+  }
+
+.assessQuestionPaperBoxStyling  .searhstudentbox .inputFieldStylingSect .MuiFormControl-root label,
+.assessQuestionPaperBoxStyling  .searhstudentbox .inputFieldStylingSect .MuiFormControl-root label.Mui-focused
+{
+    margin-top: -2px;
+}
+  
+ .checkBoxStylingwithlabel{
+    display: flex;
+    align-items: center;
+    margin-left: -12px;
+  }
+  .questionAssignBox .searhstudentbox .inputFieldStylingSect .MuiTextField-root label.Mui-focused{
+    top: 5px;
+    transform: translate(14px, -9px) scale(1);
+    opacity: 1;
+  }
+  .questionAssignBox{
+      width: calc(100% - 300px);
+      padding: 0px 30px;
+  }
+  .assessQuestionPaperBoxStyling  .questionAssignBox .searhstudentbox .inputFieldStylingSect .MuiFormControl-root .MuiInputBase-root fieldset{
+    width: 355px;
+    background-color:var(--white);
+  }
+
+  .autoSelectFooter{
+    padding: 12px 24px;
+    box-shadow: 0px -7px 20px rgb(0 0 0 / 5%);
+    position: absolute;
+    width: 100%;
+    height: 72px;
+    background-color: var(--white);
+    border-radius: 0px 0px 8px 8px;
+}
+
+.autoSelectFooter h4{
+    font-weight: 500;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #1B1C1E;
+}
+.questionPaperPreviewContainer {
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 40px;
+}
+.questionPaperPreviewContainer > h1 {
+  font-weight: 700;
+  font-size: 24px !important;
+  line-height: 29px;
+  margin-bottom: 16px;
+}
+.questionPaperPreviewContainer > h3 {
+  font-weight: 400;
+  line-height: 19px;
+}
+.questionAssignBox .inputFieldStylingSect label.MuiFormLabel-filled,
+.questionAssignBox .multiinlineSelect label.MuiFormLabel-filled,
+.questionAssignBox .inputFieldStylingSect label.MuiFormLabel-filled fieldset legend span,
+.questionAssignBox .multiinlineSelect .MuiFormControl-root label.MuiFormLabel-filled fieldset legend span,
+.questionAssignBox .multiinlineSelect .MuiOutlinedInput-root.Mui-focused fieldset legend span,
+.questionAssignBox .inputFieldStylingSect label.MuiFormLabel-filled + .MuiInputBase-root fieldset legend span{
+  display: none;
+}
+body .questionAssignBox .inputFieldStylingSect fieldset,
+body .questionAssignBox .inputFieldStylingSect label + .MuiInputBase-root:hover fieldset{
+  background-color: var(--white);
+}

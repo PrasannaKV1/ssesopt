@@ -1,0 +1,9 @@
+body .buttonCompStyling,body .buttonCompStyling:hover{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    box-shadow: none;
+    padding: 6px 16px !important;
+    border-radius: 8px;
+    border: 1px solid rgb(1 181 138);
+}

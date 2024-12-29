@@ -1,0 +1,42 @@
+ 
+ .timePickerComponenstyling{
+    display: flex;
+    gap: 10px;
+ }
+ .timePickerComponenstyling p{
+    font-weight: 300;
+     font-size: 16px;
+     color: var(--black);
+     margin-top: 5px;
+ }
+ .timePickerComponenstyling .MuiFormControl-root .MuiInputBase-root{
+      height: 35px;
+      width: 148px;
+      background-color:var(--white);
+      border: 1px solid #DEDEDE;
+      border-radius: 8px;
+      padding:9px,15px, 9px, 15px;
+ }
+ .timePickerComponenstyling fieldset, .timePickerComponenstyling .MuiFormControl-root .MuiOutlinedInput-root:hover fieldset{
+    border: none;
+ }
+ .timePickerComponenstyling .MuiOutlinedInput-root.Mui-focused fieldset{
+    background-color: transparent;
+    border: 1px solid var(--green) !important;
+ }
+ .timePickerComponenstyling .MuiFormControl-root .MuiInputBase-root input{
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 16px;
+   color: var(--gray);
+ }
+ .timePickerComponenstyling .MuiFormControl-root .MuiInputBase-root input::placeholder{
+   font-size: 14px;
+ }
+ 
+ .timePickerComponenstyling .MuiTextField-root .MuiInputBase-root .MuiInputAdornment-root button svg{
+ height: 18px;
+ color: var(--gray)!important;
+ opacity: 50%;
+
+ }

@@ -1,0 +1,236 @@
+.uploadContainer {
+  background: rgb(116 116 116 / 57%);
+}
+
+.downloadSampleTxt {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  color: #385ddf !important;
+  line-height: 38px;
+  text-transform: uppercase;
+  margin: 0px 5px !important;
+  font-size: 16px;
+  padding: 10px 10px !important;
+}
+
+.editDepartTitle{
+  font-size: 25px !important;
+  font-weight: 700 !important;
+  line-height: 26px !important;
+  padding: 25px !important;
+}
+
+.guideTxt {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 1rem !important;
+}
+
+.downloadSampleConatin {
+  margin: 20px 0px;
+}
+
+.SelectfileBtn {
+  background: #01b58a !important;
+  border-radius: 8px;
+  margin: 15px 0px !important;
+  color: #ffffff !important;
+  width: 100%;
+  padding: 10px !important;
+  text-transform: capitalize;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.customProgress {
+  background: #dedede;
+  padding: 5px;
+  border-radius: 12px;
+  color: #F6BC0C;
+}
+
+.progressContainer {
+  padding: 20px;
+  border: 2px dashed #8e8e8e !important;
+  background: #f6f6f6;
+  margin: 10px 0px;
+}
+
+.customProgress .MuiLinearProgress-bar {
+  background: #000000;
+}
+
+.gradeBtn {
+  width: 208px;
+  height: 52px;
+  background-color: #01B58A !important;
+  border-radius: 10px !important;
+  color: #fff !important;
+  margin-top: 20px !important;
+}
+
+.closeModal {
+  margin: 15px 20px 15px 15px !important;
+  cursor: pointer;
+}
+
+.resourceActionContainer {
+  justify-content: flex-end;
+}
+
+.deleteIcon {
+  cursor: pointer;
+}
+
+.bulkImport {
+  background: #01b58a !important;
+  border-radius: 5px !important;
+  cursor: pointer !important;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff !important;
+  text-transform: capitalize;
+  width:  208px;
+  text-align: center;
+  padding: 10px 0px !important;
+}
+.sheetUploadDisable {
+  opacity: 0.6 !important;
+  background: #01b58a !important;
+  border-radius: 5px !important;
+  cursor: pointer !important;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff !important;
+  text-transform: capitalize;
+  width: 208px;
+  text-align: center;
+  padding: 10px 0px !important;
+}
+
+.filename {
+  margin: 0 10px;
+}
+
+.ResourceFileMeta {
+  display: flex;
+  align-items: center;
+}
+
+.resourceListItem {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+input[type='file'] {
+  width: 105px;
+  overflow: hidden;
+  color: rgba(0, 0, 0, 0);
+  cursor: none;
+}
+
+.bulkFileUploader {
+  display: none;
+}
+
+.bulkUploadLabel {
+  background: #01b58a !important;
+  border-radius: 9px;
+  cursor: pointer;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff !important;
+  text-transform: capitalize;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0px;
+  /* margin-top: 2rem !important; */
+}
+
+.bulkUploadDisableLabel{
+  opacity: 0.6;
+}
+
+.previewContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  /* Add horizontal scroll if needed */
+  margin-bottom: 1rem;
+}
+
+.extraFileDiv{
+  display: flex;
+  width: 100;
+  padding: 1rem;
+}
+
+.attachmentDiv {
+  display: flex;
+  align-items: center; /* Ensure children are aligned vertically center */
+  gap: 10px; /* Adjust gap as needed */
+  color: rgba(27, 28, 30, 1);
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.86px;
+  text-align: left;  
+}
+
+.attachmentContainer {
+  display: flex;
+  align-items: center; /* Ensure children are aligned vertically center */
+  gap: 20px;
+}
+
+.formatDiv {
+  font-family: Manrope;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+  color: rgba(154, 154, 154, 1);
+}
+
+.attachFile {
+  font-family: Manrope;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 19.12px;
+  text-align: left;
+  color: rgba(1, 181, 138, 1);
+}
+
+.cancelBtn{
+  width:208px;
+padding: 16px 32px 16px 32px;
+gap: 10px;
+border-radius: 10px 0px 0px 0px;
+color: rgba(27, 28, 30, 1) !important;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+border: 1px solid rgba(1, 181, 138, 1) !important;
+margin-left: 24px !important;
+}
+.MuiPaper-root .MuiPaper-elevation .MuiPaper-rounded{
+  border: 10px solid red;
+}
+.subtitle{
+  color: #9A9A9A;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 38.12px;
+}

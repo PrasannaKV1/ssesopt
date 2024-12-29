@@ -1,0 +1,108 @@
+
+.search-btn {
+    display: flex;
+    justify-content: space-between;
+    /* padding-left: 2%; */
+}
+
+.info-container {
+    display: flex;
+    gap: 20px; 
+    width: 100%;
+}
+
+.info-container .left-side {
+    width: 25%;
+}
+
+.info-container .right-side {
+    height: calc(100vh - 238px) !important;
+    overflow-y: hidden;
+    width: 75%;
+    /* background-color: white; */
+    border-radius: 16px;
+    /* margin-top: 5px !important; */
+}
+
+div.evaluation-container > div.info-container > div.right-side > div.MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-2.css-1pq723i-MuiGrid-root > div:nth-child(1) > div > div{
+    border-radius: 8px;
+}
+
+div.evaluation-container > div.info-container > div.right-side > div.MuiBox-root.css-8atqhb > div > div > div{
+    justify-content: space-around;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.evaluation-container .info-container .right-side .bg-color-white{
+    background-color: white;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.evaluation-card-wrapper {
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+.evaluation-card-wrapper:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow or any other hover effect */
+    transform: translateY(-2px); /* Slightly lift the card */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+ /* Evaluate CSS */
+
+ .left-side .MuiFormControl-root .MuiInputBase-root, .right-side .evaluate_searchField .MuiFormControl-root .MuiInputBase-root{
+    height: 52px !important;
+    background-color: white !important;
+    border-radius: 8px !important;
+}
+.left-side .MuiFormControl-root .MuiInputBase-root fieldset, 
+.left-side .MuiFormControl-root .MuiInputBase-root:hover fieldset,
+.right-side .evaluate_searchField .MuiFormControl-root .MuiInputBase-root fieldset,
+.right-side .evaluate_searchField .MuiFormControl-root .MuiInputBase-root:hover fieldset
+{
+    border: 1px solid #DEDEDE;
+}
+.right-side .evaluate_searchField .MuiFormControl-root .MuiInputBase-root.Mui-focused fieldset,
+.left-side .MuiFormControl-root .MuiInputBase-root.Mui-focused fieldset
+{
+    border: 1px solid #01B58A !important;
+}
+.right-side .emptyScreen{
+    height: calc(100vh - 410px) !important;
+    overflow-y: auto;
+    margin-top: unset !important;
+}
+.evaluation-container .assessmentTabStyling .MuiTabPanel-root{
+padding-top: 10px !important;
+padding-bottom: 10px !important;
+}
+.right-side .MuiTabs-root .MuiTabs-scroller .MuiTabs-flexContainer button{
+    min-width: 0px !important;
+    padding: 0px !important;
+}
+@media screen and (max-width:500px){
+    .info-container .left-side {
+        width: 100% !important;
+    }
+    .assessmentContainer .sideBarDiv{
+        display: none !important;
+    }
+    .assessmentContainer .contentDiv{
+        width: 100% !important;
+    }
+    /* .assessmentTitles {
+        text-align: center !important;
+    } */
+    .assessmentTitles .title {
+        display: inline-block;
+    }
+    .assessment-header .back-arrow {
+        font-size: 20px; 
+        font-size: 24px; 
+        cursor: pointer;
+    }
+}
+
+.evalFilteBtn button{
+    width: 100%;
+    box-shadow: 0px -7px 20px rgb(0 0 0 / 9%);
+}

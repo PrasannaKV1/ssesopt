@@ -1,0 +1,42 @@
+#latexInput {
+    height: 100px;
+    border: 2px solid black;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+#svg-container {
+    display: hidden;
+}
+.mathpix-searchAndBtn {
+    display: flex;
+    justify-content: space-between;
+}
+.mathpix-searchAndBtn > .inputFieldStylingSect > .MuiFormControl-root > .MuiInputBase-root {
+    height: 50px;
+}
+.mathpix-searchAndBtn .inputFieldStyling .MuiFormLabel-root.MuiInputLabel-shrink , .mathpix-searchAndBtn .inputFieldStyling .MuiFormLabel-root.MuiInputLabel-root.Mui-focused {
+    background: unset;
+}
+.mathpix-searchAndBtn .selectFillType .MuiFormLabel-root.MuiInputLabel-shrink , .mathpix-searchAndBtn .inputFieldStyling .MuiFormLabel-root.MuiInputLabel-root.Mui-focused {
+    background: unset;
+}
+.mathpix-searchAndBtn .selectFillType > .MuiFormControl-root {
+    width: 200px !important
+}
+.mathpix-searchAndBtn .selectFillType > div > div > div {
+    background: none;
+}
+.mathpix-searchAndBtn .inputFieldStyling .MuiOutlinedInput-input {
+    padding-top: 16.5px;
+    padding-bottom: 16.5px;
+    background: unset;
+}
+/* .mathpix-searchAndBtn button {
+    margin-right: 50px;
+} */
+.mathjax-font-style {
+    display: flex;
+}
+.mathjax-font-style .selectFillType {
+    margin-right: 40px;
+}

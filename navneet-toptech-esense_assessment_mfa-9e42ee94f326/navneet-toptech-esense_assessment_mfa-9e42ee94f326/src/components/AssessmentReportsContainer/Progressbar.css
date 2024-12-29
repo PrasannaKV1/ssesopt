@@ -1,0 +1,97 @@
+ /* styles.css */
+
+/* Define the base styles for the progress bar */
+.teacherCentricReports .progress-container {
+  width: 100px;
+  background-color: #f3f3f3;
+  margin-left: 25%;
+  display: flex;
+  } 
+  .studentCentricReports .latestSession .progress-container{
+    width: 100%;
+    background-color: #f3f3f3;
+    margin-left: 0%;
+    margin-bottom: 30px;
+    display: flex;
+  }
+  .studentCentricReports .studentCentricReportsAccordianFlex .progress-container{
+    width: 85%;
+    background-color: #f3f3f3;
+    margin-left: calc(18% / 2);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+  }
+  .studentCentricReports .allReportAttemptSect .progress-container {
+    width: 100px;
+    background-color: #f3f3f3;
+    margin-left: 0%;
+    display: flex;
+    }
+  .teacherCentricReports .student-progress-bar-correct,
+  .studentCentricReports .student-progress-bar-correct{
+    height: 15px;
+    text-align: center;
+    line-height: 15px;
+    background-color: rgb(3, 119, 3);
+    font-size: auto;
+    position: relative;
+  }
+  .teacherCentricReports .student-progress-bar-incorrect,
+  .studentCentricReports .student-progress-bar-incorrect{
+    height: 15px;
+    text-align: center;
+    line-height: 15px;
+    background-color: #dd002f;
+    font-size: auto;
+    position: relative;
+  }
+  .teacherCentricReports .student-progress-bar-revised,
+  .studentCentricReports .student-progress-bar-revised{
+    height: 15px;
+    text-align: center;
+    line-height: 15px;
+    background-color: yellow;
+    font-size: auto;
+    position: relative;
+  }
+  .teacherCentricReports .student-progress-bar-skipped,
+  .studentCentricReports .student-progress-bar-skipped{
+    height: 15px;
+    text-align: center;
+    line-height: 15px;
+    background-color: gray;
+    font-size: auto;
+    position: relative;
+  }  
+  .teacherCentricReports .student-progress-bar-correct span,
+  .studentCentricReports .allReportAttemptSect .student-progress-bar-correct span,
+  .studentCentricReports .studentCentricReportsAccordianFlex .student-progress-bar-correct span{
+    position: absolute;
+    left: -40px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    width: 40px;
+    text-align: center;
+  }
+  .studentCentricReports .latestSession .student-progress-bar-correct span{
+    display: none;
+  }
+  /* Define the green part of the progress bar */
+ .teacherCentricReports .progress-bar-green,
+ .studentCentricReports .progress-bar-green {
+    background-color: #4CAF50; /* Green */
+  }
+  
+  /* Define the red part of the progress bar */
+ .teacherCentricReports .progress-bar-red,
+ .studentCentricReports .progress-bar-red {
+    background-color: #f44336; /* Red */
+  }
+
+  .teacherCentricReports .score,
+  .studentCentricReports .score {
+    margin-left: 10px; /* Add some spacing between the progress bar and score */
+  }
+  

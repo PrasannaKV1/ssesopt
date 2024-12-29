@@ -1,0 +1,17 @@
+.questionBodyCont{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-right: 30px;
+    margin-top: 30px;
+}
+.questionBodyCont .questionBodySect{
+    background: #FFFFFF;
+    border: 1px solid var(--borderGrey);
+    border-radius: 8px;
+    padding: 30px 20px 20px 20px;
+}
+.questionBodyCont .questionBodySect h2{
+    font-weight: 600;
+    line-height: 25px;
+}

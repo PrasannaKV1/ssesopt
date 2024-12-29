@@ -1,0 +1,132 @@
+.currAppDropFilter>.MuiFormControl-root button {
+    border: 1px solid #DEDEDE;
+    border-radius: 8px;
+    overflow: hidden;
+    text-transform: capitalize;
+    max-width: 260px;
+    width: 230px;
+    padding: 8px 14px !important;
+    justify-content: space-between;
+    background-color: white !important;
+}
+
+.currAppDropFilter>.MuiFormControl-root button .filterSelectedText {
+    color: #000;
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    width: 119px;
+    text-align: left;
+}
+.currAppPointsMenuBox>.MuiPaper-root {
+    width: 230px;
+}
+
+.currAppPointsMenuBox>.MuiPaper-root ul li {
+    font-weight: 500 !important;
+    color: #000;
+    white-space: break-spaces;
+    padding: 6px 16px;
+    width: 100%;
+    align-items: start;
+    text-align: start;
+    justify-content: start;
+}
+.currAppPointsMenuBox>.MuiPaper-root ul .points_input .MuiFormControl-root input{
+  padding: 16.5px 14px;
+}
+
+.currAppPointsMenuBox>.MuiPaper-root ul .MuiAccordionSummary-gutters {
+    min-height: 40px;
+}
+
+.currAppPointsMenuBox>.MuiPaper-root ul .MuiAccordionSummary-gutters .MuiAccordionSummary-content {
+    margin: 0px;
+}
+
+.currAppPointsMenuBox>.MuiPaper-root ul li {
+    border-bottom: 1px solid #DEDEDE;
+}
+
+.currAppPointsMenuBox>.MuiPaper-root ul .points_input {
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+}
+.schAdminSelctCtr .MuiOutlinedInput-root:hover fieldset, .schAdminSelctCtr fieldset {
+    background-color: #f4f6f9;
+    border: 1px solid #f4f6f9;
+    border-radius: 8px!important;
+    color: #606162;
+    font-size: 14px;
+    font-weight: 600;
+    height: 58px;
+    line-height: 24px;
+    padding: 0 15px;
+}
+.schAdminSelctCtr .MuiFormLabel-root.MuiInputLabel-root.Mui-focused {
+    background-color: #fff;
+    left: 0;
+    color: #01B58A !important;
+    padding: 0px 5px;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 600;
+    transform: translate(14px, -9px) scale(1);
+    opacity: 1;
+  }
+  
+  .schAdminSelctCtr label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #9A9A9A;
+  }
+  
+  .schAdminSelctCtr .MuiFormLabel-root.MuiInputLabel-shrink {
+    color: #bcbcbc;
+    background-color: #fff;
+    left: 0;
+    padding: 0px 5px;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 600;
+    transform: translate(14px, -10px) scale(1);
+    opacity: 1;
+  }
+  .schAdminSelctCtr .MuiOutlinedInput-root.Mui-focused fieldset {
+    background-color: transparent;
+    border: 1px solid #01B58A !important;
+  }
+  
+  .schAdminSelctCtr label.Mui-focused {
+    color: #01B58A;
+    background-color: #fff;
+  }
+  
+  .schAdminSelctCtr label.MuiInputLabel-shrink+.MuiOutlinedInput-root fieldset {
+    background-color: transparent;
+    border: 1px solid #DEDEDE;
+  }
+   /* Wrapper */
+   .points_input_wrapper{
+    display: flex;
+    gap: 10px;
+   }
+   .currAppPointsMenuBox-wrapper{
+    padding-right: 10px !important;
+   }
+   .currAppPointsMenuBox-wrapper li{
+    align-items: start;
+    color: #000;
+    font-weight: 500 !important;
+    justify-content: start;
+    text-align: start;
+    white-space: break-spaces;
+    width: 100%;
+   }
+   .allMarksHorizon{
+    margin-top: 0px;
+    margin-bottom: 2px;
+   }

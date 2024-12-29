@@ -1,0 +1,89 @@
+.studentCentricReports .studentCentricReportsAccordianFlex{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+  .studentCentricReports .accordionWrapper{
+    border-bottom: 1px solid black;
+    overflow: hidden;
+    transition: height 0.3s ease;
+    border: none;
+    background-color: white;
+  }
+  .studentCentricReports .accordionWrapper .accordionWrapperContainer{
+    width: 100%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 20px;
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    padding: 30px 20px 30px 20px;
+    gap: 20px;
+  }
+  .studentCentricReports .accordionWrapper .accordionWrapperContainer svg{
+    font-size: 40px;
+    border-radius: 20px;
+  }
+  .studentCentricReports .accordionWrapper .accordionWrapperContainer svg:hover{
+    background-color: gray;
+  }
+  .studentCentricReports .accordionWrapper .accordionWrapperContainer svg:hover path{
+    fill: #fff;
+  }
+  .studentCentricReports .accordionWrapper .accordionWrapperContainer svg path{
+    fill: gray;
+  }
+  .studentCentricReports .accordionWrapper .accordionWrapperContainer .accordionWrapperContentSect{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+  .studentCentricReports .accordionWrapper .accordionWrapperContainer .accordionWrapperContentSect p.accordionWrapperTitle{
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0px;
+  }
+  .studentCentricReports .accordionWrapper .accordionWrapperContainer .accordionWrapperContentSect p.accordionWrapperScore{
+    color: #000;
+    font-size: 24px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 16px;
+    gap: 6px;
+  }
+  .studentCentricReports .accordionWrapper .accordionWrapperContainer .accordionWrapperContentSect p.accordionWrapperScore span{
+    color: #aaa;
+    font-size: 14px;
+    line-height: 12px;
+  }
+  /* .studentCentricReports .accordionWrapperContainer.active{
+    color: #1db954;
+    background-image: linear-gradient(90deg,transparent,rgba(0,0,0,0.04),transparent);
+  }
+  .studentCentricReports .accordionWrapper .accordionWrapperContainer:hover{
+    background-image: linear-gradient(90deg,transparent,rgba(0,0,0,0.04),transparent);
+  } */
+  .studentCentricReports .accordionWrapper .arrow{
+    font-size: 2rem;
+    transition: .5s ease-in-out;
+  }
+  .studentCentricReports .arrow.active{
+    rotate: 180deg;
+    color: #1db954;
+  }
+  .studentCentricReports .accordionWrapper .answer-container{
+    padding: 0 1rem;
+    transition: height .7s ease-in-out;
+  }
+  .studentCentricReports .accordionWrapper .answer-content{
+    padding: 1rem 0;
+    font-size: 20px;
+    font-style: italic;
+  }

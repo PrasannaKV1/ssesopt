@@ -1,0 +1,44 @@
+.actionBtnSect{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.actionBtnSect svg{
+    color: var(--grey);
+    width: 18px;
+}
+.tableFooter {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0px -7px 20px rgb(0 0 0 / 9%);
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    border-radius: 0px 0px 14px 14px;
+    left: 0px;
+}
+.questionBankContScroll{
+    height: calc(100vh - 407px);
+    overflow-y: auto;
+    position: relative;
+}
+.questionBankFooterAdded .questionBankContScroll{
+    padding-bottom: 45px;
+}
+.questionBankContSect{
+    position: relative;
+}
+.ellipseText{
+    margin-bottom: 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: flex;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.ellipseText p{
+    margin: 0px;
+}

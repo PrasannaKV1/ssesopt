@@ -1,0 +1,269 @@
+.marks-breakup-container .inner-container-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.marks-breakup-container .inner-container-header-right-side {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.marks-breakup-container .table-name-avatars-title .evaluate-std-name {
+    color: #1B1C1E;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.marks-breakup-container .table-name-avatars-title .evaluate-std-class {
+    color: #9A9A9A;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+.marks-breakup-container .status-div {
+    width: 116px;
+    height: 24px;
+    padding: 0px 10px 0px 10px;
+    gap: 8px;
+    border-radius: 4px 0px 0px 0px;
+    background: rgba(16, 85, 235, 0.1);
+    margin-top: 2rem;
+    justify-content: center;
+    display: flex;
+    opacity: 1;
+}
+
+.marks-breakup-container .status-div span {
+    font-family: Manrope;
+    font-size: 11.67px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(56, 93, 223, 1);
+
+}
+
+.marks-breakup-container .percentage-div {
+    background: rgba(231, 238, 253, 1);
+    width: 96px;
+    height: 59px;
+    padding: 5px 15px;
+    gap: 3px;
+    border-radius: 4px 0px 0px 0px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+}
+
+.marks-breakup-container .marks-scored-div {
+    width: 107px;
+    height: 59px;
+    padding: 5px 15px;
+    gap: 3px;
+    border-radius: 4px 0px 0px 0px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    background: rgba(254, 238, 236, 1);
+}
+
+.marks-breakup-container .student-preview-container {
+    position: absolute;
+    background: rgba(246, 246, 246, 1);
+}
+
+.marks-breakup-container .student-main-container {
+    padding: 30px 50px 0px 50px;
+    max-height: calc(100% - 100px);
+    overflow-x: auto;
+}
+
+.marks-breakup-container .student-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 104px;
+    padding: 26px, 36px, 26px, 65px;
+    gap: 10px;
+    box-shadow: 0px -4px 2px 0px rgba(27, 28, 30, 0.06);
+    background: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.marks-breakup-container .student-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.marks-breakup-container .header-left-side {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.marks-breakup-container .ques-header-title {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    text-align: left;
+}
+
+.marks-breakup-container .ques-header-subTitle {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19.36px;
+    text-align: left;
+}
+
+.marks-breakup-container .header-right-side {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.marks-breakup-container .header-right-side .btnColorStyling {
+    height: 52px;
+}
+
+.marks-breakup-container .student-inner-container {
+    height: 100%;
+    background: rgba(255, 255, 255, 1);
+    margin-top: 1rem;
+    border-radius: 16px;
+    border: 1px solid rgba(222, 222, 222, 0.5);
+    padding: 30px 28px;
+    margin-bottom: 2rem;
+}
+
+.marks-breakup-container .upload-btn {
+    border: 1px solid rgba(56, 93, 223, 1);
+    border-radius: 8px;
+}
+
+div.student-main-container>div.student-header>div.header-right-side>div.upload-btn>button {
+    border: none !important;
+    height: 52px !important;
+}
+
+/* .upload-btn-2{
+    margin-left: 11rem;
+} */
+
+.upload-btn-2 {
+    border: 1px solid rgb(174, 187, 233) !important;
+    border-radius: 8px;
+}
+
+div.student-main-container>div.student-header>div.header-right-side>div.upload-btn-2>button {
+    border: none !important;
+    height: 52px !important;
+}
+
+.marks-breakup-container .remark-text-field {
+    display: flex;
+    flex-direction: column;
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24.44px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    gap: 12px;
+}
+
+.marks-breakup-container .upload-sheet-div {
+    display: flex;
+    flex-direction: column;
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24.44px;
+
+}
+
+.uploaded-sheet-img {
+    width: 700px;
+    height: 800px;
+    gap: 0px;
+
+}
+
+.upload-header-div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.viewDetailsAlign .upload-header-div {
+    margin-left: 16px !important;
+    margin-right: 28px !important;
+}
+
+.sheet-prev-btn {
+    border: none;
+    background: none;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+.sheet-next-btn {
+    border: none;
+    background: none;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+.marks-breakup-container .evaluation-select-box .MuiInputBase-root {
+    height: 40px;
+    width: 100%;
+}
+
+.marks-breakup-container .evaluation-select-box fieldset,
+.select-set fieldset {
+    border: 1px solid #DEDEDE !important;
+}
+
+.select-set fieldset {
+    border: 1px solid #DEDEDE !important;
+}
+
+.evaluation-select-box .MuiInputBase-root:hover fieldset,
+.select-set .MuiInputBase-root:hover fieldset {
+    border: 1px solid #DEDEDE;
+}
+
+.select-set .MuiFormControl-root label {
+    top: 0px !important;
+    font-size: 15px !important;
+}
+
+.evaluation-select-box .MuiInputBase-root fieldset legend {
+    display: none;
+}
+
+.marks-breakup-container .evaluation-select-menuItem .MuiPaper-root {
+    box-shadow: 0px 4px 8px rgba(128, 128, 128, 0.5) !important;
+}
+
+
+.remark-text-field .MuiFormControl-root .MuiOutlinedInput-input.Mui-disabled {
+    -webkit-text-fill-color: unset;
+}
+
+/* #toolbar {
+    display: none;
+} */

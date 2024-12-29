@@ -1,0 +1,47 @@
+.questionPreviewModal {
+    outline: none;
+  }
+  
+  .alignHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .previewQuestion-Scroll {
+    overflow-y: auto;
+    max-height: 400px;
+  }
+  
+  .divider {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .leftsideHeader {
+    font-weight: 600;
+    font-size: 14px;
+    padding-left: 10px;
+    color: #1B1C1E;
+    width: 150px;
+  }
+  
+  .imagePreviewModal .divider {
+    border-color: #d9d9d9;
+    width: 100%;
+    opacity: 1;
+  }
+  
+  .previewImgScrollSect img {
+    width: 100%;
+    max-height: 181px;
+  }
+.imagePreviewModal .divider{
+  border-color: #d9d9d9;
+  width: 100%;
+  opacity: 1;
+}
+.previewImgScrollSect img{
+  width: 100%;
+  max-height: 181px;
+}

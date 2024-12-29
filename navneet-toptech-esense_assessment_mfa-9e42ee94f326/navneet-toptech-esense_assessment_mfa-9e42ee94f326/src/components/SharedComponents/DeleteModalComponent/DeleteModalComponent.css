@@ -1,0 +1,49 @@
+.deleteModalPopover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(15px);
+    /* background-color: rgb(6 6 6 / 10%); */
+    -webkit-backdrop-filter: blur(15px);
+    z-index: 9999;
+}
+.deleteModalPopover .deleteModalPopoverBody {
+    background-color: #ffff;
+    border-radius: 10px;
+    margin: auto;
+    width: 650px;
+    left: 140px;
+    top: 230px;
+    overflow: hidden;
+}
+.deleteModalPopover .deleteModalPopoverBody .deleteModalPopoverBodyPadd{
+    position: relative;
+    padding: 40px 100px;
+}
+.closeDeleteIcon {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    cursor: pointer;
+    padding-top: 10px;
+}
+.deleteModalPopover .deleteModalPopoverBody .deleteModalPopoverBodyPadd .deleteModalHead {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 32px;
+    padding: 0px;
+    color: #1B1C1E;
+}
+.deleteModalPopover .deleteModalPopoverBody .deleteModalPopoverBodyPadd .deleteModalDesc{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #9A9A9A;
+    margin-top: 0px;
+    padding: 0px 21px;
+}
+.deleteModalPopover .deleteModalPopoverBody .deleteModalPopoverBodyPadd .deleteModalActionBtn {
+    display: flex;
+    gap: 15px;
+    margin: 25px auto 0px;
+}

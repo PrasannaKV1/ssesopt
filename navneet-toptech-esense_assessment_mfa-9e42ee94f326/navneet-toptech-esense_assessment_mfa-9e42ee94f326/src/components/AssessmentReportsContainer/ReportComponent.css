@@ -1,0 +1,23 @@
+.reportsContainer{
+    width: 95%;
+    padding:10px;
+    margin:50px auto 0 auto;
+    background-color: #f5f5f5;
+}
+.reportsContainerHeading{
+    font-weight: bolder;
+}
+.reportsContainerDescription{
+    font-weight: bold;
+}
+.image{
+    width: 100%;
+    height: auto;
+}
+.reportsContainerGraphs{
+    margin:20px;
+}
+.bar{
+    display: inline-block;
+    margin:3px;
+}

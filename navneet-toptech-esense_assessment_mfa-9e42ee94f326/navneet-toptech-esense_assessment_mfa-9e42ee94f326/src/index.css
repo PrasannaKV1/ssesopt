@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+  --white: #ffffff;
+  --textBlack1: #1b1c1e;
+  --textBlack2: #000000;
+  --green: #01B58A;
+  --yellow: #F6BC0C;
+  --grey: #9A9A9A;
+  --lightGrey: #f5f5f5;
+  --filledTextColor: #bcbcbc;
+  --inputBgGrey: #f4f6f9;
+  --textEditorBgGrey: #dedede;
+  --textEditorHeadGrey: #d2d2d2;
+  --borderGrey: #c4c4c4;
+  --borderGreyOpacity: #c4c4c433;
+  --pink: #BE6AF6;
+  --blue: #385DDF;
+  --ornage: #F95843;
+  --bgBlue: #EBEEFB;
+}
+
+*,
+body {
+  margin: 0;
+  font-family: 'Manrope', sans-serif !important;
+  /* font-style: normal; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: #fcfcfd; */
+}
+
+/* text styling common classes */
+h1 {
+  font-size: 28px !important;
+}
+
+h2 {
+  font-size: 18px !important;
+}
+
+h3 {
+  font-size: 16px !important;
+}
+
+h4 {
+  font-size: 14px !important;
+}
+
+h5 {
+  font-size: 13px !important;
+}
+
+h6 {
+  font-size: 12px !important;
+}
+
+.fontW800 {
+  font-weight: 800;
+}
+
+.fontW600 {
+  font-weight: 600;
+}
+
+.fontW500 {
+  font-weight: 500;
+}
+
+.fontW400 {
+  font-weight: 400;
+}
+
+/* color branding */
+.primaryBgColor {
+  background-color: var(--green);
+}
+
+/* icon branding color */
+.iconYellow {
+  color: var(--yellow);
+}
+
+/* title styling weight */
+.assessmentTitles {
+  font-weight: 800;
+  line-height: 38px;
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+.disableWrapper {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.ruler {
+  width: 743px;
+  height: 1px;
+  background: #dedede;
+  flex: none;
+  flex-grow: 1;
+  margin: 1.2rem 0 !important;
+}
+
+.allstudents-footer {
+  display: flex;
+  padding: 11px 24px 11px 24px;
+  gap: 44px;
+  align-items: center;
+  background-color: var(--white);
+  border: 1px solid var(--borderGrey);
+  box-shadow: none;
+  border-radius: 0px 0px 8px 8px;
+  border-top: none;
+  max-height: 48px;
+}
+
+.dividers {
+  width: 1px;
+  height: 48px;
+  background: #d9d9d9;
+}
+.dashed_line {
+  background-image: linear-gradient(to right, #c4c4c4 55%, rgba(255, 255, 255, 0) 0%);
+  background-position: bottom;
+  background-size: 65px 1px;
+  background-repeat: repeat-x;
+  width: 100%;
+  height: 1px;
+  margin: 10px 5px;
+}
+.NodataFoundGrid {
+  display: flex;
+  justify-content: center;
+  height: calc(100vh - 367px);
+  align-items: center;
+  font-weight: 600;
+}
+.textWrap{
+  width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.tableContainer .resrTableSortArrow {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+.tableContainer .resrTableSortArrow.activeUpArrow img:nth-child(1) {
+  opacity: 1 !important;
+}
+.tableContainer .resrTableSortArrow img {
+  opacity: 0.3;
+}
+.tableContainer .resrTableSortArrow.activeDownArrow img:nth-child(2) {
+  opacity: 1 !important;
+}
+.tableContainer table tbody tr td h1,
+.tableContainer table tbody tr td p,
+.tableContainer table tbody tr td h2,
+.tableContainer table tbody tr td h3{
+  font-size: 14px !important;
+  font-weight: 500;
+  line-height: 19px;
+}
+.listImageTag{
+  color: #0000ee;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.MuiAlert-filledSuccess{
+  background-color: #2e7d32 !important;
+  color: #fff !important;
+}
+.MuiAlert-filledError{
+  background-color: rgb(211, 47, 47) !important;
+  color: #fff !important;
+}
+.MuiAlert-filledWarning{
+  background-color: rgb(237, 108, 2) !important;
+  color: #fff !important;
+}
+@media (max-width: 1500px) {
+  body .questionBankFilterSect{
+    flex-direction: column;
+    justify-content: start !important;
+    align-items: start !important;
+    margin-bottom: 30px;
+  }
+  body .questionBankFilterSect .questionBankFilterSectLeft{
+    margin-bottom: 10px;
+  }
+  body .questionBankFilterSect > .d-flex{
+    padding-left: 20px;
+  }
+}
+@media (max-width: 1000px) {
+  body .questionBankFilterSect .questionBankFilterSectLeft{
+    flex-wrap: wrap;
+  }
+  body .questionBankFilterSect .questionBankFilterSectLeft .MuiFormControl-root,
+  body .questionBankFilterSect .questionBankFilterSectLeft .MuiFormControl-root .MuiInputBase-root{
+    height: 40px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  body .questionBankFilterSect .questionBankFilterSectLeft .MuiFormControl-root label{
+    transform: translate(14px, 8px) scale(1);
+  }
+  body .questionBankFilterSect .questionBankFilterSectLeft .MuiFormControl-root .MuiInputBase-root svg{
+    top: 15px;
+  }
+}
+/* @media print{
+  @page {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+} */
+/* html{
+  overflow: hidden;
+} */
+ol li[data-list="bullet"]{
+  list-style: disc !important;
+}
+ol li[data-list=bullet] span.ql-ui::before{
+  display: none;
+}
+.ql-container.ql-snow ol li[data-list=bullet]{
+  padding-left: 0px;
+}
+
+.previewTemplateBodySect .ql-align-right {
+  text-align: right;
+}
+.previewTemplateBodySect .ql-align-center {
+  text-align: center;
+}
+
+#autoCompleteStudentListPopover-listbox .MuiListSubheader-root {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+#autoCompleteStudentListPopover-listbox .MuiAutocomplete-groupUl {
+  margin: 0 10px;
+}
+#autoCompleteStudentListPopover-listbox .MuiAutocomplete-option {
+  display: inline-block;
+  padding: 5px 6px;
+  border-radius: 6px;
+  border: 1px solid #01b58a;
+  background: #fff;
+  font-size: 14px;
+  margin: 4px 4px 0;
+}
+#autoCompleteStudentListPopover-listbox .MuiAutocomplete-option:hover,
+#autoCompleteStudentListPopover-listbox .MuiAutocomplete-option:focus,
+#autoCompleteStudentListPopover-listbox .MuiAutocomplete-option:active,
+#autoCompleteStudentListPopover-listbox [aria-selected='true'] {
+  background: #01b58a !important;
+  color: #fff;
+}
+
+/* TODO: Remove this when student search uniques styled are added */
+.MuiAutocomplete-popper .MuiAutocomplete-paper {
+  border-radius: 8px 8px 0px 0px;
+  background: #fff;
+  box-shadow: 0px -4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+/* @media only screen and (max-width:767px){
+  .side-nav-lists ul.side-nav-list-one li:nth-child(3){
+    display: none;
+  }
+} */
+.renderFontSize6,.renderFontSize6 p,.renderFontSize6 p span,.renderFontSize6 td,.renderFontSize6 li::marker{font-size: 6px !important;}
+.renderFontSize7,.renderFontSize7 p,.renderFontSize7 p span,.renderFontSize7 td,.renderFontSize7 li::marker{font-size: 7px !important;}
+.renderFontSize8,.renderFontSize8 p,.renderFontSize8 p span,.renderFontSize8 td,.renderFontSize8 li::marker{font-size: 8px !important;}
+.renderFontSize9,.renderFontSize9 p,.renderFontSize9 p span,.renderFontSize9 td,.renderFontSize9 li::marker{font-size: 9px !important;}
+.renderFontSize10,.renderFontSize10 p,.renderFontSize10 p span,.renderFontSize10 td,.renderFontSize10 li::marker{font-size: 10px !important;}
+.renderFontSize11,.renderFontSize11 p,.renderFontSize11 p span,.renderFontSize11 td,.renderFontSize11 li::marker{font-size: 11px !important;}
+.renderFontSize12,.renderFontSize12 p,.renderFontSize12 p span,.renderFontSize12 td,.renderFontSize12 li::marker{font-size: 12px !important;}
+.renderFontSize13,.renderFontSize13 p,.renderFontSize13 p span,.renderFontSize13 td,.renderFontSize13 li::marker{font-size: 13px !important;}
+.renderFontSize14,.renderFontSize14 p,.renderFontSize14 p span,.renderFontSize14 td,.renderFontSize14 li::marker{font-size: 14px !important;}
+.renderFontSize15,.renderFontSize15 p,.renderFontSize15 p span,.renderFontSize15 td,.renderFontSize15 li::marker{font-size: 15px !important;}
+.renderFontSize16,.renderFontSize16 p,.renderFontSize16 p span,.renderFontSize16 td,.renderFontSize16 li::marker{font-size: 16px !important;}
+.renderFontSize17,.renderFontSize17 p,.renderFontSize17 p span,.renderFontSize17 td,.renderFontSize17 li::marker{font-size: 17px !important;}
+.renderFontSize18,.renderFontSize18 p,.renderFontSize18 p span,.renderFontSize18 td,.renderFontSize18 li::marker{font-size: 18px !important;}
+.renderFontSize19,.renderFontSize19 p,.renderFontSize19 p span,.renderFontSize19 td,.renderFontSize19 li::marker{font-size: 19px !important;}
+.renderFontSize20,.renderFontSize20 p,.renderFontSize20 p span,.renderFontSize20 td,.renderFontSize20 li::marker{font-size: 20px !important;}
+.renderFontSize21,.renderFontSize21 p,.renderFontSize21 p span,.renderFontSize21 td,.renderFontSize21 li::marker{font-size: 21px !important;}
+.renderFontSize22,.renderFontSize22 p,.renderFontSize22 p span,.renderFontSize22 td,.renderFontSize22 li::marker{font-size: 22px !important;}
+.renderFontSize23,.renderFontSize23 p,.renderFontSize23 p span,.renderFontSize23 td,.renderFontSize23 li::marker{font-size: 23px !important;}
+.renderFontSize24,.renderFontSize24 p,.renderFontSize24 p span,.renderFontSize24 td,.renderFontSize24 li::marker{font-size: 24px !important;}
+.renderFontSize25,.renderFontSize25 p,.renderFontSize25 p span,.renderFontSize25 td,.renderFontSize25 li::marker{font-size: 25px !important;}
+.renderFontSize26,.renderFontSize26 p,.renderFontSize26 p span,.renderFontSize26 td,.renderFontSize26 li::marker{font-size: 26px !important;}
+.renderFontSize27,.renderFontSize27 p,.renderFontSize27 p span,.renderFontSize27 td,.renderFontSize27 li::marker{font-size: 27px !important;}
+.renderFontSize28,.renderFontSize28 p,.renderFontSize28 p span,.renderFontSize28 td,.renderFontSize28 li::marker{font-size: 28px !important;}
+

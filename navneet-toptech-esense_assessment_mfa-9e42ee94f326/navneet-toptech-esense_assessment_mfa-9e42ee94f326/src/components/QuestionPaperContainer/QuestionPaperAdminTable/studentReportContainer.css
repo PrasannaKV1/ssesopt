@@ -1,0 +1,101 @@
+.student-report-container {
+  width: 100%;
+  /* padding: 0 10%; */
+  /* height: 100vh; */
+  /* Full height of the viewport */
+  box-sizing: border-box;
+  /* Include padding in width calculation */
+  background-color:#F5F5F5;
+}
+
+.inner-content {
+  width: 95%;
+  margin: 0 auto;
+  /* Center the inner div */
+}
+
+.go-back-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  font-size: 16px;
+  color: #333;
+  text-decoration: underline;
+  /* Optional: Add underline effect */
+}
+
+.go-back-button img {
+  margin-right: 5px;
+  /* Adjust spacing between image and text */
+}
+
+.student-report-inner-container {
+  /* max-height: 600px; */
+  background: rgba(255, 255, 255, 1);
+  margin-top: 1rem;
+  border-radius: 16px;
+  border: 1px solid rgba(222, 222, 222, 0.5);
+  padding: 20px 28px;
+  margin: 1rem 3.7rem 1rem 5rem;
+  overflow-y: auto;
+  /* Enable vertical scrollbar */
+  scrollbar-width: thin;
+  /* Thin scrollbar */
+  scrollbar-color: rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0);
+  /* Scrollbar color (optional) */
+}
+
+.student-report-answer-sheet {
+  margin: 1rem 4rem 1rem 5rem;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 16px;
+  border: 1px solid rgba(222, 222, 222, 0.5);
+}
+
+/* Optional: Customize scrollbar appearance */
+.student-report-inner-container::-webkit-scrollbar {
+  width: 6px;
+  /* Width of the scrollbar */
+}
+
+.student-report-inner-container::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0);
+  /* Track color (transparent in this case) */
+}
+
+.student-report-inner-container::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Thumb color */
+  border-radius: 3px;
+  /* Rounded corners for the thumb */
+}
+
+
+/* Optional: Customize scrollbar appearance */
+.student-report-container ::-webkit-scrollbar {
+  width: 6px;
+  /* Width of the scrollbar */
+}
+
+.student-report-container ::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0);
+  /* Track color (transparent in this case) */
+}
+
+.student-report-container ::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Thumb color */
+  border-radius: 3px;
+  /* Rounded corners for the thumb */
+}
+.evaluation__student{
+  /* margin-left: 60px; */
+  /* width: 95%; */
+}
+.evaluation__student_data{
+  margin-left: 60px;
+  /* width: 95%; */
+}

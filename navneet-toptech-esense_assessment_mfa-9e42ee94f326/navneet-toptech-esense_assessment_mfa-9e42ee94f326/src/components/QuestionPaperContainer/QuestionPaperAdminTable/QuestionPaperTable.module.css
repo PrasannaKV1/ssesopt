@@ -1,0 +1,14 @@
+.assessmentContainerSect{
+    padding-left: 40px;
+    padding-top: 40px;
+}
+.selectTransBtnSect{
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    align-items: center;
+}
+.assessmentTabPadd{
+    padding-right: 30px;
+}
+

@@ -1,0 +1,266 @@
+.classDashboardContainer {
+    height: 100%;
+    width: 100%;
+    padding: 40px 30px 30px 50px;
+    padding-bottom: 20px;
+}
+
+
+.withoutHeader {
+    height: 100%;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.classDashboardHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.classDashboardTitle {
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 38px;
+    color: #1B1C1E;
+    word-break: break-all;
+}
+
+.classDashboardDate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.addUserIcon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    border-left: 1px solid #dedede;
+    padding-left: 30px;
+}
+
+.addUserIcon svg {
+    background: #DEDEDE;
+    color: #9A9A9A;
+    padding: 6px 2px;
+    border-radius: 5px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.addUserIcon .userCount {
+    font-size: 13px;
+    /* width: 70px; */
+}
+
+.addUserIcon .userCount span {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 600;
+}
+
+.addUserIcon .userStd {
+    font-size: 13px;
+    line-height: 18px;
+    color: #1B1C1E;
+    opacity: 0.6;
+    margin-top: 6px;
+}
+
+.classDashboardFlex {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    grid-gap: 10px;
+    gap: 30px;
+}
+
+.classDashboardFlex .classDashboardDate .classDashboardDay {
+    background: #DEDEDE;
+    color: #9A9A9A;
+    padding: 8px 6px;
+    border-radius: 5px;
+    font-size: 8px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.classDashboardFlex .classDashboardDate .dayFormat {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 600;
+}
+
+.classDashboardFlex .classDashboardDate .monthFormat {
+    font-size: 13px;
+    margin-left: 5px;
+    color: #1B1C1E;
+    opacity: 0.6;
+}
+
+.classDashboardFlex .classDashboardDate .yearFormat {
+    font-size: 13px;
+    color: #1B1C1E;
+    opacity: 0.6;
+}
+
+.classDashboardTopNav .MuiTabs-scroller .MuiTabs-flexContainer button.Mui-selected {
+    padding-left: 0px;
+    padding-right: 0px;
+    min-width: auto;
+    color: #000;
+    border: none;
+}
+
+@media only screen and (max-width: 768px) {
+    body .classDashboardHeader {
+        display: block;
+    }
+
+    body .classDashboardHeader .classDashboardTitle {
+        margin-bottom: 5px;
+    }
+
+    body .classDashboardFlex {
+        justify-content: flex-start;
+    }
+
+    .classDashboardContainer {
+        padding: 40px 15px 0px 70px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    body .classDashboardFlex {
+        display: flex;
+    }
+
+    body .classDashboardDate {
+        justify-content: flex-start;
+        gap: 6px;
+    }
+
+    body .classDashboardHeader {
+        background: #fff;
+        padding-bottom: 15px;
+        margin-bottom: 0;
+        border-bottom: 1px solid rgba(196, 196, 196, 0.5);
+    }
+
+    body .classDashboardFlex {
+        justify-content: center;
+        gap: 60px;
+    }
+
+    body .addUserIcon {
+        justify-content: flex-start;
+        border-left: 0px solid #dedede;
+        padding-left: 0px;
+        gap: 6px;
+        position: relative;
+    }
+
+    body .classDashboardHeader {
+        background: #fff;
+        padding-bottom: 15px;
+        margin-bottom: 0;
+        border-bottom: 1px solid rgba(196, 196, 196, 0.5);
+    }
+
+    body .classDashboardFlex {
+        justify-content: center;
+        gap: 60px;
+    }
+
+    body .addUserIcon:before {
+        position: absolute;
+        content: '';
+        height: 100%;
+        border-left: 1px solid #DEDEDE;
+        top: 0;
+        left: -30px;
+    }
+
+    body .classDashboardHeader .classDashboardTitle {
+        font-size: 14px;
+        text-align: center;
+        font-weight: 600;
+        padding: 14px 15% 20px 10px;
+        color: #2b2b2b;
+        margin-bottom: 0;
+        word-break: break-all;
+        line-height: 1.5;
+    }
+
+    .classDashboardContainer {
+        padding: 0;
+    }
+
+    .addUserIcon .userStd span {
+        display: none;
+    }
+
+    .addUserIcon svg {
+        font-size: 25px;
+    }
+
+    body .classDashboardFlex .classDashboardDate .classDashboardDay {
+        padding: 6px 4px;
+    }
+
+    body .classDashboardFlex .classDashboardDate .dayFormat {
+        font-weight: 500;
+        color: #000;
+    }
+
+    body .classDashboardFlex .classDashboardDate .monthFormat {
+        margin-left: 0;
+    }
+
+    .classDashboardTopNav {
+        padding: 0 16px;
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    body .classDashboardFlex {
+        gap: 30px;
+    }
+
+    body .addUserIcon:before {
+        left: -15px;
+    }
+}
+
+.routeDesign {
+    text-decoration: none !important;
+    text-transform: none !important;
+    color: black !important;
+}
+
+.withoutHeader_2 {
+    text-decoration: none !important;
+    text-transform: none !important;
+    color: black !important;
+    margin-right: 40px !important;
+    font-size: large;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 767px) {
+    .routeDesign {
+        background-color: #fff !important;
+    }
+
+    .withoutHeader_2 {
+        background-color: #fff !important;
+    }
+}

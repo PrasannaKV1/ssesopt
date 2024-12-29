@@ -1,0 +1,180 @@
+.multiSelectDropdown .MuiAutocomplete-root > .MuiFormControl-root{
+    min-width: 240px;
+    max-width: 240px;
+    min-height: 40px;
+    background: #fff;
+    border: 1px solid #c0c0c0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+}
+.multiSelectDropdown .MuiAutocomplete-root > .MuiFormControl-root label{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #1B1C1E;
+    transform: translate(14px, 9px) scale(1);
+}
+.multiSelectDropdown .MuiAutocomplete-root > .MuiFormControl-root label.Mui-focused,
+.multiSelectDropdown .MuiAutocomplete-root > .MuiFormControl-root label.MuiInputLabel-shrink{
+    transform: translate(14px, -9px) scale(0.75);
+    background-color: #fff;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.multiSelectDropdown .MuiAutocomplete-root > .MuiFormControl-root .MuiInputBase-root fieldset{
+    border: 0px solid #c0c0c0;
+}
+.multiSelectDropdown .MuiAutocomplete-root > .MuiFormControl-root .MuiInputBase-root fieldset legend span{
+    display: none;
+}
+.multiSelectDropdown .MuiAutocomplete-root > .MuiFormControl-root .MuiInputBase-root{
+    display: flex;
+    /* height: 26px; */
+    overflow: hidden;
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.multiSelectDropdown .MuiAutocomplete-root > .MuiFormControl-root .MuiInputBase-root input{
+    padding: 0px;
+    font-size: 14px;
+}
+.multiSelectDropdown .MuiAutocomplete-root > .MuiFormControl-root .MuiInputBase-root .MuiButtonBase-root{
+    z-index: 9;
+    background-color: transparent;
+    margin: 0px;
+    height: auto;
+}
+.multiSelectDropdown .MuiAutocomplete-root > .MuiFormControl-root .MuiInputBase-root > .MuiButtonBase-root svg{
+    font-size: 14px;
+    display: none;
+}
+.multiSelectDropdown .MuiAutocomplete-root > .MuiFormControl-root .MuiInputBase-root .MuiAutocomplete-endAdornment{
+    padding-top: 2px;
+}
+.multiSelectDropdown .MuiAutocomplete-root > .MuiFormControl-root .MuiInputBase-root .MuiAutocomplete-endAdornment button.MuiAutocomplete-clearIndicator{
+    padding-right: 0px;
+}
+.multiSelectDropdown .MuiAutocomplete-root > .MuiFormControl-root .MuiInputBase-root .MuiAutocomplete-endAdornment button.MuiAutocomplete-clearIndicator svg{
+    width: 16px;
+    height: 16px;
+}
+.multiSelectDropdown .MuiAutocomplete-root > .MuiFormControl-root .MuiInputBase-root .MuiButtonBase-root span{
+    padding-left: 0px;
+}
+.MuiAutocomplete-popper .MuiTypography-root{
+    font-size: 14px;
+}
+.multiSelectDropdown > .MuiAutocomplete-root > .MuiFormControl-root > .MuiInputBase-root{
+    padding-right: 30px !important;
+    display: flex;
+    align-items: center;
+    margin-top: -5px;
+    height: 25px;
+}
+.multiSelectDropdown > .MuiAutocomplete-root > .MuiFormControl-root > .MuiInputBase-root span.MuiAutocomplete-tag{
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.multiSelectDropdown > .MuiAutocomplete-root.Mui-focused > .MuiFormControl-root > .MuiInputBase-root{
+    padding-right: 65px !important;
+}
+.filterMultiSelect .MuiAutocomplete-root.Mui-focused.MuiAutocomplete-hasClearIcon label,
+.filterMultiSelect .MuiAutocomplete-root.MuiAutocomplete-hasClearIcon label,
+.filterMultiSelect .MuiAutocomplete-root label + .MuiInputBase-root fieldset legend,
+.filterMultiSelect .MuiAutocomplete-root label + .MuiInputBase-root > .MuiButtonBase-root svg,
+.filterMultiSelect .MuiAutocomplete-root label + .MuiInputBase-root .MuiAutocomplete-endAdornment > button[title="Clear"]{
+    display: none;
+}
+.filterMultiSelect .MuiAutocomplete-root label + .MuiInputBase-root{
+    padding: 0px 10px 0px 0px !important;
+    width: 100%;
+}
+.filterMultiSelect .MuiAutocomplete-root label,.filterMultiSelect .MuiAutocomplete-root label.Mui-focused{
+    transform: translate(6px, 8px) scale(1);
+    color: var(--black);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #1C2125;
+}
+.filterMultiSelect .MuiAutocomplete-root label + .MuiInputBase-root fieldset{
+    border:none;
+}
+.filterMultiSelect .MuiAutocomplete-root label + .MuiInputBase-root {
+    width: 150px;
+    height: 38px;
+    overflow: hidden;
+}
+.filterMultiSelect .MuiAutocomplete-root label + .MuiInputBase-root > .MuiButtonBase-root > span{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1C2125;
+}
+.filterMultiSelect .MuiAutocomplete-root label + .MuiInputBase-root > .MuiButtonBase-root{
+    background-color: transparent; 
+    width: 190px;    
+    text-overflow: ellipsis;
+    justify-content: start;
+}
+.filterMultiSelect .MuiAutocomplete-root label + .MuiInputBase-root > .MuiButtonBase-root > span{
+    padding: 0px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    width: 100%;
+}
+.filterMultiSelect .MuiAutocomplete-root label + .MuiInputBase-root > span{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    position: absolute;
+    right: 30px;
+}
+.filterMultiSelect .MuiAutocomplete-root label + .MuiInputBase-root input{
+    position: absolute;
+    width: 100%;
+    cursor: pointer;
+    caret-color: transparent;
+    z-index: 1;
+}
+
+.css-1yz9c6j-MuiAutocomplete-listbox .MuiAutocomplete-option[aria-selected="true"]{
+    background-color: white !important;
+}
+.multiSelectDropdown .MuiAutocomplete-root label + .MuiInputBase-root{
+    height: 30px;
+    padding: 2px 10px;
+    position: relative;
+}
+.multiSelectDropdown .MuiAutocomplete-root label + .MuiInputBase-root .MuiButtonBase-root .MuiChip-label{
+    padding-left: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    width: 150px;
+}
+/* .multiSelectDropdown .MuiAutocomplete-root label + .MuiInputBase-root .MuiButtonBase-root svg{
+    display: none;
+} */
+.multiSelectDropdown .MuiAutocomplete-root label + .MuiInputBase-root input{
+    position: absolute;
+    width: 73%;
+    z-index: 99;
+}
+.MuiAutocomplete-popper{
+    box-shadow: 0px 2.85981px 15.729px rgba(0, 0, 0, 0.12);
+}
+.selectall .MuiAutocomplete-root label + .MuiInputBase-root > span {
+    display: none !important;
+}

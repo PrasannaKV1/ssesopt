@@ -1,0 +1,182 @@
+[
+    {
+        "firstName": "Shivraj",
+        "lastName": "Khetri",
+        "grade": 3,
+        "division": "A",
+        "rollNumber": 1,
+        "status": "Active",
+        "profile": "url"
+    },
+    {
+        "firstName": "Aarav",
+        "lastName": "Singh",
+        "grade": 3,
+        "division": "A",
+        "rollNumber": 2,
+        "status": "Active",
+        "profile": "https://fastly.picsum.photos/id/1/200/200"
+    },
+    {
+        "firstName": "Aisha",
+        "lastName": "Patel",
+        "grade": 3,
+        "division": "B",
+        "rollNumber": 3,
+        "status": "Active",
+        "profile": "https://fastly.picsum.photos/id/1/200/200"
+    },
+    {
+        "firstName": "Rohan",
+        "lastName": "Sharma",
+        "grade": 3,
+        "division": "A",
+        "rollNumber": 4,
+        "status": "Active",
+        "profile": "https://fastly.picsum.photos/id/1/200/200"
+    },
+    {
+        "firstName": "Aanya",
+        "lastName": "Trivedi",
+        "grade": 3,
+        "division": "B",
+        "rollNumber": 5,
+        "status": "Active",
+        "profile": "https://fastly.picsum.photos/id/1/200/200"
+    },
+    {
+        "firstName": "Kabir",
+        "lastName": "Gupta",
+        "grade": 3,
+        "division": "C",
+        "rollNumber": 6,
+        "status": "Active",
+        "profile": "https://fastly.picsum.photos/id/12/200/200"
+    },
+    {
+        "firstName": "Dia",
+        "lastName": "Verma",
+        "grade": 3,
+        "division": "A",
+        "rollNumber": 7,
+        "status": "Active",
+        "profile": "https://fastly.picsum.photos/id/12/200/200"
+    },
+    {
+        "firstName": "Arjun",
+        "lastName": "Malhotra",
+        "grade": 3,
+        "division": "B",
+        "rollNumber": 8,
+        "status": "Active",
+        "profile": "https://fastly.picsum.photos/id/12/200/200"
+    },
+    {
+        "firstName": "Anaya",
+        "lastName": "Chopra",
+        "grade": 3,
+        "division": "C",
+        "rollNumber": 9,
+        "status": "Active",
+        "profile": "https://fastly.picsum.photos/id/12/200/200"
+    },
+    {
+        "firstName": "Vivaan",
+        "lastName": "Agarwal",
+        "grade": 3,
+        "division": "A",
+        "rollNumber": 10,
+        "status": "Active",
+        "profile": "https://fastly.picsum.photos/id/6/200/200"
+    },
+    {
+        "firstName": "Myra",
+        "lastName": "Kumar",
+        "grade": 3,
+        "division": "B",
+        "rollNumber": 11,
+        "status": "Active",
+        "profile": "https://fastly.picsum.photos/id/6/200/200"
+    },
+    {
+        "firstName": "Ritvik",
+        "lastName": "Shah",
+        "grade": 3,
+        "division": "C",
+        "rollNumber": 12,
+        "status": "Active",
+        "profile": "https://fastly.picsum.photos/id/6/200/200"
+    },
+    {
+        "firstName": "Zara",
+        "lastName": "Verma",
+        "grade": 3,
+        "division": "A",
+        "rollNumber": 13,
+        "status": "Active",
+        "profile": "https://fastly.picsum.photos/id/6/200/200"
+    },
+    {
+        "firstName": "Advait",
+        "lastName": "Singhania",
+        "grade": 3,
+        "division": "B",
+        "rollNumber": 14,
+        "status": "Active",
+        "profile": "https://fastly.picsum.photos/id/6/200/200"
+    },
+    {
+        "firstName": "Aadhya",
+        "lastName": "Gupta",
+        "grade": 3,
+        "division": "C",
+        "rollNumber": 15,
+        "status": "Active",
+        "profile": "https://fastly.picsum.photos/id/6/200/200"
+    },
+    {
+        "firstName": "Yash",
+        "lastName": "Kapoor",
+        "grade": 3,
+        "division": "A",
+        "rollNumber": 16,
+        "status": "Active",
+        "profile": "https://fastly.picsum.photos/id/6/200/200"
+    },
+    {
+        "firstName": "Anika",
+        "lastName": "Patil",
+        "grade": 3,
+        "division": "B",
+        "rollNumber": 17,
+        "status": "Active",
+        "profile": "https://fastly.picsum.photos/id/6/200/200"
+    },
+    {
+        "firstName": "Arnav",
+        "lastName": "Malik",
+        "grade": 3,
+        "division": "C",
+        "rollNumber": 18,
+        "status": "Active",
+        "profile": "https://fastly.picsum.photos/id/6/200/200"
+    },
+    {
+        "firstName": "Avni",
+        "lastName": "Sharma",
+        "grade": 3,
+        "division": "A",
+        "rollNumber": 19,
+        "status": "Active",
+        "profile": "https://fastly.picsum.photos/id/6/200/200"
+    },
+    {
+        "firstName": "Reyansh",
+        "lastName": "Mittal",
+        "grade": 3,
+        "division": "B",
+        "rollNumber": 20,
+        "status": "Active",
+        "profile": "https://fastly.picsum.photos/id/6/200/200"
+    }
+]

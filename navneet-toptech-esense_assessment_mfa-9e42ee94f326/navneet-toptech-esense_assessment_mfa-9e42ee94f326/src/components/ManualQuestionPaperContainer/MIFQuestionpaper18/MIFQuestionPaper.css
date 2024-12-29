@@ -1,0 +1,94 @@
+.questionPaper18{
+    width: 800px;
+    margin-left: 250px;
+    margin-top: auto;
+    /* padding:50px; */
+    height: 701px;
+    left: 123px;
+    top: 49px;
+    background: #FFFFFF;
+    border-radius: 14px;
+    padding: 25px 24px 5px 34px;
+}
+.Paperheader{
+    /* font-weight: 600; */
+    font-size: 30.16px;
+}
+.button button{
+    border: 1px solid #01B58A;
+}
+
+.questionPaperheader{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px
+}
+
+.table-container .MuiTableContainer-root table thead tr th,
+.table-container .MuiTableContainer-root table tbody tr td{
+   padding: 0px;
+    
+}
+.table-container{
+    margin-left: 0px;
+    padding: 0px;
+}
+
+.internalTable{
+    display: flex;
+    gap: 6px;
+    padding:0px;
+    margin-left: -40px;
+}
+/* .table-th{
+    padding:0px;
+    background-color: red;
+} */
+
+.table-main{
+   
+    margin-left: 0px;
+    padding: 0px;
+}
+.footerdiv{
+    display: flex;      
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 17px 29px; 
+    gap: 20px;
+    
+   
+}
+.questionPaper18 .MuiTableContainer-root table tbody tr td,
+.questionPaper18 .MuiTableContainer-root table thead tr th
+{
+    padding: 10px;
+}
+.selectcontainer .selectFillType .MuiFormControl-root .MuiInputBase-root .MuiSelect-select{
+    /* height: 32px; */
+    padding: 0px;
+}
+.selectcontainer .selectFillType .MuiFormControl-root .MuiInputBase-root fieldset{
+    height: 40px;
+}
+.selectcontainer .selectFillType .MuiFormControl-root label{
+    margin-top: -10px;
+}
+.selectcontainer .selectFillType .MuiFormControl-root .MuiInputBase-root svg{
+    margin-top: 6px;
+}
+.selectcontainer .selectFillType .MuiFormControl-root label.Mui-focused{
+    top: 10px;
+}
+
+.MuiTooltip-popper .MuiTooltip-tooltip{
+width:200px !important;
+margin-right: 50px !important;
+}
+
+.tooltip button:hover{
+    border: 1px solid #01B58A;
+}
+

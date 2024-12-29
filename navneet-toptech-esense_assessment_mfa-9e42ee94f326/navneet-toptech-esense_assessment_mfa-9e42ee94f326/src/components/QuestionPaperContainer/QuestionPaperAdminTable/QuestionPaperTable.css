@@ -1,0 +1,151 @@
+.assessmentParentContainer{
+    padding-left: 107px;
+}
+
+
+.questionPaperTableSect {
+    margin-top: 27px;
+    padding: 20px 16px 16px 16px;
+    background-color: white;
+    border-radius: 8px;
+    position: relative;
+    height: calc(100vh - 310px);
+}
+.questionPaperTableSect table tbody tr td:nth-child(2) p,
+.assessmentTableSect table tbody tr td:nth-child(2) p,
+.questionPaperTableSect table tbody tr td:nth-child(2) span,
+.assessmentTableSect table tbody tr td:nth-child(2) span,
+.questionPaperTableSect table tbody tr td:nth-child(2) div,
+.assessmentTableSect table tbody tr td:nth-child(2) div,
+.questionPaperTableSect table tbody tr td:nth-child(2) strong,
+.assessmentTableSect table tbody tr td:nth-child(2) strong,
+.questionPaperTableSect table tbody tr td:nth-child(2),
+.assessmentTableSect table tbody tr td:nth-child(2),
+.questionPaperTableSect table tbody tr td:nth-child(2) th,
+.assessmentTableSect table tbody tr td:nth-child(2) th{
+    font-family: 'Times New Roman', Times, serif !important;
+}
+.questionPaperTableSect table tbody tr td p .ql-font-Hindi {
+  font-family: "Tiro Devanagari Hindi", serif !important;
+}
+
+.questionPaperTableSect table tbody tr td p .ql-font-Marathi,
+.questionPaperTableSect table tbody tr td p.ql-font-Marathi {
+  font-family: "Tiro Devanagari Marathi", serif !important;
+}
+
+.questionPaperTableSect table tbody tr td p .ql-font-English,
+.questionPaperTableSect table tbody tr td p Font[face="Arial"],
+.questionPaperTableSect table tbody tr td p  Font[face="Times New Roman"] {
+    font-family: 'Times New Roman', serif !important;
+}
+.selQuesPaperFilter{
+    height: 40px;
+    border:2px solid #DEDEDE;;
+    border-radius: 8px;
+    background-color: #FFFFFF;;
+    padding-left: 10px;
+}
+
+.selQuesPaperFilter .filterMultiSelect .MuiAutocomplete-root .MuiFormControl-root .MuiInputBase-root{
+    width: 235px !important;
+}
+.questionPaperTableScroll {
+    margin-top: 20px;
+    overflow-y: auto;
+    height: calc(100vh - 435px);
+}
+
+.searchAndBtn {
+    display: flex;
+    justify-content: space-between;
+    /* padding-left: 2%; */
+}
+.selectTransBtnSect .filterMultiSelect .MuiAutocomplete-root .MuiFormControl-root .MuiInputBase-root fieldset{
+    border: none !important;    
+   }
+  
+       body .createNewTemplateSelectLeft .CybordFilterMultiSelect .MuiAutocomplete-root label + .MuiInputBase-root{
+           overflow: hidden;
+           background-color: transparent;
+           padding: 0px 30px 0px 0px !important;
+       }
+       
+       .questionPaperTableScroll table tbody tr td .MuiCollapse-root{
+        padding-left: 30px;
+        padding-right: 7px;
+       }
+       .questionPaperTableScroll table tbody tr td .MuiCollapse-root table tbody tr:last-child td,
+       .questionPaperTableScroll table tbody tr td .MuiCollapse-root table tbody tr:last-child th{
+        border-bottom: none;
+       }
+       .questionPaperAcademicTable .selectFillType label.MuiFormLabel-filled {
+        color: var(--filledTextColor);
+        background-color: #fcfcfd;
+        left: 0;
+        padding: 0px 5px;
+        font-size: 13px;
+        line-height: 20px;
+        font-weight: 600;
+        transform: translate(7px, 12px) scale(1);
+        opacity: 1;
+        display: block;
+      }
+      .questionPaperAcademicTable .selectFillType label.MuiFormLabel-filled + .MuiInputBase-root{
+        height: 44px;
+      }
+      .questionPaperAcademicTable .selectFillType label.MuiFormLabel-filled + .MuiInputBase-root > .MuiSelect-select {
+        padding: 0px 30px 0px 115px;
+        height: 44px;
+        align-items: center;
+        display: flex;
+    }
+    .questionPaperAcademicTable .selectFillType label.MuiFormLabel-filled + .MuiInputBase-root fieldset{
+        height: 50px;
+    }
+    .questionPaperAcademicTable .selectFillType label.MuiFormLabel-filled + .MuiInputBase-root fieldset legend span{
+        display: none;
+    }
+    .questionPaperAcademicTable{
+        position: relative;
+    }
+    .questionPaperAcademicTable .selectFillType{
+        position: absolute;
+        right: 0px;
+        top: -140px;
+    }
+    .viewAllSet{
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        color: #01B58A;
+        min-width: 120px;
+    }
+    .questionPaperArrow{
+        flex-direction: row !important;
+        align-items: center;
+        gap: 5px !important;
+    }
+    .questionPaperArrow div{
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+    }
+    .qpSetTr{
+        justify-content: space-around;
+        padding-right: 10px;
+    }
+    .expandIcon button svg, .expandIcon button svg path{
+        fill: #01b58a;
+        color: #01b58a;
+    }
+    .preview-eval-hidden{
+        display: none;
+    }
+    /* @page { size: auto;  margin: 0mm; } */
+    .question-paper-section .active-question-paper {
+        position: absolute;
+        right: -7px;
+        top: 72px;
+    }
+    

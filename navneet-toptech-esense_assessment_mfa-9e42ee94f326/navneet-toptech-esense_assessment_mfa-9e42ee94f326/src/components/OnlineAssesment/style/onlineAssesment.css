@@ -1,0 +1,224 @@
+.online-aasesment-main {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100dvh;
+    padding: 2rem;
+    overflow: hidden;
+}
+.online-assessment-test {
+    box-sizing: border-box;
+    margin: 0;
+    width: 100%;
+
+}
+
+.online-aasesment-heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.online-aasesment-heading-title {
+    font-weight: 900;
+    font-size: 32px;
+    color: #1B1C1E;
+}
+
+.online-aasesment-calender {
+    width: 300px;
+}
+
+.online-assesment-submenu {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.online-assesment-container {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.online-assesment-container .online-assesmnet-qp-section {
+    width: 25%;
+}
+.online-assesment-container .online-assesmnet-qp-section .onlineTestSearchField .MuiInputBase-root{
+  background-color: #FCFCFD;
+  border-radius: 8px;
+}
+
+.online-assesment-container .online-assesment-student-table-section {
+    height: calc(100vh - 200px) !important;
+    overflow-y: hidden;
+    width: 75%;
+    border-radius: 16px;
+    background-color: white;
+    margin-top: 16px;
+}
+
+.online-assesment-container .online-assesmnet-qp-section .qp-cards-section {
+    /* position: relative;
+    height: 100vh;
+    scroll-behavior: smooth;
+    overflow-y: auto; */
+    height: calc(100vh - 250px);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.online-assesment-container .online-assesmnet-qp-section .qp-empty-card-section {
+    /* position: relative;
+    height: 100vh;
+    scroll-behavior: smooth;
+    overflow-y: auto; */
+    height: calc(100vh - 300px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selQuesPaperFilter {
+    height: 50px;
+    border: 2px solid #DEDEDE;
+    ;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    ;
+    padding-left: 10px;
+}
+
+.multi-date-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20;
+    height: 52px;
+    width: 250px;
+}
+
+.student-list-main-inner-div .resrTableSortArrow {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.student-list-main-inner-div .assign-student-table {
+    height: 385px !important;
+    max-height: 385px !important;
+}
+
+.student-list-main-inner-div .resrTableSortArrow.activeUpArrow img:nth-child(1) {
+    opacity: 1 !important;
+}
+
+.student-list-main-inner-div .resrTableSortArrow img {
+    opacity: 0.3;
+}
+
+.student-list-main-inner-div .resrTableSortArrow.activeDownArrow img:nth-child(2) {
+    opacity: 1 !important;
+}
+
+.sorting-img-div {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding-top: 5px;
+}
+
+.evaluate_searchField .MuiFormControl-root .MuiInputBase-root.Mui-focused fieldset
+{
+    
+        border: 1px solid #01B58A !important;
+    
+}
+.chapter-challenge-single-select .MuiFormControl-root .MuiInputBase-root.Mui-focused fieldset{
+    border: none   
+}
+
+.evaluate_searchField .MuiFormControl-root .MuiInputBase-root:hover fieldset
+{
+    border: 1px solid #DEDEDE;
+}
+
+.chapter-challenge-single-select .MuiFormControl-root .MuiInputBase-root fieldset{
+    border: none;
+}
+
+.stduent-table-container .resrTableSortArrow {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+  .stduent-table-container .resrTableSortArrow.activeUpArrow img:nth-child(1) {
+    opacity: 1 !important;
+  }
+  .stduent-table-container .resrTableSortArrow img {
+    opacity: 0.3;
+  }
+  .stduent-table-container .resrTableSortArrow.activeDownArrow img:nth-child(2) {
+    opacity: 1 !important;
+  }
+
+  .selChapterPaperFilter{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 2px solid #DEDEDE;
+    border-radius: 8px;
+    padding-left: 10px;
+    height: 52px;
+  }
+
+  .input-image{
+    width: 18px;
+    height: 18px;
+    margin-right: 18px;
+    cursor: pointer;
+  }
+
+  .no-data-input-image{
+    width: 18px;
+    height: 18px;
+    margin-right: 18px;
+  }
+  .selChapterPaperFilter .filterMultiSelect .MuiAutocomplete-root label + .MuiInputBase-root {
+    width: 250px;
+    height: 38px;
+    overflow: hidden;
+}
+
+.multi-date-container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20;
+    height: 52px;
+    width: 170px;
+}
+
+.online-assesment-qp-filters{
+    display: flex;
+    justify-content: space-between;
+    /* width: 250px; */
+    align-items: center;
+    margin-top: 20px;
+}
+.studnet-list-filtes .MuiFormControl-root .MuiInputBase-root fieldset, 
+.studnet-list-filtes .MuiFormControl-root .MuiInputBase-root:hover fieldset,
+.online-assesmnet-qp-section .MuiFormControl-root .MuiInputBase-root fieldset,
+.online-assesmnet-qp-section .MuiFormControl-root .MuiInputBase-root:hover fieldset
+{
+    border: 1px solid rgba(222, 222, 222, 1) !important;
+    border-radius: 8px !important;
+}
+.studnet-list-filtes .MuiFormControl-root .MuiInputBase-root, .online-create-new-test-btn-container button{
+    height: 52px !important;
+}
+.section-menu .MuiPaper-root {
+    box-shadow: 0px 4px 22px 0px #0000001F !important;
+}

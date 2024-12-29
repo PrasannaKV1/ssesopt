@@ -1,0 +1,30 @@
+export const UPLOAD_ICON = "Images/cloud-upload.svg";
+export const UPPOLYGON = 'Images/UpPolygon.svg';
+export const DOWNPOLYGON = 'Images/Polygon.svg';
+export const BULKUPLOAD = "Images/ShapeBulkUploadMarks.svg";
+export const DELETE_ICON = "Images/deleteIcon.svg";
+export const LIBRARY_ICON = "Images/library.svg";
+export const DOWNLOAD_EXCEL = "Images/sampleDownload.svg";
+export const TICKER = "Images/greenTick.svg";
+export const PDF_ICON = "Images/pdf.svg";
+export const CROSS_ICON = "Images/cross_icon.svg";
+export const SHEET_PDF_ICON = "Images/pdf_icon.svg";
+export const ATTACHMENT_ICON = "Images/Attachment_file.svg";
+export const JPEG_ICON = "Images/jpg.svg";
+export const PNG_ICON = "Images/png.svg";
+export const MOVE_RIGHT = "Images/move_right.svg";
+export const MOVE_LEFT = "Images/move_left.svg";
+export const ADD_MORE = "Images/add_icon.svg";
+export const DISABLE_SETS = "Images/downloadDisable.svg";
+export const CROSS_ICON2 = "Images/crossIcon.svg";
+
+// File  Upload Icons 
+export const F_PDF_ICON = "Images/pdf1.svg";
+export const F_JPEG_ICON = "Images/jpeg1.svg";
+export const F_PNG_ICON = "Images/png1.svg";
+export const F_XSL_ICON = "Images/xls1.svg";
+export const F_ERROR_ICONS = "Images/Icon.svg";
+export const PUBLISH_FOR_STUDENT = "/Images/publishforstudent.svg";
+export const GO_BACK_ARROW = "/Images/BackIcon.svg";
+export const ANSWER = 'Images/focus-3-line 11.svg';
+export const MARKS = 'Images/focus-3-line 1HIGH.svg';

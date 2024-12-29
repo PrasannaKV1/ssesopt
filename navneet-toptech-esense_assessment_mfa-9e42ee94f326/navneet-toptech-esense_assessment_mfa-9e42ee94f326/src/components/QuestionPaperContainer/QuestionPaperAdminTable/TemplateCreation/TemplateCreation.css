@@ -1,0 +1,213 @@
+.templateCreationTitle {
+    padding: 50px 0;
+}
+.TemplateCreationBox {
+    padding: 50px 24px;
+    border: 1px solid #dedede;
+    border-radius: 8px;
+    height:750px;
+}
+.TemplateCreationBox .inputFieldStylingSect, .TemplateCreationBox .form-control {
+    pointer-events: auto;
+}
+.change-header-cls-out .item, .TemplateCreationBox .item {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    pointer-events: none;
+}
+.change-header-cls-out .item.muuri-item-hidden, .TemplateCreationBox .item.muuri-item-hidden {
+    z-index: 0;
+}
+.change-header-cls-out .item.muuri-item-releasing, .TemplateCreationBox .item.muuri-item-releasing {
+    z-index: 2;
+}
+.change-header-cls-out .item.muuri-item-dragging, .TemplateCreationBox .item.muuri-item-dragging {
+    z-index: 3;
+}
+.change-header-cls-out .item-content, .TemplateCreationBox .item-content {
+    position: relative;
+    width: 100%;
+}
+.change-header-cls-out .item {
+    width: auto;
+    pointer-events: auto;
+}
+.TemplateBoxRow {
+    display: flex;
+}
+.TemplateBoxRow .TemplateBoxIcon {
+    flex: 0 0 24px;
+    margin-right: 15px;
+    pointer-events: auto;
+}
+.TemplateBoxRow .TemplateEditIcon {
+    flex: 0 0 36px;
+    margin-right: 15px;
+    pointer-events: auto;
+}
+.TemplateBoxRow .TemplateBoxContent {
+    flex: 2;
+}
+iframe {
+    display: none;
+}
+.LogoSectionBlock, .ExamNameSectionBlock, .SubjectSectionBlock, .StudentNameSectionBlock, .InstructionsSectionBlock {
+    display: flex;
+    width: 100%;
+    padding-bottom: 36px;
+}
+.LogoSectionBlock {
+    flex-direction: column;
+    margin-bottom: 14px;
+}
+.LogoSectionBlock .logo img {
+    max-width: 123px;
+    max-height: 123px;
+    min-height: 123px;
+    min-width: 123px;
+}
+.LogoSectionBlock .headerValue:not(.logo) {
+    text-align: center;
+    width: 100%;
+}
+.LogoSectionBlock .schoolName {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 36px;
+}
+.LogoSectionBlock .affiliation {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+}
+.LogoSectionBlock_2 {
+    align-items: center;
+}
+.LogoSectionBlock_3 {
+    align-items: flex-end;
+}
+.ExamNameSectionBlock .inputFieldStylingSect {
+    width: 100%;
+    max-width: 380px;
+}
+.ExamNameSectionBlock_2 {
+    justify-content: center;
+}
+.ExamNameSectionBlock_3 {
+    justify-content: flex-end;
+}
+.SubjectSectionBlock {
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -8px;
+    gap: 20px;
+}
+.SubjectSectionBlock .fieldItem {
+    width: 100%;
+    max-width: 240px;
+}
+.SubjectSectionBlock .subjectInputBox {
+    width: 100%;
+    max-width: 350px;
+}
+.subjectValue {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+}
+.StudentNameSectionBlock {
+    margin: 10px 0;
+    padding-top: 7px;
+    justify-content: space-between;
+    gap: 10px;
+}
+.StudentNameSectionBlock .fieldName {
+    display: flex;
+    gap: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 10px;
+    width: 100%;
+    align-items: center;
+}
+.StudentNameSectionBlock .fieldName:first-child {
+    margin-left: 0;
+}
+.fieldNameBlank {
+    flex: 1;
+    border-bottom: 1px solid #000;
+    padding-top: 10px;
+}
+.InstructionsSectionBlock > span {
+    margin-right: 24px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+}
+.hidden {
+    visibility: hidden;
+}
+.headerTextEdit{
+    border: 1px solid #DEDEDE;
+    background: #FCFCFD;
+    padding: 16px 23px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1B1C1E;
+    width: 100%;
+    /* display: flex; */
+    gap: 2px;
+    min-height: 54px;
+}
+.TemplateBoxContent .headerTextEdit {
+    display: flex;
+}
+.TemplateBoxContent .headerTextEdit p{
+    line-height: 20px;
+}
+.StudentNameSectionBlockEdit{
+    margin-top: -13px;
+    padding: 0px;
+    pointer-events: auto;
+}
+.headerTextEdit,.InstructionsSectionBlock{
+    pointer-events: auto;
+}
+.instructionsSect{
+    margin-top: 15px;
+}
+.headerTextEdit p{
+    margin: 0px;
+    line-height: 12px;
+}
+.examPrintSection{
+    width: calc((100% / 3) - 15px);
+}
+body .textLimitError .quill {
+    border-color: red !important;
+    background-color: #fffbfb;
+}
+body .textLimitError .character-count > span.textCount{
+    color: red;
+    font-weight: 600;
+}
+body .textLimitError .character-count > .error-message{
+    color: red;
+}
+
+.webviewer iframe {
+    display: block !important;
+}
+.textfield-withBorder.MuiFormControl-root .MuiInputBase-root.Mui-focused fieldset,
+.textfield-withBorder.MuiFormControl-root label.MuiInputLabel-shrink+.MuiOutlinedInput-root fieldset {
+    border: 1px solid red !important;
+}
+.timePickerContainer.timePickerContainerData .textfield-withBorder.MuiFormControl-root label {
+    color: red !important;
+}
+
+/* .textfield-withBorder.MuiFormControl-root .MuiFormLabel-root {
+    color: red !important;
+} */

@@ -1,0 +1,124 @@
+.teacherCentricReports .lastScore,.teacherCentricReports .lastScoreByItem,
+.studentCentricReports .latestSession,
+.studentCentricReports .accordianContainer,
+.studentCentricReports .allReportAttemptSect{
+  border: 1px solid #ddd;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 1.875rem 0 rgba(20,55,70,.2);
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+  max-height: 300px;
+  background: #fff;
+}
+.studentCentricReports .latestSession,
+.studentCentricReports .accordianContainer{
+  max-height:max-content;
+}
+.teacherCentricReports .lastScore > h2,
+.teacherCentricReports .lastScoreByItem > h2 {
+  font-size: 22px !important;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.studentCentricReports .latestSession > h2,
+.studentCentricReports .accordianContainer > h2,
+.studentCentricReports .allReportAttemptSect > h2 {
+  font-size: 22px !important;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+.studentCentricReports .latestSession > h3,
+.studentCentricReports .accordianContainer > h3,
+.studentCentricReports .allReportAttemptSect > h3{
+  font-size: 14px !important;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.teacherCentricReports .cursorPointer,
+.studentCentricReports .cursorPointer,
+.courseWorkProgress .cursorPointer{
+  padding: 30px 0 10px 30px;
+  display: flex;
+  gap: 10px;
+}
+.teacherCentricReports .teacherCentricReportsTitle,
+.studentCentricReports .studentCentricReportsTitle  {
+  margin: 30px 0 30px 15px;
+  font-size: 30px !important;
+}
+.teacherCentricReports .lastScore .scrollable-table table,
+.teacherCentricReports .lastScoreByItem .scrollable-table table,
+.studentCentricReports .latestSession table,
+.studentCentricReports .allReportAttemptSect table,
+.studentCentricReports .studentCentricReportsAccordianFlex table{
+  width: 100%;
+}
+.teacherCentricReports .lastScore .scrollable-table table thead tr th,
+.teacherCentricReports .lastScoreByItem .scrollable-table table tr th,
+.teacherCentricReports .lastScoreByItem .scrollable-table table tr td,
+.studentCentricReports .latestSession table tr td,
+.studentCentricReports .allReportAttemptSect table tr th,
+.studentCentricReports .allReportAttemptSect table tr td,
+.studentCentricReports .studentCentricReportsAccordianFlex table tr td{
+  text-align: center;
+}
+.studentCentricReports .studentCentricReportsAccordianFlex table tr td{
+  width: 50%;
+}
+.teacherCentricReports .lastScore .scrollable-table table thead tr th:nth-child(1),
+.teacherCentricReports .lastScoreByItem .scrollable-table table tr th:nth-child(1),
+.teacherCentricReports .lastScoreByItem .scrollable-table table tr td:nth-child(1),
+.studentCentricReports .latestSession table tr td:nth-child(1),
+.studentCentricReports .allReportAttemptSect table tr th:nth-child(1),
+.studentCentricReports .allReportAttemptSect table tr td:nth-child(1),
+.studentCentricReports .studentCentricReportsAccordianFlex table tr td:nth-child(1){
+  text-align: left;
+}
+.teacherCentricReports .lastScore .scrollable-table table thead tr td,
+.teacherCentricReports .lastScoreByItem .scrollable-table table tr td,
+.studentCentricReports .latestSession table tr td,
+.studentCentricReports .allReportAttemptSect table tr td,
+.studentCentricReports .studentCentricReportsAccordianFlex table tr td{
+  font-weight: 500;
+}
+.teacherCentricReports .lastScore .scrollable-table table thead tr th,
+.teacherCentricReports .lastScore .scrollable-table table thead tr td,
+.teacherCentricReports .lastScoreByItem .scrollable-table table tr th,
+.teacherCentricReports .lastScoreByItem .scrollable-table table tr td,
+.studentCentricReports .latestSession table tr td,
+.studentCentricReports .allReportAttemptSect table tr td,
+.studentCentricReports .allReportAttemptSect table tr th,
+.studentCentricReports .studentCentricReportsAccordianFlex table tr td{
+  border: 1px solid #d9d9d9;
+  padding: 8px;
+  line-height: 1.428571429;
+  font-size: 13px;  
+}
+.teacherCentricReports .lastScore .scrollable-table table thead tr td{
+  min-width: 170px;
+}
+.teacherCentricReports .lastScoreByItem .scrollable-table table tr td:nth-child(1),
+.teacherCentricReports .lastScoreByItem .scrollable-table table tr td:nth-child(2){
+  min-width: 100px;
+}
+.teacherCentricReports .lastScoreByItem .scrollable-table table tr td{
+  min-width: 80px;
+}
+.teacherCentricReports .lastScore .scrollable-table table thead tr:nth-child(1) th,
+.teacherCentricReports .lastScore .scrollable-table table thead tr:nth-child(odd) td,
+.teacherCentricReports .lastScoreByItem .scrollable-table table tr:nth-child(1) th,
+.teacherCentricReports .lastScoreByItem .scrollable-table table tr:nth-child(odd) td,
+.studentCentricReports .latestSession table tr:nth-child(odd) td,
+.studentCentricReports .allReportAttemptSect table tr:nth-child(1) th,
+.studentCentricReports .allReportAttemptSect table tr:nth-child(even) td,
+.studentCentricReports .studentCentricReportsAccordianFlex table tr:nth-child(odd) td{
+  background-color: #f9f9f9;  
+}
+.teacherCentricReports .lastScore .scrollable-table,
+.teacherCentricReports .lastScoreByItem .scrollable-table,
+.studentCentricReports .allReportAttemptSect .scrollable-table{
+  overflow: auto;
+  max-height: 200px;
+}

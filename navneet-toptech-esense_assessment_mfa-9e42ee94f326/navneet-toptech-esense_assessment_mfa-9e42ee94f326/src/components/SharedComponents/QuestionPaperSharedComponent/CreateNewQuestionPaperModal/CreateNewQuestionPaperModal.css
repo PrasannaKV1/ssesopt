@@ -1,0 +1,39 @@
+.closeIconAlign {
+    width: 16px;
+    height: 16px;
+    margin-left: 680px;
+}
+.createNewPaperModalSect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #c4c4c44d;
+}
+.createNewPaperModalSect:last-child{
+    border: none;
+}
+.textHeader {
+    font-weight: 600;
+    font-size: 24px;
+}
+.content {
+    margin-top: 18;
+    text-align: center;
+    width: 248px;
+    height: 66px;
+}
+.createNewPaperModalSect button{
+    min-width: max-content !important;
+    /* padding: 20px 30px !important; */
+}
+.createNewPaperModalSect button svg{
+    font-size: 26px !important;
+}
+.verticalDivider {
+    opacity: 0.3;
+    border: 1px solid #C4C4C4;
+    height: 410px;
+    position: absolute;
+    left: 50%;
+}

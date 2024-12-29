@@ -1,0 +1,180 @@
+.replaceQuestionModal {
+    width: 1018px;
+    background: #FFFFFF;
+    border-radius: 14px;
+}
+
+.replaceQuestionsContent {
+    padding-top:25px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 100px;
+}
+
+.replaceQuestionsHeading {
+    width: 184px;
+    height: 24px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700 !important;
+    font-size: 20.16px !important;
+    line-height: 24px;
+    color: #000000;
+}
+
+.replaceQuestionsSubHeading {
+    width: 611px;
+    height: 24px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 16.8px !important;
+    line-height: 24px;
+    color: #9A9A9A;
+}
+
+.closeDeleteIcon {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    cursor: pointer;
+    padding-top: 10px;
+}
+
+.tableheaddata {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #9A9A9A;
+}
+
+.tableDataQuestion {
+    /* width: 463px; */
+    height: 38px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.tableDataCreatedBy{
+    width: 191px;
+    height: 38px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.tableFooter {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    height: 90px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+    border-radius: 0px 0px 14px 14px;
+    padding-right: 40px;
+
+}
+.selectMultiSubject .selectMultiFillType label.MuiFormLabel-filled + .MuiInputBase-root > .MuiSelect-select,
+.selectMultiChapter .selectMultiFillType label.MuiFormLabel-filled + .MuiInputBase-root > .MuiSelect-select{
+    padding-left: 75px;
+}
+.selectMultiTheme .selectMultiFillType label.MuiFormLabel-filled + .MuiInputBase-root > .MuiSelect-select{
+    padding-left: 65px;
+}
+.selectMultiTopic .selectMultiFillType label.MuiFormLabel-filled + .MuiInputBase-root > .MuiSelect-select{
+    padding-left: 55px;
+}
+.selectMultiQuestionType .selectMultiFillType label.MuiFormLabel-filled + .MuiInputBase-root > .MuiSelect-select{
+    padding-left: 115px;
+}
+.selectMultiCreatedBy .selectMultiFillType label.MuiFormLabel-filled + .MuiInputBase-root > .MuiSelect-select{
+    padding-left: 90px;
+}
+.replaceQuestionsContent .MuiTableContainer-root{
+    overflow-x: hidden;
+    max-height: 230px;
+}
+.replaceQuestionsContent .MuiTableContainer-root tr th:nth-child(2),.replaceQuestionsContent .MuiTableContainer-root tbody tr td:nth-child(2){
+    max-width: 440px;
+}
+.replaceQuestionsContent .MuiTableContainer-root tr th:nth-child(3),.replaceQuestionsContent .MuiTableContainer-root tbody tr td:nth-child(3){
+    max-width: 80px;
+    text-align: center;
+}
+.replaceQuestionsContent .MuiTableContainer-root .replacePreviewTtx svg{
+    font-size: 16px;
+}
+.selectMultiMarks .currAppDropFilter>.MuiFormControl-root button{
+    padding: 15px 14px !important;
+    max-width: none;
+    width: 100%;
+}
+.replaceSearchSect .w-70{
+    width: 70%;
+}
+.replaceSearchSect .w-30{
+    width: 30%;
+}
+.tableDataQuestion p {
+    margin-bottom: 0px;   
+   }
+.replaceQuestionListSect table tr th{
+    text-align: center;
+    color: #1B1C1E;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+    padding: 5px 5px;
+}
+.replaceQuestionListSect table tr td{
+    padding: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
+}
+.replaceQuestionListSect table, .replaceQuestionListSect table td, .replaceQuestionListSect table td th {
+    border: 1px solid #dedede;
+}
+.replaceQuestionListSect{
+    height: auto !important;
+}
+.replaceQuestionListSect > div > div{
+    overflow: auto;
+    height: 55px;
+    padding: 9px 30px 8px 0px;
+    float: left;
+}
+.replaceQuestionsContent .selectMultiTheme label.MuiFormLabel-filled+.MuiInputBase-root fieldset,.replaceQuestionsContent .selectMultiTheme label.MuiFormLabel-filled+.MuiInputBase-root:hover fieldset,
+.replaceQuestionsContent .selectMultiChapter label.MuiFormLabel-filled+.MuiInputBase-root fieldset,.replaceQuestionsContent .selectMultiChapter label.MuiFormLabel-filled+.MuiInputBase-root:hover fieldset{
+    height: 53px;
+    top: 0px;
+}
+.replaceSearchSect .inputFieldStylingSect > .MuiFormControl-root > .MuiInputBase-root::before{
+    content: url("../../../assets/images/SearchIcon.svg");
+    z-index: 9;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+  }
+  .replaceSearchSect .inputFieldStylingSect > .MuiFormControl-root > .MuiInputBase-root input{
+    padding-left: 45px;
+  }
+  .replaceSearchSect .inputFieldStylingSect label{
+    transform: translate(45px, 16px) scale(1);
+  }
+  .replaceSearchSect .inputFieldStylingSect label.Mui-focused,
+  .replaceSearchSect .inputFieldStylingSect label.MuiFormLabel-filled{
+    transform: translate(14px, -9px) scale(1);
+  }

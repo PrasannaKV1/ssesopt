@@ -1,0 +1,38 @@
+/* .table-question {
+    border-collapse: collapse;
+    border: 1px solid #e6e1e1;
+    border-radius: 10px;
+    table-layout: fixed;
+    width: 90%;
+  } */
+
+/* .teacherCentricReports > div{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    border: 2px solid #fcfbfb;
+    overflow: auto;
+}  */
+.status-dot {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 8px;
+  }
+  
+  .status-dot-1 {
+    background-color: green;
+  }
+  
+  .status-dot-2 {
+    background-color: red;
+  }
+  
+  .status-dot-8 {
+    background-color: grey;
+  }
+  .status-dot-9 {
+    background-color: yellow;
+  }
+    
+
+ 

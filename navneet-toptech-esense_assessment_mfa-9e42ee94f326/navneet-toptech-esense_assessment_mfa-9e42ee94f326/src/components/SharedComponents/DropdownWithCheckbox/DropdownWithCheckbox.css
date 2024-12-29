@@ -1,0 +1,9 @@
+.MuiMenu-paper ul.MuiList-root > li.dropDownWithExpanField{
+    padding-right: 0px !important;
+}
+.MuiMenu-paper ul.MuiList-root > li.dropDownWithExpanField > .MuiFormControlLabel-root{
+    width: 100%;
+}
+.MuiMenu-paper ul.MuiList-root > li.dropDownWithExpanField > .MuiFormControlLabel-root label{
+    width: 100%;
+}

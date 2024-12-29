@@ -1,0 +1,56 @@
+.questionPaperAdminTabContain{
+    padding: 20px;
+}
+
+.questionPaperAdminTabContain .quesPapAdminHeader{
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.inputFieldStylingSect  .MuiFormControl-root .MuiInputBase-root {
+    width: 221px;
+    background-color:  #FFFFFF;
+}
+
+.selectInputStyling .MuiFormControl-root .MuiInputBase-root {
+    background-color:  #FFFFFF;
+}
+
+.iconStyle{
+    color: var(--grey);
+    width: 18px;
+}
+
+.questionPaperAdminTabContain table thead tbody tr td svg{
+    color: var(--grey);
+    width: 18px;
+    margin-left: 20px;
+}
+
+.adminquesPapTableSect{
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    padding-top:16px;
+    padding-left: 10px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.createdByStyling{
+    background: #EFEFEF;
+    padding: 0px 9px;
+    border-radius: 1000px;
+}
+
+.adminquesPapTableSect .MuiTablequestionPaperTabContain-root table thead tr th,
+.adminquesPapTableSect .MuiTablequestionPaperTabContain-root table tbody tr td{
+    padding:  15px 15px;
+}
+
+.adminQuePapInputField .inputFieldStyling fieldset, .inputFieldStyling .MuiOutlinedInput-root:hover fieldset{
+    background-color: white !important;
+}
+
+.adminQuePapInputField .inputFieldStylingSect label{
+    font-size: 14px;
+}

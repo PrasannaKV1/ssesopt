@@ -1,0 +1,146 @@
+.matchFollTextEditor .ql-toolbar > span:nth-child(1){
+    width: 100%;
+}
+.matchFollTextEditor .ql-toolbar > span:nth-child(1) > span{
+    min-width: 150px;
+    margin-left: 80px;
+}
+.matchFollTextEditor .ql-toolbar > span:nth-child(2){
+    width: 100%;
+    margin-top: 5px;
+}
+.matchFollTextEditor .ql-toolbar > span:nth-child(2) > span{
+    min-width: 150px;
+    margin-left: 80px;
+}
+.matchFollTextEditor .ql-toolbar > span:nth-child(1) .ql-picker-label:hover{
+    color: var(--textBlack2);
+}
+.matchFollTextEditor .ql-toolbar > span:nth-child(1) .ql-font::before{
+    content: "Language:";
+    position: absolute;
+    left: -80px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #1B1C1E;
+    top: 3px;
+}
+/* .matchFollTextEditor .ql-toolbar > span:nth-child(2) .ql-header::before{
+    content: "Font Type:";
+    position: absolute;
+    left: -80px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #1B1C1E;
+    top: 3px;
+} */
+.matchBtnDrop{
+    position: relative;
+}
+.matchBtnDrop > button,
+.matchBtnDrop > button:hover{
+    padding-right: 24px !important;
+    position: relative;
+}
+.matchBtnDrop > button::before{
+    content: "";
+    width: 7px;
+    height: 5px;
+    background-image: url(../../../../assets/images/caret-down.png);
+    position: absolute;
+    right: 10px;
+}
+.matchBtnDropList{
+    border: 1px solid #DEDEDE;
+    box-shadow: 0px 2.85981px 15.729px rgb(0 0 0 / 12%);
+    border-radius: 6px;
+    position: absolute;
+    width: 100%;
+    padding: 0px 0px;
+    z-index: 9;
+    background: #fff;
+}
+.matchBtnDropList ul{
+    margin: 0px;
+    list-style: none;
+    padding: 0px 0px;
+}
+.matchBtnDropList ul li{
+    padding: 15px 25px 15px 25px;
+    color: #1B1C1E;
+    cursor: pointer;
+}
+.matchBtnDropList ul li:hover{
+    background: #f4f6f9;
+}
+.gridview-two{
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+}
+.gridview-two .matchGridWidth{
+    width: 50%
+}
+.gridview-three{
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.gridview-three .matchGridWidth{
+    width: calc(100% / 3)
+}
+/* .gridview-three div{
+    margin-right: 5px;
+    margin-left: 5px;
+} */
+/* .gridview-two div{
+    margin-left: 5px;
+    margin-right: 5px;
+} */
+.matchSelectDropField {
+    margin: 0px !important;
+}
+.matchSelectDropField label,
+.matchSelectDropField label.Mui-focused{
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000;
+    transform: translate(40px, 10px) scale(1);
+}
+.matchSelectDropField label + .MuiInputBase-root .MuiSelect-select{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 40px;
+}
+.matchSelectDropField.matchBtnDropDisable label + .MuiInputBase-root fieldset{
+    border: none !important;
+}
+.matchSelectDropField label + .MuiInputBase-root fieldset,
+.matchSelectDropField label + .MuiInputBase-root:hover fieldset,
+.matchSelectDropField label + .MuiInputBase-root.Mui-focused fieldset{
+    border: 2px solid #01B58A;
+    border-radius: 6px;
+}
+.matchSelectDropField label + .MuiInputBase-root svg{
+    font-size: 18px;
+    top: calc(56% - 0.5em);
+}
+.matchSelectDropField > svg{
+    position: absolute;
+    top: 4px;
+    width: 24px;
+    left: 10px;
+}
+.matchBtnDropDisable{
+    pointer-events: none;
+    opacity: 0.5;
+}
+.mtfUndoRedoSect button.disableWrapper{
+    border-width: 0px !important;
+}
+.matchFollTextEditor .text-editor-component .quill .ql-container .ql-editor p:first-child{
+    display: inline-block !important;
+}

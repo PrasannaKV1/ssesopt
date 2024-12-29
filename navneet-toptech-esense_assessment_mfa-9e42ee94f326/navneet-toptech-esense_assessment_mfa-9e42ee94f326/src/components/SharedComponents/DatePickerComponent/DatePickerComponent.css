@@ -1,0 +1,40 @@
+.datePickerComponentstyling{
+  display: flex;
+  gap: 10px;
+}
+.datePickerComponentstyling p{
+  font-weight: 300;
+  font-size: 16px;
+  color: var(--black);
+  margin-top: 5px;
+}
+
+.datePickerComponentstyling .MuiFormControl-root .MuiInputBase-root{
+  height: 35px;
+  width: 155px;
+  background-color:var(--white);
+  border: 1px solid #DEDEDE;
+  border-radius: 8px;
+  padding:9px,15px, 9px, 15px;
+}
+.datePickerComponentstyling fieldset, .datePickerComponentstyling .MuiFormControl-root .MuiOutlinedInput-root:hover fieldset{
+  border: none;
+}
+.datePickerComponentstyling .MuiOutlinedInput-root.Mui-focused fieldset{
+  background-color: transparent;
+  border: 1px solid var(--green) !important;
+}
+.datePickerComponentstyling .MuiFormControl-root .MuiInputBase-root input{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: var(--gray);
+}
+.datePickerComponentstyling .MuiFormControl-root .MuiInputBase-root input::placeholder{
+  font-size: 14px;
+}
+.datePickerComponentstyling .MuiTextField-root .MuiInputBase-root .MuiInputAdornment-root button svg{
+  height: 18px;
+  color: var(--gray) !important;
+  opacity: 50%;
+}

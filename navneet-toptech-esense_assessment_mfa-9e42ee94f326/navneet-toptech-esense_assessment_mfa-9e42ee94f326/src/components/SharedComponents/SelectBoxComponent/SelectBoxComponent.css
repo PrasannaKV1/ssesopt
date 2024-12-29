@@ -1,0 +1,207 @@
+.MuiMenu-paper ul.MuiList-root li{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 10px;
+    display: flex;
+    gap: 8px;
+}
+
+.selectFillType svg {
+    /* background-color: #c8c3c3; */
+    border-radius: 5px;
+}
+.MuiMenu-paper ul.MuiList-root{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    max-height: 260px;
+    display: inline-grid;
+    width: 100%;
+    padding: 0px;
+}
+.MuiMenu-paper ul.MuiList-root li .MuiListItemIcon-root > .MuiCheckbox-root{
+    padding-left: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.MuiMenu-paper ul.MuiList-root li .MuiListItemIcon-root > .MuiCheckbox-root svg,
+.MuiMenu-paper ul.MuiList-root li > label > .MuiCheckbox-root svg{
+    width: 22px;
+    color: #9A9A9A;
+}
+.MuiMenu-paper ul.MuiList-root li .MuiListItemIcon-root > .MuiCheckbox-root.Mui-checked svg,
+.MuiMenu-paper ul.MuiList-root li > label > .MuiCheckbox-root.Mui-checked svg{
+    color: var(--green);
+}
+.MuiMenu-paper ul.MuiList-root li .MuiListItemText-root > .MuiTypography-root,
+.MuiMenu-paper ul.MuiList-root li > label > .MuiTypography-root{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+}
+.MuiMenu-paper ul.MuiList-root li > label{
+    width: 100%;
+}
+.MuiMenu-paper ul.MuiList-root li > label > .MuiCheckbox-root{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.MuiMenu-paper ul.MuiList-root li .MuiListItemIcon-root{
+    min-width: 30px;
+}
+.MuiMenu-paper ul.MuiList-root > div[role="option"].dropDownWithExpanField li{
+    padding-left: 6px;
+}
+/* .MuiMenu-paper ul.MuiList-root > div[role="option"].dropDownWithExpanField li > .MuiCheckbox-root{
+    padding-left: 0px;
+} */
+.MuiMenu-paper ul.MuiList-root > div[role="option"].dropDownWithExpanField li > .MuiCheckbox-root svg{
+    width: 22px;
+    color: #9A9A9A;
+}
+.MuiMenu-paper ul.MuiList-root > div[role="option"].dropDownWithExpanField li > .MuiCheckbox-root.Mui-checked svg,
+.MuiMenu-paper ul.MuiList-root > div[role="option"].dropDownWithExpanField li > .MuiCheckbox-root.MuiCheckbox-indeterminate svg{
+    color: var(--green);
+}
+.MuiMenu-paper ul.MuiList-root > div[role="option"].dropDownWithExpanField li .MuiListItemText-root > .MuiTypography-root{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+}
+.MuiMenu-paper ul.MuiList-root > div[role="option"].dropDownWithExpanField li .MuiCheckbox-root{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.MuiMenu-paper ul.MuiList-root > div[role="option"].dropDownWithExpanField {
+    border-bottom: 1px solid #DEDEDE;
+}
+.MuiMenu-paper ul.MuiList-root > div[role="option"].dropDownWithExpanField li:first-child > .MuiListItemIcon-root svg{
+    width: 20px;
+}
+.MuiMenu-paper ul.MuiList-root > li.dropDownWithExpanField{
+    min-height: 42px;
+    border-bottom: 1px solid #DEDEDE;
+}
+.MuiMenu-paper ul.MuiList-root > li.dropDownWithExpanField:nth-last-child(1){
+    border: none;
+}
+.MuiMenu-paper ul.MuiList-root > li.dropDownWithExpanField > .MuiListItemIcon-root > .MuiCheckbox-root{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.MuiMenu-paper ul.MuiList-root > div[role="option"].dropDownWithExpanField:nth-last-child(1){
+    border: none;
+}
+.MuiMenu-paper ul.MuiList-root > div[role="option"].dropDownWithExpanField li:nth-child(1) .MuiListItemText-root > .MuiTypography-root{
+    font-weight: 700;
+}
+.SectionMenuForStdList .MuiPaper-root{
+    box-shadow: 0px 4px 22px 0px #0000001F !important;
+}
+
+/*Aman - workbook-css  */
+.line-item {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    font-size: 14px;
+    padding: 4px 8px;
+}
+.line-single {
+    height: 2px;
+    width: 100px; 
+    background-color: black;
+}
+.line-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.line-2 div {
+    height: 2px;
+    width: 100px;
+    background-color: black;
+}
+
+.line-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.line-3 .red-line {
+    height: 1px;
+    width: 100px;
+    background-color: #DA1414;
+}
+
+.line-3 .blue-line {
+    height: 1px;
+    width: 100px;
+    background-color: #385DDF;
+}
+.line-4 {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.line-4 .red-line {
+    height: 1px;
+    width: 100px;
+    background-color: #DA1414;
+}
+
+.line-4 .blue-line {
+    height: 1px;
+    width: 100px;
+    background-color: #385DDF;
+}
+
+.rectangle {
+    width: 120px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: transparent;
+}
+.box-group {
+    display: flex;
+}
+
+.box-group div {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: transparent;
+}
+.blank {
+    display: flex;
+    gap: 50px;
+}
+
+.blank div {
+    font-weight: bold;
+}
+.line-5 {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.line-5 .red-line {
+    height: 1px;
+    width: 100px;
+    background-color: #DA1414;
+}
+
+.line-5 .blue-line {
+    height: 1px;
+    width: 100px;
+    background-color: #385DDF;
+}
+
+.line-5 .dotted-line {
+    height: 1px;
+    width: 100px;
+    border-bottom: 1px dotted black;
+    background-color: transparent;
+}

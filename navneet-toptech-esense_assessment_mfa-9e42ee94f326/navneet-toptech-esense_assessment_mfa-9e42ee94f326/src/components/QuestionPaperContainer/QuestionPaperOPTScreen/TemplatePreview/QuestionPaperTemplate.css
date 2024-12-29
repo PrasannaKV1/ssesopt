@@ -1,0 +1,661 @@
+.questionTemplatePreviewSect{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 15px;
+}
+.questionTemplatePreviewSect .logoSection{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.questionTemplatePreviewSect .logoSection h1{
+    font-weight: 600;
+    font-size: 26px !important;
+    line-height: 36px;
+    margin: 0px;
+}
+.questionTemplatePreviewSect .logoSection h2{
+    font-weight: 600;
+    font-size: 22px !important;
+    line-height: 30px;
+    margin: 0px;
+}
+.questionTemplatePreviewSect .logoSection .dateSectionText{
+    display: none;
+}
+.questionTemplatePreviewSect .examNameSection{
+    /* margin-top: 30px;
+    margin-bottom: 15px; */
+}
+.questionTemplatePreviewSect .examNameSection h1{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 12px;
+    margin: 0px;
+    text-decoration: underline;
+}
+.questionTemplatePreviewSect .subjectSection{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.questionTemplatePreviewSect .subjectSection h1{
+    font-weight: 500;
+    font-size: 18px !important;
+    line-height: 27px;
+    display: flex;
+}
+.questionTemplatePreviewSect .studentNameSection{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    gap: 30px;
+    /* margin-top: 10px; */
+}
+.questionTemplatePreviewSect .studentNameSection > .studentNameSectionSect{
+    display: flex;
+    grid-gap: 5px;
+    gap: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 10px;
+    width: 100%;
+    align-items: center;
+}
+.questionTemplatePreviewSect .studentNameSection > div span:first-child{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+.questionTemplatePreviewSect .studentNameSection > .studentNameSectionSect .fieldNameBlank {
+    flex: 1 1;
+    border-bottom: 1px solid #000;
+    padding-top: 10px;
+}
+.questionTemplatePreviewSect .instructionsSection span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.questionTemplatePreviewSect .instructionsSection .instructionsSectionText{
+    padding: 10px;
+    border: 1px solid #000;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    white-space: break-spaces;
+    word-break: break-all;
+}
+.questionTemplatePreviewSect .instructionsSection .instructionsSectionText p{
+    /* line-height: 16px; */
+    margin: 0px;
+}
+.instructionsSection .instructionsSectionText ul{
+    list-style-type: unset;
+}
+.questionTemplatePreviewSect .instructionsSection .instructionsSectionText ol li[data-list="bullet"]{
+    list-style: disc;
+}
+.questionTemplatePreviewSect .instructionsSection .instructionsSectionText ol li .ql-ui{
+    display: none;
+}
+.previewTemplateBodySect .partTitle{
+    font-weight: 500;
+    /* font-size: 18px !important; */
+    line-height: 27px;
+    /* text-align: center; */
+    margin-bottom: 15px;
+}
+.previewTemplateBodySect .sectionTitle{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.previewTemplateBodySect .questionSectList div span{
+    color: #000;
+    padding-right: 5px;
+}
+.previewTemplateBodySect .questionSectList > span,
+.previewTemplateBodySect .questionSectList > p > span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+.previewTemplateBodySect .questionSectList .ql-formula span.katex > .katex-mathml{
+    display: none;
+}
+.previewTemplateBodySect .questionSectList div {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #9A9A9A;
+    padding-left: 40px;
+}
+.previewTemplateBodySect .questionSectList p{
+    margin: 0px;
+}
+.previewTemplateBodySect{
+    border-top: 1px solid #000;
+    /* margin-top: 15px; */
+    padding-top: 20px;
+}
+.previewTemplateOrCase{
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.defaultLogo{
+    background: #D8D8D8;
+    padding: 5px;
+    color: #9A9A9A;
+    white-space: initial;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 60px;
+    height: 50px;
+    font-size: 13px;
+}
+.questionTemplatePreviewSect .previewSubjectElem{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    height: 26px;
+    max-width: 400px;
+}
+.mainQuestionBlk{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.mainQuestionBlk .mainQuestionListSect h1{
+    font-weight: 400;
+    font-size: 16px !important;
+    line-height: 22px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+}
+.subQuestionCompreBlk{
+    padding-left: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 15px;
+}
+.subQuestionBlk .subQuestionListSect h1 p,.subQuestionBlk .subQuestionListSect h1,.subQuestionCompreBlk h1 p{
+    font-weight: 400;
+    font-size: 16px !important;
+    line-height: 22px;
+    margin-bottom: 0px;
+}
+.mainQuestionBlk .mainQuestionListSect,.subQuestionBlk .subQuestionListSect{
+    display: flex;
+    align-items: start;
+    gap: 5px;
+}
+.subQuestionBlk{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+.printForPreviewEditEnable .subQuestionCompreBlk{
+    align-items: start;
+}
+.printForPreviewEditEnable .subQuestionCompreBlk .d-flex{
+    width: calc(100% - 90px);
+}
+.printForPreviewEditEnable .subQuestionCompreMarkBlk{
+    width: 90px;
+}
+.printForPreviewEditEnable .subQuestionCompreMarkBlk p{
+    margin: 0px;
+}
+.printForPreviewEditEnable .subQuestionCompreMarkBlk .sequenceTextEdit span{
+    width: 40px;
+    left: 13px;
+}
+.mainQuestionListMarkSect button,
+.subQuestionListMarkSect button,
+.subQuestionCompreMarkBlk button{
+    background: #FFFFFF;
+    border: 1px solid #01B58A;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    min-width: 122px;
+    padding: 2px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainQuestionListMarkSect,.subQuestionListMarkSect,.subQuestionCompreMarkBlk{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.mainQuestionListMarkSect svg,.subQuestionListMarkSect svg,.subQuestionCompreMarkBlk svg{
+    background: #f9f1ff;
+    border-radius: 30px;
+    color: #BE6AF6;
+    padding: 3px;
+    transform: rotate(88deg);
+    width: 20px;
+    height: 20px;
+}
+.subQuestionLisOption{
+    list-style: lower-alpha;
+    padding-left: 90px;
+    line-height: 18px;
+}
+.subQuestionLisOption li{
+    align-items: center;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+.subQuestionLisOption li span{
+    width: 20px;
+    height: 20px;
+    /* border: 1px solid black; */
+}
+.subQuestionLisOption li p{
+    margin: 0px;
+    word-break: break-all;
+}
+.matchFollowingTable table tr th,.subQuestionListSect table tr th {
+    text-align: left;
+    color: #1B1C1E;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    padding: 5px 5px;
+}
+.matchFollowingTable table tr td,.subQuestionListSect table tr td {
+    padding: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+}
+.matchFollowingTable table, .matchFollowingTable table td, .matchFollowingTable table td th,
+.subQuestionListSect table, .subQuestionListSect table td, .subQuestionListSect table td th {
+    border: 1px solid #DEDEDE;
+}
+.subQuestionListSect table tr td{
+    font-size: 14px;
+}
+.matchFollowingTable {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;  
+    padding-left: 80px;
+    margin-bottom: 15px;
+    padding-right: 70px;
+    width:100%;
+}
+.matchFollowingTable table,
+.subQuestionListSect table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.matchFollowingTable tr td img{
+    width: 100%;
+    max-height: 181px;
+}
+.logo-center{
+    display: flex;
+    justify-content: center;
+}
+.logo-start{
+    display: flex;
+    justify-content:left;
+}
+.logo-end{
+    display: flex;
+    justify-content:right;
+}
+.mainQuestionListMarkSect button, .subQuestionListMarkSect button, .subQuestionCompreMarkBlk button {
+    margin-top: -15px;
+    background: #FFFFFF;
+    border: 1px solid #01B58A;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    min-width: 122px;
+    padding: 2px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainQuestionListMarkSect svg, .subQuestionListMarkSect svg, .subQuestionCompreMarkBlk svg {
+    background: #f9f1ff;
+    border-radius: 30px;
+    color: #BE6AF6;
+    padding: 3px;
+    transform: rotate(88deg);
+    width: 20px;
+    height: 20px;
+}
+.subQuestionCompreBlkOptions{
+    list-style: lower-alpha;
+    padding-left: 120px;
+    line-height: 10px;
+}
+.templateArialFont h1,.templateArialFont h2,.templateArialFont span,.templateArialFont div,.templateArialFont p,.templateArialFont p strong, .templateArialFont td,.templateArialFont td strong{
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+.templateTimesNewRoamnFont h1,.templateTimesNewRoamnFont h2,.templateTimesNewRoamnFont span,.templateTimesNewRoamnFont div,.templateTimesNewRoamnFont p,.templateTimesNewRoamnFont p strong, .templateTimesNewRoamnFont td, .templateTimesNewRoamnFont td strong{
+    font-family: "Times New Roman", Times, serif !important;
+}
+.templateVerdanaFont h1,.templateVerdanaFont h2,.templateVerdanaFont span,.templateVerdanaFont div,.templateVerdanaFont p,.templateVerdanaFont p strong, .templateVerdanaFont td,.templateVerdanaFont td strong{
+    font-family: Verdana, Geneva, sans-serif !important;
+}
+.matchFollowingTable table tr td p img{
+    max-height: 181px;
+    width: fit-content;
+    max-width: 100%;
+    margin: 0 auto;
+} 
+.templateHelveticaFont h1,.templateHelveticaFont h2,.templateHelveticaFont span,.templateHelveticaFont div,.templateHelveticaFont p, .templateHelveticaFont p strong,.templateHelveticaFont td,.templateHelveticaFont td strong{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+.qsnPaperModelChildScroll .questionTemplatePreviewSect p span.ql-font-English{
+    font-family: "Times New Roman", Times, serif !important;
+}
+.qsnPaperModelChildScroll .questionTemplatePreviewSect p span.ql-font-Marathi{
+    font-family: 'Tiro Devanagari Marathi', serif !important;
+}
+.qsnPaperModelChildScroll .questionTemplatePreviewSect p span.ql-font-Hindi{
+    font-family: 'Tiro Devanagari Hindi', serif !important;
+}
+.sequenceTextEdit {
+    border: 1px solid #DEDEDE;
+    padding: 16px 0px 16px 0px;
+    border-radius: 8px;
+    margin-top: -4px;
+    position: relative;
+    width: 68px;
+    text-align: center;
+}
+.sequenceTextEdit.marksError{
+    border-color: red !important;
+    background-color: #fffbfb
+}
+.sequenceTextEdit.marksError span,.subQuestionCompreMarkBlk.marksError label{
+    color: red !important;
+}
+.subQuestionCompreMarkBlk.marksError fieldset,
+.subQuestionCompreMarkBlk.marksError .MuiInputBase-root.Mui-focused fieldset{
+    border-color: red !important;
+    border-width: 1px !important;
+}
+.sequenceTextEdit.mqText span{
+    width: 25px;
+    height: 18px;
+}
+.sequenceTextEdit > span{
+    position: absolute;
+    top: -10px;
+    background: #ffffff;
+    width: 20px;
+    height: 17px;
+    text-align: center;
+    font-size: 12px;
+    left: 22px;
+    color: #1B1C1E4D;
+}
+.subQuestionListMarkSect .sequenceTextEdit span,
+.mainQuestionListMarkSect .sequenceTextEdit span{
+    width: 40px;
+    height: 17px;
+    left: 14px;
+}
+.previewTemplateBodySect .subQuestionBlk .subQuestionListSect{
+    gap: 10px;
+    width: calc(100% - 90px);
+}
+.previewTemplateBodySect .subQuestionBlk .subQuestionListSect .questionSectList{
+    width: 100%;
+}
+/* .previewTemplateBodySect .subQuestionBlk .subQuestionListSect .questionSectList > p{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+} */
+.previewTemplateBodySect .subQuestionBlk .subQuestionListSect .questionSectList > p img{
+    max-height: 181px;
+    width: fit-content;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0px 10px 0px 0px;
+}
+.headerValue .sch_logo_selected_cls {
+    background: #d8d8d8;
+    padding: 5px;
+    color: #9a9a9a;
+    white-space: normal;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 60px;
+    height: 50px;
+    font-size: 13px!important;
+    font-weight: 400;
+}
+.InstructionsSectionBlock textarea{
+    background-color: #f5f8fa;
+    border-color: #f5f8fa;
+    color: #5e6278;
+    transition: color 0.2s ease, background-color 0.2s ease;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    min-height: calc(1.5em + 1.65rem + 2px);
+    box-shadow: none !important;
+}
+.headerLogoImg img{
+    max-width: 123px;
+    max-height: 123px;
+    min-height: 123px;
+    min-width: 123px;
+}
+.quePapPreviewforPrintPreview .ql-font-Hindi{
+    font-family: 'Tiro Devanagari Hindi', serif !important;
+}
+.dateSectionText{
+    text-align: center;
+}
+.dateSectionText p{
+    margin: 0px;
+    text-decoration: underline;
+}
+.subQuestionCompreBlk .d-flex{
+    width: calc(100% - 100px);
+}
+.subQuestionCompreBlk .d-flex p.questionSectList{
+    width: 100%;
+}
+.subQuestionCompreBlk .d-flex img,ul.subQuestionCompreBlkOptions img,ul.subQuestionLisOption img{
+    max-height: 181px;
+    margin: 0 auto;
+    width: fit-content;
+    max-width: 100%;
+}
+.previewTemplateBodySect .subQuestionCompreBlk .subQuestionCompreBlkSquence{
+    width: 30px;
+}
+.previewTemplateBodySect .subQuestionCompreBlk .subQuestionCompreBlkSquence p{
+    margin: 0px;
+}
+.dateSectionText{
+    display: none;
+}
+.qpPreviewforPrintPrev .red-text {
+    color: red !important;
+  }
+  .squenTextHtml,.squenTextHtml p{
+    margin: 0px;
+  }
+  .solutionSection{
+    padding-left: 74px;
+    margin-bottom: 20px;
+  }
+  .solutionSection p{
+    margin: 0px;
+  }
+  .solutionSection .solutionSectionBlk{
+    display: flex;
+    gap: 10px;    
+    border: 1px solid #000;
+    padding: 5px;
+  }
+  .solutionSection .solutionSectionBlk img{
+    max-height: 181px;
+    width: fit-content;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .solutionSection .solutionSectionBlk .Title{
+    font-weight: 600;
+  }
+  .pTagDangerous,.pTagDangerous p{
+    margin: 0px;
+  }
+  body .printForPreviewEditEnable .previewTemplateBodySect .subQuestionBlk .sequenceTextEdit.sequenceMarkEdit,
+  body .printForPreviewEditEnable .previewTemplateBodySect .mainQuestionBlk .sequenceTextEdit.sequenceMarkEdit{
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+  }
+  body .printForPreviewEditEnable .previewTemplateBodySect .subQuestionBlk .sequenceTextEdit.sequenceMarkEdit input,
+  body .printForPreviewEditEnable .previewTemplateBodySect .mainQuestionBlk .sequenceTextEdit.sequenceMarkEdit input{
+    padding: 0px;
+    text-align: center;
+  }
+  body .printForPreviewEditEnable .previewTemplateBodySect .subQuestionBlk .sequenceTextEdit.sequenceMarkEdit fieldset,
+  body .printForPreviewEditEnable .previewTemplateBodySect .mainQuestionBlk .sequenceTextEdit.sequenceMarkEdit fieldset{
+    border:none;
+  }
+  .MTFSolutionSect{
+    padding-right: 5px;
+    padding-left: 57px;
+  }
+  .MTFSolutionSect table, .MTFSolutionSect td, .MTFSolutionSect th {
+    border: 1px solid;
+    border-color: #DEDEDE;
+  }
+  .MTFSolutionSect .solutionSectionBlk{
+    /* border: none !important; */
+    flex-direction: column;
+  }
+  .MTFSolutionSect .solutionSectionBlk p{
+    padding: 5px;
+  }
+  .MTFSolutionSect table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  /* .MCQSolutionSect .solutionSectionBlk{
+    flex-direction: column;
+  } */
+  .MCQSolutionSect .solutionSectionBlk .subQuestionLisOption{
+    padding-left: 20px;
+  }
+  .subQuestionCompreBlkOptions + .solutionSection,
+  .subQuestionCompreBlkMft + .solutionSection {    
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .MTFSolutionSect img{
+    width: 100%;
+  }
+  .FIBSolutionSect li{
+    list-style: disc;
+  }
+  .subQuestionLisOptionMCQ li.mcqWrong{
+    margin: 0px;
+    height: 0px;
+    line-height: 0px;
+    overflow: hidden;
+  }
+  .headerTextTimeBlk{    
+    color: #385ddf;
+    padding-left: 5px;
+}
+.questionTemplatePreviewSect .subjectSection .previewSubjectElem{
+    width: calc(100% - 250px);
+    text-align: center;
+}
+.editMarkBlk .MuiFormControl-root .MuiInputBase-root fieldset,
+.editMarkBlk .MuiFormControl-root .MuiInputBase-root.Mui-focused fieldset{
+    border-color: #DEDEDE;
+    border-radius: 10px;
+}
+.editMarkBlk .MuiFormControl-root label.Mui-focused{
+    color: #0009
+}
+.previewTemplateBodySect  .swquence p {
+    margin: 0px;
+}
+.subjectSection h1:nth-child(1){
+    text-align: left;
+    display: block;
+}
+.subjectSection h1:nth-child(3){
+    text-align: right;
+    display: block;
+}
+.subjectSection h1:nth-child(2).previewSubjectElem{
+    display: block;
+    text-align: center;
+}
+.subjectSection h1:nth-child(1).previewSubjectElem{
+    display: block;
+    text-align: left;
+}
+.subjectSection h1:nth-child(3).previewSubjectElem{
+    display: block;
+    text-align: right;
+}
+.subjectSection h1{
+    width: calc(100% / 3);
+}
+
+.subQuestionBlk .subQuestionListSect .questionSectList p span.codeCogsEditor img{
+    /* height: 30px !important; */
+}
+@media print{
+    .subjectSection h1{
+        width: calc(100% - 250px);
+    }
+}
+.seq,
+.qsnData {
+    display: inline-block !important;
+    margin-right: 200px;
+}
+
+.partData {
+    display: inline !important;
+}
+
+.mainQuestionListSect {
+    display: block !important;
+}

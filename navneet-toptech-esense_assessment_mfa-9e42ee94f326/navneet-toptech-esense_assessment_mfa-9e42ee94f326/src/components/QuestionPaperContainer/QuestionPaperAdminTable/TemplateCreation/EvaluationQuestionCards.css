@@ -1,0 +1,96 @@
+.assessment-questions .card-container {
+    margin-top: 15px;
+    width: calc(100% - 10px);
+    height: 170px;
+    padding: 20px 20px 20px 20px;
+    gap: 14px;
+    border-radius: 16px;
+    border: 1px 0px 0px 0px;
+    background-color: #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.assessment-questions[data-active='true']::after{
+    content: '' !important;
+    height: 20px;
+    width: 20px;
+    transform: rotate(45deg);
+    position: absolute !important;
+    right: 4px;
+    background-color: white;
+    top: calc(50% - 10px);
+}
+
+.assessment-questions .card-container .card-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.assessment-questions .card-container .card-title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    color: #1B1C1E;
+}
+
+.assessment-questions .card-container .card-body{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-body .small-text {
+    font-size: 14px;
+}
+
+.assessment-questions .card-container .card-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-footer .small-text {
+    display: flex;
+    align-items: center;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+
+.assessment-questions .card-help-text {
+    color: #9A9A9A;
+    font-weight: 400;
+    font-size: 11px;
+}
+
+.btn-eval-eye {
+    border: none;
+}
+
+.assessment-questions .card-container .card-grade{
+    display: flex;
+    gap: 20px;
+}
+
+.clamped-text {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 140px;
+    width: auto; 
+    white-space: nowrap;  
+}
+@media screen and (max-width:500px){
+    .assessment-questions .card-container  {
+        width: 100% !important;
+ } 
+ .assessment-questions[data-active='true']::after{
+    display: none !important;
+}
+}
+
+

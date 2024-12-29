@@ -1,0 +1,668 @@
+.questionTemplatePreviewSect{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 15px;
+}
+.questionTemplatePreviewSect .logoSection{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.questionTemplatePreviewSect .logoSection h1{
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 36px;
+    margin: 0px;
+}
+.questionTemplatePreviewSect .logoSection h2{
+    font-weight: 600;
+    font-size: 22px !important;
+    line-height: 30px;
+    margin: 0px;
+}
+.questionTemplatePreviewSect .logoSection .dateSectionText{
+    display: none;
+}
+.questionTemplatePreviewSect .examNameSection{
+    /* margin-top: 30px;
+    margin-bottom: 15px; */
+}
+.questionTemplatePreviewSect .examNameSection h1{
+    font-weight: 500;
+    font-size: 20px !important;
+    line-height: 12px;
+    margin: 0px 35px 0px 0px;
+    text-decoration: underline;
+    text-align: center !important;
+}
+.questionTemplatePreviewSect .subjectSection{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.questionTemplatePreviewSect .subjectSection h1{
+    font-weight: 500;
+    font-size: 20px !important;
+    line-height: 27px;
+}
+.questionTemplatePreviewSect .studentNameSection{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    gap: 30px;
+    /* margin-top: 10px; */
+}
+.questionTemplatePreviewSect .studentNameSection > .studentNameSectionSect{
+    display: flex;
+    grid-gap: 5px;
+    gap: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 10px;
+    width: 100%;
+    align-items: center;
+}
+.questionTemplatePreviewSect .studentNameSection > div span:first-child{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+.questionTemplatePreviewSect .studentNameSection > .studentNameSectionSect .fieldNameBlank {
+    flex: 1 1;
+    border-bottom: 1px solid #000;
+    padding-top: 10px;
+}
+.questionTemplatePreviewSect .instructionsSection > span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.questionTemplatePreviewSect .instructionsSection .instructionsSectionText{
+    padding: 10px;
+    border: 1px solid #000;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    white-space: break-spaces;
+    word-break: break-all;
+}
+.questionTemplatePreviewSect .instructionsSection .instructionsSectionText p{
+    /* line-height: 16px; */
+    margin: 0px;
+    display: flex !important;
+}
+.questionTemplatePreviewSect .instructionsSection .instructionsSectionText ol li[data-list="bullet"]{
+    list-style: disc;
+}
+.questionTemplatePreviewSect .instructionsSection .instructionsSectionText ol li .ql-ui{
+    display: none;
+}
+.instructionsSection .instructionsSectionText ul{
+    list-style-type: unset;
+}
+.previewTemplateBodySect .partTitle{
+    font-weight: 500;
+    /* font-size: 18px !important; */
+    line-height: 27px;
+    /* text-align: center; */
+    margin-bottom: 15px;
+}
+.previewTemplateBodySect .sectionTitle{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.previewTemplateBodySect .questionSectList div span{
+    color: #000;
+    padding-right: 5px;
+}
+.previewTemplateBodySect .questionSectList > span,
+.previewTemplateBodySect .questionSectList > p > span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+.previewTemplateBodySect .questionSectList .ql-formula span.katex > .katex-mathml{
+    display: none;
+}
+.previewTemplateBodySect .questionSectList div {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #9A9A9A;
+    padding-left: 40px;
+}
+.previewTemplateBodySect .questionSectList p{
+    margin: 0px;
+}
+.previewTemplateBodySect{
+    border-top: 1px solid #000;
+    /* margin-top: 15px; */
+    padding-top: 20px;
+}
+.previewTemplateOrCase{
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.defaultLogo{
+    background: #D8D8D8;
+    padding: 5px;
+    color: #9A9A9A;
+    white-space: initial;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 60px;
+    height: 50px;
+    font-size: 13px;
+}
+.questionTemplatePreviewSect .previewSubjectElem{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    height: 26px;
+    max-width: 400px;
+}
+.mainQuestionBlk{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.mainQuestionBlk .mainQuestionListSect h1{
+    font-weight: 400;
+    font-size: 16px !important;
+    line-height: 22px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+}
+.subQuestionCompreBlk{
+    padding-left: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.subQuestionBlk .subQuestionListSect h1 p,.subQuestionBlk .subQuestionListSect h1,.subQuestionCompreBlk h1 p{
+    font-weight: 400;
+    font-size: 16px !important;
+    line-height: 22px;
+    margin-bottom: 0px;
+}
+.mainQuestionBlk .mainQuestionListSect,.subQuestionBlk .subQuestionListSect{
+    display: flex;
+    align-items: start;
+    gap: 5px;
+}
+.mainQuestionPadding{
+    padding-left: 40px;
+}
+.subQuestionBlk{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+.mifMainQuestionBlk .subQuestionListSect h1 p,.mifMainQuestionBlk .subQuestionListSect h1,.subQuestionCompreBlk h1 p{
+    font-weight: 400;
+    font-size: 16px !important;
+    line-height: 22px;
+    margin-bottom: 0px;
+}
+.mainQuestionBlk .mainQuestionListSect,.mifMainQuestionBlk .subQuestionListSect{
+    display: flex;
+    align-items: start;
+    gap: 5px;
+}
+.mifMainQuestionBlk{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.MIFMainQuestionListMarkSect,.MIFSubQuestionListMarkSect,.MIFSubQuestionCompreMarkBlk{
+    display: flex;
+    gap: 10px;
+    align-items: start;
+    max-width: 240px;
+}
+.questionActionMenu .MuiPaper-elevation .MuiMenu-list{
+    border-radius: 8px;
+    padding: unset !important;
+}
+.hr{
+    border-bottom: 1px solid #DEDEDE;
+}
+.questionActionMenuBtn{
+    padding: 6px !important;
+}
+.questionActionMenuBtn img{
+    border-radius: 30px;
+    margin: 0px 4px;
+    padding: 4px;
+    width: 35px;
+    height: 35px;
+}
+.questionActionMenuBtn span{
+    font-size: 14px;
+    font-weight: 500;
+}
+.subQuestionLisOption{
+    list-style: lower-alpha;
+    padding-left: 90px;
+    line-height: 18px;
+}
+.subQuestionLisOption li{
+    align-items: center;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+.subQuestionLisOption li span{
+    width: 20px;
+    height: 20px;
+    /* border: 1px solid black; */
+}
+.subQuestionLisOption li p{
+    margin: 0px;
+    word-break: break-all;
+}
+.matchFollowingTable table tr th {
+    text-align: left;
+    color: #1B1C1E;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    padding: 5px 5px;
+}
+.matchFollowingTable table tr td {
+    padding: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+}
+.matchFollowingTable table, .matchFollowingTable table td, .matchFollowingTable table td th {
+    border: 1px solid #DEDEDE;
+}
+.matchFollowingTable {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;  
+    padding-left: 100px;
+    margin-bottom: 15px;
+    width: calc(100% - 90px);
+    width:100%;
+}
+.matchFollowingTable table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.logo-center{
+    display: flex;
+    justify-content: center;
+}
+.logo-start{
+    display: flex;
+    justify-content:left;
+}
+.logo-end{
+    display: flex;
+    justify-content:right;
+}
+.MIFMainQuestionListMarkSect button .MuiButtonBase-root, 
+.MIFSubQuestionListMarkSect button .MuiButtonBase-root, 
+.MIFSubQuestionCompreMarkBlk button .MuiButtonBase-root {
+    border: unset;
+    background-color: unset;
+    margin-top: 16px;
+    min-width: unset;
+}
+.MIFMainQuestionListMarkSect button .MuiButtonBase-root svg, 
+.MIFSubQuestionListMarkSect button .MuiButtonBase-root svg, 
+.MIFSubQuestionCompreMarkBlk button .MuiButtonBase-root svg {
+    width: 25px;
+    height: 25px;
+    border: unset;
+    background-color: unset;
+    min-width: unset;
+}
+.MIFMainQuestionListMarkSect > button,
+.MIFSubQuestionListMarkSect > button,
+.MIFSubQuestionCompreMarkBlk > button {
+    margin-top: 5px;
+    background: #FFFFFF;
+    border: 1px solid #01B58A;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    min-width: 155px;
+    padding: 2px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.MIFSubQuestionCompreBlkOptions{
+    list-style: lower-alpha;
+    padding-left: 120px;
+    line-height: 18px;
+    width: calc(100% - 90px);
+}
+.templateArialFont h1,.templateArialFont h2,.templateArialFont span,.templateArialFont div,.templateArialFont p{
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+.templateTimesNewRoamnFont h1,.templateTimesNewRoamnFont h2,.templateTimesNewRoamnFont span,.templateTimesNewRoamnFont div,.templateTimesNewRoamnFont p{
+    font-family: "Times New Roman", Times, serif !important;
+}
+.templateVerdanaFont h1,.templateVerdanaFont h2,.templateVerdanaFont span,.templateVerdanaFont div,.templateVerdanaFont p{
+    font-family: Verdana, Geneva, sans-serif !important;
+}
+.templateHelveticaFont h1,.templateHelveticaFont h2,.templateHelveticaFont span,.templateHelveticaFont div,.templateHelveticaFont p{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+.sequenceTextPrint{
+    display: flex;
+}
+.MIFSubQuestionListMarkSect .MuiInputBase-root,
+.sequenceTextEdit {
+    border: 1px solid #DEDEDE;
+    padding: 16px;
+    border-radius: 8px;
+    /* margin-top: -4px; */
+    position: relative;
+    width: 68px;
+    text-align: center;
+}
+.sequenceTextEdit .marksError{
+    border-color: red !important;
+    background-color: #fffbfb
+}
+.sequenceTextEdit.mqText span{
+    width: 25px;
+    height: 18px;
+}
+.MIFSubQuestionListMarkSect .MuiFormControl-root .MuiInputBase-root .MuiInputBase-input{
+    padding: unset;
+    max-width: 50px;
+    width: unset;
+}
+.MIFSubQuestionListMarkSect .MuiFormControl-root .MuiInputBase-root .MuiOutlinedInput-notchedOutline{
+    border: unset;
+}
+.MIFSubQuestionListMarkSect .MuiFormControl-root label{
+    color: #1B1C1E4D;
+    padding: 0px 4px;
+    background: #ffffff;
+}
+.sequenceTextEdit > span{
+    position: absolute;
+    top: -10px;
+    background: #ffffff;
+    width: 20px;
+    height: 17px;
+    text-align: center;
+    font-size: 12px;
+    left: 22px;
+    color: #1B1C1E4D;
+}
+.mifMainQuestionTextEdit {
+    border: 1px solid #DEDEDE;
+    padding: 16px 23px 16px 20px;
+    border-radius: 8px;
+    /* margin-top: -4px; */
+    position: relative;
+    min-width: calc(100% - 150px);
+    min-height: 56px;
+    /* text-align: center; */
+}
+.mifMainQuestionTextEdit.mqText span{
+    width: 25px;
+    height: 18px;
+}
+.mifMainQuestionTextEdit div{
+    position: absolute;
+    top: -10px;
+    background: #ffffff;
+    /* width: 20px; */
+    height: 17px;
+    text-align: center;
+    font-size: 12px;
+    left: 22px;
+    color: #1B1C1E4D;
+}
+.previewTemplateBodySect .subQuestionBlk .subQuestionListSect{
+    gap: 10px;
+    width: calc(100% - 90px);
+}
+.previewTemplateBodySect .subQuestionBlk .subQuestionListSect .questionSectList{
+    width: 100%;
+}
+/* .previewTemplateBodySect .subQuestionBlk .subQuestionListSect .questionSectList > p{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+} */
+.previewTemplateBodySect .subQuestionBlk .subQuestionListSect .questionSectList > p img{
+    max-height: 181px;
+    width: fit-content;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.previewTemplateBodySect .mifMainQuestionBlk .subQuestionListSect{
+    gap: 10px;
+    width: calc(100% - 235px);
+}
+.previewTemplateBodySect .mifMainQuestionBlk .subQuestionListSect .questionSectList{
+    width: 100%;
+}
+.previewTemplateBodySect .mifMainQuestionBlk .subQuestionListSect .questionSectList > p{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.previewTemplateBodySect .mifMainQuestionBlk .subQuestionListSect .questionSectList > p img{
+    height: 181px;
+    width: max-content;
+    margin: 0 auto;
+}
+.headerValue .sch_logo_selected_cls {
+    background: #d8d8d8;
+    padding: 5px;
+    color: #9a9a9a;
+    white-space: normal;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 60px;
+    height: 50px;
+    font-size: 13px!important;
+    font-weight: 400;
+}
+.InstructionsSectionBlock textarea{
+    background-color: #f5f8fa;
+    border-color: #f5f8fa;
+    color: #5e6278;
+    transition: color 0.2s ease, background-color 0.2s ease;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    min-height: calc(1.5em + 1.65rem + 2px);
+    box-shadow: none !important;
+}
+.headerLogoImg img{
+    max-width: 123px;
+    max-height: 123px;
+    min-height: 123px;
+    min-width: 123px;
+}
+.dateSectionText{
+    text-align: center;
+}
+.dateSectionText p{
+    margin: 0px;
+    text-decoration: underline;
+}
+.solutionSection{
+    padding-left: 74px;
+    margin-bottom: 20px;
+  }
+  .solutionSection p{
+    margin: 0px;
+  }
+  .solutionSection .solutionSectionBlk{
+    display: flex;
+    gap: 10px;    
+    border: 1px solid #000;
+    padding: 5px;
+  }
+  .solutionSection .solutionSectionBlk img{
+    max-height: 181px;
+    width: fit-content;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .solutionSection .solutionSectionBlk .Title{
+    font-weight: 600;
+  }
+.pTagDangerous,.pTagDangerous p{
+    margin: 0px;
+}
+.MTFSolutionSect{
+    padding-right: 5px;
+    padding-left: 57px;
+  }
+  .MTFSolutionSect table, .MTFSolutionSect td, .MTFSolutionSect th {
+    border: 1px solid;
+    border-color: #DEDEDE;
+  }
+  .MTFSolutionSect .solutionSectionBlk{
+    /* border: none !important; */
+    flex-direction: column;
+  }
+  .MTFSolutionSect .solutionSectionBlk p{
+    padding: 5px;
+  }
+  .MTFSolutionSect table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  /* .MCQSolutionSect .solutionSectionBlk{
+    flex-direction: column;
+  } */
+  .MCQSolutionSect .solutionSectionBlk .subQuestionLisOption{
+    padding-left: 20px;
+  }
+  .subQuestionCompreBlkOptions + .solutionSection,
+  .subQuestionCompreBlkMft + .solutionSection {    
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .MTFSolutionSect img{
+    width: 100%;
+  }
+  .FIBSolutionSect li{
+    list-style: disc;
+  }
+  .subQuestionLisOptionMCQ li.mcqWrong{
+    margin: 0px;
+    height: 0px;
+    line-height: 0px;
+    overflow: hidden;
+  }
+  .headerTextTimeBlk{    
+    color: #385ddf;
+    padding-left: 5px;
+}
+.questionTemplatePreviewSect .subjectSection .previewSubjectElem{
+    width: calc(100% - 250px);
+}
+.subQuestionBlk .MIFSubQuestionListMarkSect .ComprehensionMainQuestion {
+    pointer-events: none;
+}
+@media print{
+    .questionTemplatePreviewSect .subjectSection{
+        display: flex !important;
+        justify-content: space-between !important;
+        gap:10px;
+    }
+    .workbook-printTable {
+        page-break-inside: avoid;
+      }
+      
+      .workbook-print {
+        width: 100%;
+        margin: 10px 0;
+        border-collapse: collapse;
+      }
+      
+      .workbook-print td, .workbook-print th {
+        border: 1px solid black !important;
+      }
+     
+    .line-set-container {
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+    .force-page-break {
+        break-before: always;
+    }
+}
+.workBook-btn-auto .MuiButtonGroup-root button{
+    background: transparent !important;
+    transform: unset !important;
+    height: 50px !important;
+    color: black !important;
+    border: 1px solid #1565c0 !important;
+    border-right: none !important;
+}
+
+.workBook-btn-auto .MuiButtonGroup-root button:last-child{
+    background: transparent !important;
+    transform: unset !important;
+    color: black !important;
+    border: 1px solid #1565c0 !important;
+    height: 50px !important;
+    border-left: none !important;
+
+}
+
+.workbookSelectType .selectFillType .MuiFormControl-root .MuiInputBase-root>div>div{
+    display: none;
+}
+
+@media screen and (max-width:500px){
+    .matchFollowingTable {
+        padding-left: 0px !important;
+    }
+}
+.workbook-printTable {
+    page-break-inside: avoid;
+}
+  
+.workbook-print {
+    width: 100%;
+    margin: 10px 0;
+    border-collapse: collapse;
+}
+
+.workbook-print td, .workbook-print th {
+    border: 1px solid black !important;
+}
+
+.questionTemplatePreviewSect hr{
+    opacity: 1 !important;
+}

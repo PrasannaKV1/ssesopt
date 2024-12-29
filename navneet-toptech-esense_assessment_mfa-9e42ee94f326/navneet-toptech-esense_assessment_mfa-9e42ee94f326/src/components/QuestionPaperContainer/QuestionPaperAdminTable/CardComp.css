@@ -1,0 +1,32 @@
+.assess-card{
+    background-color: #E1F6F1;
+    padding:8px;
+    border-radius: 4px;
+}
+
+.assess-card-child{
+    padding-top: 2px;
+}
+
+.icn-text-cont{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    line-height: 16.5px;
+}
+.icn-text-cont-subText{
+    align-items: center;
+    gap: 10px;
+}
+.assess-label-text{
+    color: #1B1C1E;
+    font-size: 12px;
+    font-weight: 500;
+}
+.count-container{
+    color: #1B1C1E;
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 28px;
+    line-height: 22px;
+}

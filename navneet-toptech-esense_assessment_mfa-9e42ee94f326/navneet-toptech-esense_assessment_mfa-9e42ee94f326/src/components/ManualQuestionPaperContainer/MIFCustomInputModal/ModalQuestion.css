@@ -1,0 +1,47 @@
+.deleteModalPopover{
+    display:flex;
+    justify-content:center;
+}
+.modalPopUpContainer {
+    background: #FFFFFF;
+    width: 500px;
+    height: 300px;
+    margin:auto;
+    border-radius: 16px;
+    padding: 20px;
+    align-content: center;
+    align-items: center;
+}
+
+.childContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.printButton {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px
+}
+
+.random {
+    color: #1B1C1E;
+    font-family: Manrope;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.EnterQuestion {
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #9A9A9A
+}

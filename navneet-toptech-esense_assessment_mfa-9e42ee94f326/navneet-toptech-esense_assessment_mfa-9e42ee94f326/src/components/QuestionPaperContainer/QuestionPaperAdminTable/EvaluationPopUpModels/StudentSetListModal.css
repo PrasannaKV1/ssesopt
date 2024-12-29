@@ -1,0 +1,94 @@
+.student-set-container{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width:753px;
+max-height: 701px;
+background: rgba(255, 255, 255, 1);
+border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.student-set-main-div{
+    padding: 0 35px;
+}
+.set-header-div{
+display: flex;
+padding-top: 20px;
+margin-bottom: 1rem;
+}
+
+.header-left-side{ 
+font-size: 20.16px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+}
+
+.header-span{
+font-size: 16.8px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+}
+
+.header-right-side{
+
+}
+
+.set-footer-div{
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.12);
+    width: 753px;
+    height: 90px;
+    padding: 25px 40px 25px 40px;
+    gap: 0px;
+    border-radius: 0px 0px 14px 14px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.set-footer-div .selQuesPaperFilter .filterMultiSelect .MuiAutocomplete-root .MuiFormControl-root .MuiInputBase-root {
+  width: 242px !important;
+}
+
+.table-name-avatars-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.table-name-avatars {
+    display: flex !important;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.student-set-main-div .resrTableSortArrow {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+  .student-set-main-div .resrTableSortArrow.activeUpArrow img:nth-child(1) {
+    opacity: 1 !important;
+  }
+  .student-set-main-div .resrTableSortArrow img {
+    opacity: 0.3;
+  }
+  .student-set-main-div .resrTableSortArrow.activeDownArrow img:nth-child(2) {
+    opacity: 1 !important;
+  }
+  .SectionMenuForStdList .MuiPaper-root{
+    box-shadow: 0px 4px 22px 0px #0000001F !important;
+  }
+
+  .set-footer-div .MuiAutocomplete-endAdornment{
+    top: unset !important;
+  }
+@media screen and (max-width:500px){
+  .table-name-avatars {
+    align-items: center !important;
+}
+
+}

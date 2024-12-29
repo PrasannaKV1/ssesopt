@@ -1,0 +1,230 @@
+/* .text-editor-component {
+    width: 90%;
+    height: fit-content;
+    padding: 50px;
+    margin: auto;
+    overflow: hidden;
+    border: none;
+    --Raleway : 'Times New Roman', Times, serif ,Times !important;
+    --Roboto :"Roboto" !important;
+    --Serif :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    --TimesNewRoman: 'Times New Roman', Times, serif !important;
+    --MonoSpace:'Courier New', Courier, monospace !important;
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@100;200;300;400;500;600;700;800;900&family=Tiro+Devanagari+Hindi:ital@0;1&family=Tiro+Devanagari+Marathi:ital@0;1&family=Tiro+Devanagari+Sanskrit:ital@0;1&display=swap");
+
+#quill_blanks {
+  margin: auto;
+  background-color: #f4f6f9;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border: 1px solid #ccc !important;
+}
+
+.text-editor-component .quill {
+  margin: auto;
+  background-color: #f4f6f9;
+  border-radius: 8px;
+  border: 1px solid #ccc !important;
+}
+
+.text-editor-component .quill > div {
+  border: none;
+}
+
+.ql-toolbar.ql-snow {
+  border-bottom: 1px solid #ccc !important;
+}
+
+.ql-font.ql-picker,
+.ql-header.ql-picker {
+  background-color: white;
+  border-radius: 4px;
+}
+
+.ql-container.ql-snow {
+  max-height: 150px;
+  overflow-y: auto;
+}
+.textHeightMedium .ql-container.ql-snow,
+.textHeightMedium .ql-container.ql-snow .ql-editor {
+  height: 150px;
+}
+.textHeightSmall .ql-container.ql-snow {
+  min-height: 40px;
+}
+.MatchSmall .ql-container.ql-snow {
+  min-height: 20px;
+}
+
+.ql-snow .ql-color-picker .ql-picker-label,
+.ql-snow .ql-icon-picker .ql-picker-label {
+  padding: 0px 4px;
+}
+
+.ql-font-MonoSpace *,
+.ql-font-MonoSpace {
+  font-family: "Courier New", Courier, monospace !important;
+}
+
+.ql-font-Serif *,
+.ql-font-Serif {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif !important;
+}
+
+.ql-font-TimesNewRoman *,
+.ql-font-TimesNewRoman {
+  font-family: "Times New Roman", Times, serif !important;
+}
+
+.ql-font-Hindi *,
+.ql-font-Hindi {
+  font-family: "Tiro Devanagari Hindi", serif !important;
+}
+
+.ql-font-Tamil *,
+.ql-font-Tamil {
+  font-family: "Noto Sans Tamil", sans-serif !important;
+}
+
+.ql-font-Marathi *,
+.ql-font-Marathi {
+  font-family: "Tiro Devanagari Marathi", serif !important;
+}
+
+.ql-font-Sanskrit *,
+.ql-font-Sanskrit {
+  font-family: "Tiro Devanagari Sanskrit", serif !important;
+}
+
+.ql-font-English *,
+.ql-font-English,
+Font[face="Arial"],Font[face="Times New Roman"] {
+    font-family: 'Times New Roman', serif !important;
+}
+.quill > .ql-container .ql-editor > p,
+.quill > .ql-container .ql-editor li,
+.quill > .ql-container .ql-editor table tr td {
+  font-family: "Times New Roman", serif !important;
+  font-size: 12px;
+}
+
+.ql-custom {
+  margin-top: -5px;
+  height: 15px !important;
+  width: 15px !important;
+  display: none;
+}
+.ql-custom:after {
+  content: "c";
+  font-weight: 500;
+  color: #444;
+  font-size: larger;
+  /* background-color: red !important; */
+  height: 15px !important;
+  width: 15px !important;
+}
+
+/* .ql-picker-label{
+    visibility: hidden;
+} */
+.ql-font .ql-picker-label::before {
+  visibility: hidden;
+  display: none !important;
+}
+.ql-font .ql-picker-label::after {
+  visibility: visible;
+  content: attr(data-value);
+  margin-top: -5px;
+  font-family: var(--attr(data-value));
+  display: block;
+  padding: 5px;
+  top: 2px;
+}
+
+.ql-font .ql-picker-options span {
+  visibility: hidden;
+}
+.ql-font .ql-picker-options span::before {
+  visibility: hidden;
+  display: none;
+}
+.ql-font .ql-picker-options span::after {
+  visibility: visible;
+  content: attr(data-value);
+  font-family: var(--(attr(data-value)));
+  margin-top: -5px;
+  display: block;
+  padding: 5px;
+  top: 2px;
+}
+/* Set dropdown font-families */
+/* .ql-font span[data-label="Ubuntu"]:after {
+    content: 'test';
+    font-family: 'Times New Roman', Times, serif ,Times;
+  }
+  .ql-font .ql-font span[data-label="Raleway"]::before {
+    font-family: "Raleway";
+  }
+  .ql-font span[data-label="Roboto"]::before {
+    font-family: "Roboto" !important;
+  } */
+
+/* Set content font-families */
+.ql-font-Raleway {
+  font-family: "Times New Roman", Times, serif, Times !important;
+}
+.ql-font-Roboto {
+  font-family: "Roboto";
+}
+
+/* .test:after {content: 'test';} */
+
+body .ql-editor.ql-blank::before {
+  font-style: initial;
+  font-weight: 600;
+  color: #bcbcbe;
+}
+.text-editor-component .ql-container {
+  position: relative;
+}
+.text-editor-component .ql-container .ql-editing {
+  left: 10px !important;
+}
+
+.ql-formula[data-value="_______________"] span {
+  color: #000 !important;
+}
+.ql-tooltip {
+  left: 0 !important;
+}
+.text-editor-component > .quill > .ql-container {
+  overflow: visible !important;
+}
+.text-editor-component > .quill > .ql-container > .ql-editor {
+  overflow: auto;
+  max-height: 150px;
+}
+.text-editor-component
+  > .quill
+  > .ql-container
+  > .ql-editor
+  ol
+  li[data-list="bullet"]::before {
+  display: none;
+}
+
+.text-editor-component > .quill > .ql-container > .ql-editor p,
+.ql-editor ol,
+.ql-editor ul,
+.ql-editor pre,
+.ql-editor blockquote,
+.ql-editor h1,
+.ql-editor h2,
+.ql-editor h3,
+.ql-editor h4,
+.ql-editor h5,
+.ql-editor h6 {
+  word-wrap: anywhere;
+}

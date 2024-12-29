@@ -1,0 +1,184 @@
+.assessmentContainerSect{
+    padding-left: 40px;
+    padding-top: 40px;
+}
+.selectTransBtnSect{
+    display: flex;
+    /* margin-bottom: 30px;
+    margin-top: 30px; */
+    align-items: center;
+}
+.assessmentTabPadd{
+    padding-right: 30px;
+}
+.questionBankCont{
+    background-color: var(--white);
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    overflow: hidden;
+}
+.questionPaperToggleBtn {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.classDashboardFlex {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    grid-gap: 10px;
+    gap: 30px;
+  }
+  
+  .classDashboardFlex .classDashboardDate .classDashboardDay {
+    background: #DEDEDE;
+    color: #9A9A9A;
+    padding: 8px 6px;
+    border-radius: 5px;
+    font-size: 8px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .classDashboardFlex .classDashboardDate .dayFormat {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 600;
+  }
+  
+  .classDashboardFlex .classDashboardDate .monthFormat {
+    font-size: 13px;
+    margin-left: 5px;
+    color: #1B1C1E;
+    opacity: 0.6;
+  }
+  
+  .classDashboardFlex .classDashboardDate .yearFormat {
+    font-size: 13px;
+    color: #1B1C1E;
+    opacity: 0.6;
+  }
+  .addUserIcon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    border-left: 1px solid #dedede;
+    padding-left: 30px;
+  }
+  
+  .addUserIcon svg {
+    background: #DEDEDE;
+    color: #9A9A9A;
+    padding: 6px 2px;
+    border-radius: 5px;
+    font-size: 28px;
+    font-weight: 700;
+  }
+  
+  .addUserIcon .userCount {
+    font-size: 13px;
+    /* width: 70px; */
+  }
+  
+  .addUserIcon .userCount span {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 600;
+  }
+  
+  .addUserIcon .userStd {
+    font-size: 13px;
+    line-height: 18px;
+    color: #1B1C1E;
+    opacity: 0.6;
+    margin-top: 6px;
+  }
+  .classDashboardDate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .currAppDropFilter>.MuiFormControl-root button {
+    border: 1px solid #DEDEDE;
+    border-radius: 8px;
+    overflow: hidden;
+    text-transform: capitalize;
+    max-width: 260px;
+    width: 230px;
+    padding: 8px 14px !important;
+    justify-content: space-between;
+}
+
+.currAppDropFilter>.MuiFormControl-root button .filterSelectedText {
+    color: #000;
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    width: 119px;
+    text-align: left;
+}
+.currAppPointsMenuBox>.MuiPaper-root {
+    width: 230px;
+}
+.currAppPointsMenuBox>.MuiPaper-root ul li {
+    font-weight: 500 !important;
+    color: #000;
+    white-space: break-spaces;
+}
+.currAppPointsMenuBox>.MuiPaper-root ul .MuiAccordionSummary-gutters {
+    min-height: 40px;
+}
+.currAppPointsMenuBox>.MuiPaper-root ul .MuiAccordionSummary-gutters .MuiAccordionSummary-content {
+    margin: 0px;
+}
+
+.currAppPointsMenuBox>.MuiPaper-root ul li {
+    border-bottom: 1px solid #DEDEDE;
+}
+
+.currAppPointsMenuBox>.MuiPaper-root ul .points_input {
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+}
+@media screen and (max-width:500px){
+   .assessmentContainerSect{
+    padding-left: 0px !important;
+} 
+.assessmentTabPadd{
+  padding-right: 0px !important;
+}
+.assessment1{
+  display:flex;
+ 
+  padding: 0px 10px !important;
+  
+}
+.arrowIcon { 
+  /* margin-right: 10px;
+  display: flex;  */
+  justify-self: flex-start !important;
+  width:6.98px;
+  height:13.51px;
+  margin-top:6px;
+
+
+}
+.assessmentTitles{
+  /* font-family: Manrope; */
+font-size: 18px !important; 
+font-weight: 600;
+line-height: 24.59px;
+flex-grow: 1;
+        display: flex;
+        justify-content: center;
+}
+}

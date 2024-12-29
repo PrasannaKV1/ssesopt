@@ -1,0 +1,354 @@
+.time-table-upPolygon {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+button.bulk-upload-btn {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  color: #000000;
+  width: 100%;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+button.disabled-bulk-upload-btn {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  color: rgb(27, 28, 30);
+  width: 100%;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.btn-container {
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 1px solid #01b58a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-container-disabled {
+  border: 1px solid #b8eee1;
+  box-sizing: border-box;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.assesment .table-name-avatars {
+  display: flex !important;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+.table-name-avatars-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.evaluation-table-section,
+.evaluation-select-table-section,
+.evaluation-table-section-without-set {
+  padding: 10px 16px 0px 16px;
+  background-color: white;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  /* position: relative; */
+  /* height: 85vh; */
+  /* overflow: hidden; */
+}
+@media screen and (max-width: 500px) {
+  .evaluation-table-section,
+  .evaluation-select-table-section,
+  .evaluation-table-section-without-set {
+    padding: 5px;
+    background-color: white;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    /* position: relative; */
+    /* height: 85vh; */
+    /* overflow: hidden; */
+  }
+}
+
+.evaluation-table-section .MuiTableContainer-root {
+  height: calc(100vh - 540px);
+  overflow-y: auto;
+}
+
+@media screen and (max-width: 500px) {
+  .evaluation-table-section .MuiTableContainer-root {
+    height: calc(100vh - 300px);
+    overflow-y: auto;
+        padding-inline: 10px;
+  }
+  .avatar-name-text{
+    width: 80px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+.evaluation-select-table-section .MuiTableContainer-root {
+  height: calc(100vh - 490px);
+  overflow-y: auto;
+}
+@media screen and (max-width: 500px) {
+  .evaluation-select-table-section .MuiTableContainer-root {
+    height: calc(100vh - 250px);
+    overflow-y: auto;
+    padding-inline: 10px;
+  }
+}
+.evaluation-table-section-without-set .MuiTableContainer-root {
+  height: calc(100vh - 430px);
+  overflow-y: auto;
+}
+@media screen and (max-width: 500px) {
+  .evaluation-table-section-without-set .MuiTableContainer-root {
+    height: calc(100vh - 250px);
+    overflow-y: auto;
+        padding-inline: 10px;
+  }
+}
+.evaluation-table-section
+  .MuiTableContainer-root
+  table
+  thead
+  tr
+  th
+  .evaluation-table-section
+  .MuiTableContainer-root
+  table
+  tbody
+  tr
+  td,
+.evaluation-select-table-section
+  .MuiTableContainer-root
+  table
+  thead
+  tr
+  th
+  .evaluation-select-table-section
+  .MuiTableContainer-root
+  table
+  tbody
+  tr
+  td,
+.evaluation-table-section-without-set
+  .MuiTableContainer-root
+  table
+  thead
+  tr
+  th
+  .evaluation-table-section-without-set
+  .MuiTableContainer-root
+  table
+  tbody
+  tr
+  td {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.left-side .question-paper-section {
+  /* position: relative;
+    height: 100vh;
+    scroll-behavior: smooth;
+    overflow-y: auto; */
+  height: calc(100vh - 300px);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.table-footer-modal {
+  display: flex;
+  padding: 12px 24px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0px -7px 20px rgb(0 0 0 / 9%);
+  /* position: absolute; */
+  /* width: 100%; */
+  bottom: 0px;
+  border-radius: 0px 0px 14px 14px;
+  left: 0px;
+  height: 64px;
+}
+
+.evaluation-table-section .resrTableSortArrow,
+.evaluation-select-table-section .resrTableSortArrow,
+.evaluation-table-section-without-set .resrTableSortArrow {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+.evaluation-table-section .resrTableSortArrow.activeUpArrow img:nth-child(1),
+.evaluation-select-table-section
+  .resrTableSortArrow.activeUpArrow
+  img:nth-child(1),
+.evaluation-table-section-without-set
+  .resrTableSortArrow.activeUpArrow
+  img:nth-child(1) {
+  opacity: 1 !important;
+}
+.evaluation-table-section .resrTableSortArrow img,
+.evaluation-select-table-section .resrTableSortArrow img,
+.evaluation-table-section-without-set .resrTableSortArrow img {
+  opacity: 0.3;
+}
+.evaluation-table-section .resrTableSortArrow.activeDownArrow img:nth-child(2),
+.evaluation-select-table-section
+  .resrTableSortArrow.activeDownArrow
+  img:nth-child(2),
+.evaluation-select-table-section-without-set
+  .resrTableSortArrow.activeDownArrow
+  img:nth-child(2) {
+  opacity: 1 !important;
+}
+
+.selSectionFilter {
+  height: 52px;
+  width: 100%;
+  border: 2px solid #dedede;
+  border-radius: 8px;
+  background-color: #ffffff;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  .filterMultiSelect {
+    width: 100%;
+  }
+}
+
+.selSectionFilter .filterMultiSelect .MuiAutocomplete-root .MuiInputBase-root {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.evaluation-table-section
+  .MuiTableContainer-root
+  table
+  tbody
+  tr
+  td
+  .table-name-avatars-title
+  > div:first-child,
+.evaluation-table-section
+  .MuiTableContainer-root
+  table
+  tbody
+  tr
+  td:nth-child(3),
+.evaluation-select-table-section
+  .MuiTableContainer-root
+  table
+  tbody
+  tr
+  td
+  .table-name-avatars-title
+  > div:first-child,
+.evaluation-select-table-section
+  .MuiTableContainer-root
+  table
+  tbody
+  tr
+  td:nth-child(3),
+.evaluation-select-table-section-without-set
+  .MuiTableContainer-root
+  table
+  tbody
+  tr
+  td
+  .table-name-avatars-title
+  > div:first-child,
+.evaluation-select-table-section-without-set
+  .MuiTableContainer-root
+  table
+  tbody
+  tr
+  td:nth-child(3) {
+  color: #1b1c1e;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.evaluation-table-section
+  .MuiTableContainer-root
+  table
+  tbody
+  tr
+  td
+  .table-name-avatars-title
+  > div:last-child,
+.evaluation-select-table-section
+  .MuiTableContainer-root
+  table
+  tbody
+  tr
+  td
+  .table-name-avatars-title
+  > div:last-child
+  .evaluation-select-table-section-without-set
+  .MuiTableContainer-root
+  table
+  tbody
+  tr
+  td
+  .table-name-avatars-title
+  > div:last-child {
+  font-size: 13px;
+  color: #9a9a9a;
+  font-weight: 500;
+}
+.evaluation-table-section .MuiTableContainer-root table thead tr th,
+.evaluation-select-table-section
+  .MuiTableContainer-root
+  table
+  thead
+  tr
+  th
+  .evaluation-select-table-section-without-set
+  .MuiTableContainer-root
+  table
+  thead
+  tr
+  th {
+  color: #9a9a9a;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.add-more-div {
+  position: absolute;
+  right: 100px;
+  bottom: 90px;
+  cursor: pointer;
+}
+.SectionMenuItem .MuiPaper-root {
+  box-shadow: 0px 4px 22px 0px #0000001f !important;
+}
+.SectionMenuItem .MuiPaper-root{
+    box-shadow: 0px 4px 22px 0px #0000001F !important;
+}
+
+@media screen and (max-width:500px){
+    .left-side .question-paper-section{
+        height: calc(100vh - 228px) !important;
+        padding: 0px 10px 50px 10px;
+    }
+    .left-side .MuiFormControl-root{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+}

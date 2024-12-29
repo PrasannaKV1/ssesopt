@@ -1,0 +1,8 @@
+.actionButtonComp{
+    display: flex;
+    gap: 10px;
+}
+.imgDisable{
+    opacity: 0.4;
+    pointer-events: none;
+}

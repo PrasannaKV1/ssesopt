@@ -1,0 +1,28 @@
+.errModalContainer{
+    padding: 10px 10px 10px 20px;
+}
+
+.errCloseIcon{
+    width: 16px;
+    height: 16px;
+}
+
+.textclrChng{
+    color: #9A9A9A !important;
+}
+.warningList{
+    list-style: none;
+    padding: 0px;
+    margin-bottom: 30px;
+}
+.warningList li{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 10px 0px;
+}
+.warningListScroll{
+    overflow: auto;
+    height: 230px;
+}

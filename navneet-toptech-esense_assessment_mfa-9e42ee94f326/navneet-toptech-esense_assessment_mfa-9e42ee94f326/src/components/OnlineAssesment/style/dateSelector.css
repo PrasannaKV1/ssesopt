@@ -1,0 +1,272 @@
+/* MuiDateRangeCalendar-root */
+.MuiPickersLayout-root .MuiPickersLayout-contentWrapper .MuiDateRangeCalendar-root div:first-child::first-line {
+    color: transparent !important;
+ }
+ 
+ .rdrInputRanges {
+    display: none;
+ }
+ 
+ .rdrDateRangePickerWrapper {
+    display: block !important;
+ }
+ 
+ .DatePickerStyling {
+    position: relative;
+    min-width: 800px;
+    margin: 0 auto;
+    filter: drop-shadow(0 4px 22px rgba(0, 0, 0, .12));
+ }
+ 
+ .DatePickerStyling .rdrDateRangePickerWrapper .rdrDefinedRangesWrapper {
+    width: 141px;
+    padding: 5px;
+    border: none;
+ }
+ 
+ .DatePickerStyling .rdrDateRangePickerWrapper .rdrDefinedRangesWrapper .rdrStaticRanges button {
+    color: var(--eerie-black, #1B1C1E);
+    font-size: 15px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    border-bottom: none;
+    margin-right: 6px;
+ }
+ 
+ .DatePickerStyling .rdrDateRangePickerWrapper .rdrDefinedRangesWrapper .rdrStaticRanges button span.rdrStaticRangeLabel {
+    padding: 18.68px 15px;
+ }
+ 
+ .DatePickerStyling .rdrDateRangePickerWrapper .rdrDefinedRangesWrapper .rdrStaticRanges button span:hover,
+ .DatePickerStyling .rdrDateRangePickerWrapper .rdrDefinedRangesWrapper button.rdrStaticRangeSelected {
+    border-radius: 8px;
+    background: rgba(56, 93, 223, 0.10);
+    color: #1B1C1E !important;
+ }
+ 
+ .CustomDatePicker .rdrDateRangePickerWrapper .rdrDefinedRangesWrapper .rdrStaticRanges button:last-child {
+    border-radius: 8px !important;
+    background: rgba(56, 93, 223, 0.10) !important;
+    color: #1B1C1E !important;
+ }
+ 
+ .DatePickerStyling .rdrDateRangePickerWrapper .rdrCalendarWrapper .rdrMonth {
+    border: 0.2px solid #DEDEDE;
+    padding-top: 12px;
+ }
+ 
+ .DatePickerStyling .rdrDateRangePickerWrapper .rdrCalendarWrapper .rdrMonth {
+    border-right: none;
+ }
+ 
+ .DatePickerStyling .rdrDateRangePickerWrapper .rdrCalendarWrapper .rdrMonthAndYearWrapper {
+    border-left: 0.2px solid #DEDEDE;
+ }
+ 
+ .DatePickerStyling .rdrDateRangePickerWrapper .rdrCalendarWrapper .rdrMonth .rdrDays button span::after {
+    display: none;
+ }
+ 
+ .DatePickerStyling .rdrDateRangePickerWrapper .rdrCalendarWrapper .rdrMonth .rdrDays button {
+    height: 40px;
+    /* width: 40px; */
+ }
+ 
+ .DatePickerStyling .rdrDateRangePickerWrapper .rdrCalendarWrapper .rdrMonth .rdrWeekDays span {
+    color: var(--eerie-black, #1B1C1E);
+    font-size: 13px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+ }
+ 
+ .DatePickerStyling .rdrDateRangePickerWrapper .rdrCalendarWrapper .rdrMonth .rdrDays button span {
+    font-weight: 700;
+    font-size: 13px;
+ }
+ 
+ .DatePickerStyling .rdrDateRangePickerWrapper .rdrCalendarWrapper {
+    position: absolute;
+    top: 0;
+    left: 17.5%;
+ }
+ 
+ .rdrMonthName {
+    position: absolute;
+    top: 10px;
+    margin-left: 75px;
+    font-size: 16px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    color: var(--eerie-black, #1B1C1E);
+    text-align: center;
+ }
+ 
+ .rdrMonthPicker,
+ .rdrYearPicker {
+    display: none;
+ }
+ 
+ .input-btn-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-left: 0.2px solid #DEDEDE;
+    background-color: white;
+    padding-top: 29.5px;
+    padding-bottom: 23px;
+    border-bottom-right-radius: 5px;
+ }
+ 
+ .field-div {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+ }
+ 
+ .field-div .inputFieldStylingSect .MuiFormControl-root {
+    width: 125px !important;
+ }
+ 
+ 
+ .input-btn-div .inputFieldStylingSect .MuiFormControl-root .MuiInputBase-root fieldset {
+    border: 1px solid var(--alto-gray-2, #DEDEDE) !important;
+    background-color: transparent;
+ 
+ }
+ 
+ .input-btn-div>button,
+ .input-btn-div>button:hover {
+    border: none;
+    margin-left: 2%;
+ }
+ 
+ .week-div {
+    width: 160px;
+    padding: 12px;
+    background-color: white;
+ }
+ 
+ .date-container {
+    min-width: 662px !important;
+    position: absolute;
+    top: 69.6%;
+    left: 17.5%;
+ 
+ }
+ 
+ .rdrMonth {
+    width: 26.6em;
+ }
+ 
+ .rdrNextPrevButton,
+ .rdrNextPrevButton:hover {
+    height: 30px;
+    width: 30px;
+    background: #EFEFEF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+ }
+ 
+ .rdrNextButton i,
+ .rdrPprevButton i {
+    display: none;
+ }
+ 
+ .rdrInRange,
+ .rdrStartEdge,
+ .rdrEndEdge {
+    background: #01B58A !important;
+    opacity: 0.12;
+ }
+ 
+ .rdrDay:not(.rdrDayPassive) .rdrStartEdge~.rdrDayNumber span,
+ .rdrDay:not(.rdrDayPassive) .rdrEndEdge~.rdrDayNumber span {
+    height: 34px;
+    width: 34px;
+    background-color: #01B58A;
+    border-radius: 50%;
+ }
+ 
+ .rdrDay:not(.rdrDayPassive) .rdrInRange~.rdrDayNumber span {
+    height: 34px;
+    width: 34px;
+ }
+ 
+ .rdrDay:not(.rdrDayPassive) .rdrInRange~.rdrDayNumber span {
+    color: black;
+ }
+ 
+ /* .rdrPprevButton::after {
+    content: ' \003C';
+    font-size: 30px;
+    margin-bottom: 3px;
+ } */
+ 
+ /* .rdrNextButton::after {
+    content: ' \003E';
+    font-size: 30px;
+    margin-bottom: 3px;
+ } */
+ 
+ .datePickerInputField .MuiFormControl-root {
+    width: 120px;
+ }
+ 
+ .date-btn-div button {
+    padding: 16px 32px;
+ }
+ 
+ .date-btn-div button,
+ .datePickerInputField .MuiFormControl-root .MuiInputBase-root {
+    text-transform: capitalize;
+    height: 45px;
+    border-radius: 8px;
+ }
+ 
+ .datePickerInputField .MuiFormControl-root .MuiInputBase-root:hover fieldset,
+ .datePickerInputField .MuiFormControl-root .MuiInputBase-root fieldset {
+    border: 1px solid var(--Alto-gray-2, #DEDEDE);
+ }
+ 
+ .date-btn-div button:first-child,
+ .date-btn-div button:first-child:hover {
+    background: var(--Persian-Green, #01B58A);
+    color: white;
+ }
+ 
+ .date-btn-div button:last-child {
+    border: 1px solid #01B58A;
+    color: black;
+ }
+ 
+ .clearSectionBtnBox button {
+    text-transform: capitalize;
+    color: #01B58A;
+    border: none !important;
+    margin-left: 20px;
+    height: 49px;
+ }
+ 
+ .datePickerInputField .MuiFormControl-root .MuiOutlinedInput-root .MuiOutlinedInput-input{
+    padding : 0px ;
+    text-align: center !important;
+ }
+ 
+ .popover-mui-container .MuiPopover-root appointCalender .MuiPaper-root{
+    margin: 50px 0px 0px 250px;
+ }
+
+ .DatePickerStyling .rdrDefinedRangesWrapper .rdrStaticRanges {
+   display: flex;
+   justify-content: space-between;
+   height: 508px;
+ }
+

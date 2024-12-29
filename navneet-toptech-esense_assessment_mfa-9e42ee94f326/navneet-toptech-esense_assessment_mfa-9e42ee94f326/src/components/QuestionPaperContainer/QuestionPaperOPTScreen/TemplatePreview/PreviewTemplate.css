@@ -1,0 +1,414 @@
+.previewTemplateSect{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    /* background: #ECF0FD; */
+    background: #e7e7e7;
+    border-radius: 12px;
+}
+.genQpHeaderPreview {
+    color: #1B1C1E !important;
+    font-weight: 600px;
+        size: 30px !important;
+    margin: 0;
+}
+
+.genQpFooterSec {
+    display: flex;
+    justify-content: space-between;
+}
+
+.genQpFooterBtnAlign {
+    display: flex;
+    gap: 10px
+}
+.previewTemplateSect .previewTemplateHeader{
+    margin: 20px 15px 10px 15px;
+    position: relative;
+}
+.previewTemplateSect .previewTemplateHeader p{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0px;
+}
+.previewTemplateSect .previewTemplateBody{
+    margin: 10px 15px 0px 15px;
+    border-radius: 8px 8px 0px 0px;
+    overflow: auto;
+    height: calc(100vh - 160px);
+    background: #fff;
+    position: relative;
+}
+.previewTemplateSect .previewTemplateFooter{
+    background: white;
+    padding: 15px 15px;
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: 0px -7px 20px rgba(0, 0, 0, 0.05);
+    position: relative;
+}
+.previewTemplateSect .previewTemplateFooter p{
+    margin: 0px;
+    cursor: pointer;
+}
+.closePreviewTemp{    
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+}
+.qpPreviewTemplateBody .quePapPreviewforPrintContent{
+    height: calc(100vh - 200px);
+    border-radius: 8px 8px 0px 0px;
+}
+
+.qpPrintSubSet{
+    display: flex;
+    flex-direction: row;
+    overflow: unset;
+}
+
+.qpPrintSubSet > .quePapPreviewforPrintVersion{
+    width: 28%;
+    padding: 30px 10px;
+    border-right: 1px solid #DEDEDE;
+    /* overflow-y: scroll; */
+}
+.qpPrintSubSet > .questionTemplatePreviewSect{
+    width: 75%;
+    overflow-x: hidden;
+}
+.qpPrintSubSet .quePapPreviewforPrintVersion > h2{
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.qpPrintSubSet .quePapPreviewforPrintVersion > p{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #9A9A9A;
+    padding-right: 70px;
+}
+.qpPrintSubSet .quePapPreviewforPrintVersion ul{
+    list-style: none;
+    padding-left: 15px;
+}
+.qpPrintSubSet .quePapPreviewforPrintVersion ul > li{
+    position: relative;
+    padding-bottom: 30px;
+}
+.qpPrintSubSet .quePapPreviewforPrintVersion ul > li h4{
+    font-weight: 600;
+    line-height: 22px;
+    color: rgba(154, 154, 154, 1);
+    margin-bottom: 5px;
+}
+.qpPrintSubSet .quePapPreviewforPrintVersion ul > li.activeDot h4{
+    color: #01B58A;
+}
+.qpPrintSubSet .quePapPreviewforPrintVersion ul > li > div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.qpPrintSubSet .quePapPreviewforPrintVersion ul > li > div p{
+    background: rgba(239, 239, 239, 1);
+    color: rgba(154, 154, 154, 1);    
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    margin: 0px;
+}
+.qpPrintSubSet .quePapPreviewforPrintVersion ul > li.activeDot > div p{
+    background: rgba(1, 181, 138, 0.1);
+    color:#01B58A;
+}
+.qpPrintSubSet .quePapPreviewforPrintVersion ul > li > div span{
+    font-size: 10px;
+    line-height: 16px;
+    font-weight: 700;
+}
+.qpPrintSubSet .quePapPreviewforPrintVersion ul > li:before {
+    left: -15px;
+    top: 5px;
+    content: "";
+    background: #DEDEDE;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    z-index: 1;
+    border-radius: 20px;
+}
+.qpPrintSubSet .quePapPreviewforPrintVersion ul > li:not(:last-child):after{
+    content: "";
+    position: absolute;
+    border-left: 3px solid #DEDEDE;
+    height: calc(100% - 0px);
+    top: 6px;
+    left: -13px;
+}
+.qpPrintSubSet .quePapPreviewforPrintVersion ul > li.activeDot::before{
+    background: #01B58A;
+}
+.qpPrintSubSet .quePapPreviewforPrintVersion ul > li.activeLine::after{
+    border-color: #01B58A;
+}
+
+/* width: -webkit-fill-available; */
+
+.genQpHeaderContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.genQpHeaderPreviewSubText {
+    font-weight: 300px;
+    size: 16px;
+}
+
+.genQpHeaderBtn {
+    display: flex;
+    gap: 10px;
+}
+.qpCustomFontPopup .qsnmodelSelectField .SelectFields{
+    width:350px !important;
+    overflow-y: scroll;
+    padding-right: 10px;
+    height: 550px;
+    padding-top: 10px;
+}
+.qpCustomFontPopup .qsnmodelSelectField .SelectFields > button{
+    display: none;
+}
+.qpCustomFontPopup .qsnmodelSelectField .qsnPaperModel .qsnPaperModelChild .qsnPaperModelChildScroll{
+    height: 555px;
+}
+.qpCustomFontPopup .previewTemplateBody > form{
+    overflow-y: hidden;
+}
+.qpCustomFontPopup .previewFontArial,
+.qpCustomFontPopup .previewFontArial p,
+.qpCustomFontPopup .previewFontArial p span,
+.qpCustomFontPopup .qsnPaperModelChildScroll .questionTemplatePreviewSect .previewFontArial p span.ql-font-English,
+.qpCustomFontPopup .qsnPaperModelChildScroll .questionTemplatePreviewSect .previewFontArial p span.ql-font-Hindi,
+.qpCustomFontPopup .qsnPaperModelChildScroll .questionTemplatePreviewSect .previewFontArial p span.ql-font-Marathi,
+.qpCustomFontPopup .previewFontArial Font[face="Arial"],
+.qpCustomFontPopup .previewFontArial Font[face="Times New Roman"],
+.qpCustomFontPopup .previewFontArial li,
+.qpCustomFontPopup .previewFontArial td,
+.qpCustomFontPopup .previewFontArial td strong,
+.qpCustomFontPopup .previewFontArial td span,
+.qpCustomFontPopup .previewFontArial tr span
+.qpCustomFontPopup .previewFontArial td p,
+.LogoSectionBlock .previewFontArial p,
+.LogoSectionBlock .previewFontArial,
+.quePapPreviewforPrintPreview .previewFontArial,
+.quePapPreviewforPrintPreview .previewFontArial p,
+.quePapPreviewforPrintPreview .previewFontArial p span,
+.quePapPreviewforPrintPreview .previewFontArial li,
+.quePapPreviewforPrintPreview .previewFontArial td,
+.quePapPreviewforPrintPreview .previewFontArial td strong,
+.quePapPreviewforPrintPreview .previewFontArial td span,
+.quePapPreviewforPrintPreview .previewFontArial tr span
+.quePapPreviewforPrintPreview .previewFontArial td p,
+.quePapPreviewforPrintPreview .previewFontArial p span.ql-font-English,
+.quePapPreviewforPrintPreview .previewFontArial p span.ql-font-Hindi,
+.quePapPreviewforPrintPreview .previewFontArial p span.ql-font-Marathi,
+.quePapPreviewforPrintPreview .previewFontArial Font[face="Arial"],
+.quePapPreviewforPrintPreview .previewFontArial Font[face="Times New Roman"],
+.qpPrintSubSet .previewFontArial,
+.qpPrintSubSet .previewFontArial p,
+.qpPrintSubSet .previewFontArial p span,
+.qpPrintSubSet .previewFontArial li,
+.qpPrintSubSet .previewFontArial td,
+.quePapPreviewforPrintPreview .templateArialFont .quill > .ql-container .ql-editor > p,
+.quePapPreviewforPrintPreview .templateArialFont .quill > .ql-container .ql-editor li,
+.quePapPreviewforPrintPreview .templateArialFont .quill > .ql-container .ql-editor table tr td{
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+.qpCustomFontPopup .previewFontTimesNewRoman,
+.qpCustomFontPopup .previewFontTimesNewRoman p,
+.qpCustomFontPopup .previewFontTimesNewRoman p span,
+.qpCustomFontPopup .qsnPaperModelChildScroll .questionTemplatePreviewSect .previewFontTimesNewRoman p span.ql-font-English,
+.qpCustomFontPopup .qsnPaperModelChildScroll .questionTemplatePreviewSect .previewFontTimesNewRoman p span.ql-font-Hindi,
+.qpCustomFontPopup .qsnPaperModelChildScroll .questionTemplatePreviewSect .previewFontTimesNewRoman p span.ql-font-Marathi,
+.qpCustomFontPopup .previewFontTimesNewRoman Font[face="Arial"],
+.qpCustomFontPopup .previewFontTimesNewRoman Font[face="Times New Roman"],
+.qpCustomFontPopup .previewFontTimesNewRoman li,
+.qpCustomFontPopup .previewFontTimesNewRoman td,
+.qpCustomFontPopup .previewFontTimesNewRoman td strong,
+.qpCustomFontPopup .previewFontTimesNewRoman td p,
+.qpCustomFontPopup .previewFontTimesNewRoman td span,
+.qpCustomFontPopup .previewFontTimesNewRoman tr span
+.LogoSectionBlock .previewFontTimesNewRoman p,
+.LogoSectionBlock .previewFontTimesNewRoman,
+.quePapPreviewforPrintPreview .previewFontTimesNewRoman,
+.quePapPreviewforPrintPreview .previewFontTimesNewRoman p,
+.quePapPreviewforPrintPreview .previewFontTimesNewRoman p span,
+.quePapPreviewforPrintPreview .previewFontTimesNewRoman li,
+.quePapPreviewforPrintPreview .previewFontTimesNewRoman td,
+.quePapPreviewforPrintPreview .previewFontTimesNewRoman td strong,
+.quePapPreviewforPrintPreview .previewFontTimesNewRoman td span,
+.quePapPreviewforPrintPreview .previewFontTimesNewRoman tr span
+.quePapPreviewforPrintPreview .previewFontTimesNewRoman td p,
+.quePapPreviewforPrintPreview .previewFontTimesNewRoman p span.ql-font-English,
+.quePapPreviewforPrintPreview .previewFontTimesNewRoman p span.ql-font-Hindi,
+.quePapPreviewforPrintPreview .previewFontTimesNewRoman p span.ql-font-Marathi,
+.quePapPreviewforPrintPreview .previewFontTimesNewRoman Font[face="Arial"],
+.quePapPreviewforPrintPreview .previewFontTimesNewRoman Font[face="Times New Roman"],
+.qpPrintSubSet .previewFontTimesNewRoman li,
+.qpPrintSubSet .previewFontTimesNewRoman,
+.qpPrintSubSet .previewFontTimesNewRoman p,
+.qpPrintSubSet .previewFontTimesNewRoman p span,
+.qpPrintSubSet .previewFontTimesNewRoman li,
+.qpPrintSubSet .previewFontTimesNewRoman td,
+.quePapPreviewforPrintPreview .templateTimesNewRoamnFont .quill > .ql-container .ql-editor > p,
+.quePapPreviewforPrintPreview .templateTimesNewRoamnFont .quill > .ql-container .ql-editor li,
+.quePapPreviewforPrintPreview .templateTimesNewRoamnFont .quill > .ql-container .ql-editor table tr td {
+    font-family: "Times New Roman", Times, serif !important;
+}
+.qpCustomFontPopup .previewFontVerdana,
+.qpCustomFontPopup .previewFontVerdana p,
+.qpCustomFontPopup .previewFontVerdana p span,
+.qpCustomFontPopup .qsnPaperModelChildScroll .questionTemplatePreviewSect .previewFontVerdana p span.ql-font-English,
+.qpCustomFontPopup .qsnPaperModelChildScroll .questionTemplatePreviewSect .previewFontVerdana p span.ql-font-Hindi,
+.qpCustomFontPopup .qsnPaperModelChildScroll .questionTemplatePreviewSect .previewFontVerdana p span.ql-font-Marathi,
+.qpCustomFontPopup .previewFontVerdana Font[face="Arial"],
+.qpCustomFontPopup .previewFontVerdana Font[face="Times New Roman"],
+.qpCustomFontPopup .previewFontVerdana li,
+.qpCustomFontPopup .previewFontVerdana td,
+.qpCustomFontPopup .previewFontVerdana td strong,
+.qpCustomFontPopup .previewFontVerdana td span,
+.qpCustomFontPopup .previewFontVerdana tr span
+.qpCustomFontPopup .previewFontVerdana td p,
+.LogoSectionBlock .previewFontVerdana p,
+.LogoSectionBlock .previewFontVerdana,
+.quePapPreviewforPrintPreview .previewFontVerdana,
+.quePapPreviewforPrintPreview .previewFontVerdana p,
+.quePapPreviewforPrintPreview .previewFontVerdana p span,
+.quePapPreviewforPrintPreview .previewFontVerdana li,
+.quePapPreviewforPrintPreview .previewFontVerdana td,
+.quePapPreviewforPrintPreview .previewFontVerdana td strong,
+.quePapPreviewforPrintPreview .previewFontVerdana td span,
+.quePapPreviewforPrintPreview .previewFontVerdana tr span
+.quePapPreviewforPrintPreview .previewFontVerdana td p,
+.quePapPreviewforPrintPreview .previewFontVerdana p span.ql-font-English,
+.quePapPreviewforPrintPreview .previewFontVerdana p span.ql-font-Hindi,
+.quePapPreviewforPrintPreview .previewFontVerdana p span.ql-font-Marathi,
+.quePapPreviewforPrintPreview .previewFontVerdana Font[face="Arial"],
+.quePapPreviewforPrintPreview .previewFontVerdana Font[face="Times New Roman"],
+.qpPrintSubSet .previewFontVerdana,
+.qpPrintSubSet .previewFontVerdana p,
+.qpPrintSubSet .previewFontVerdana p span,
+.qpPrintSubSet .previewFontVerdana li,
+.qpPrintSubSet .previewFontVerdana td,
+.quePapPreviewforPrintPreview .templateVerdanaFont .quill > .ql-container .ql-editor > p,
+.quePapPreviewforPrintPreview .templateVerdanaFont .quill > .ql-container .ql-editor li,
+.quePapPreviewforPrintPreview .templateVerdanaFont .quill > .ql-container .ql-editor table tr td{
+    font-family: Verdana, Geneva, sans-serif !important;
+}
+.qpCustomFontPopup .previewFontHelvetica,
+.qpCustomFontPopup .previewFontHelvetica p,
+.qpCustomFontPopup .previewFontHelvetica p span,
+.qpCustomFontPopup .qsnPaperModelChildScroll .questionTemplatePreviewSect .previewFontHelvetica p span.ql-font-English,
+.qpCustomFontPopup .qsnPaperModelChildScroll .questionTemplatePreviewSect .previewFontHelvetica p span.ql-font-Hindi,
+.qpCustomFontPopup .qsnPaperModelChildScroll .questionTemplatePreviewSect .previewFontHelvetica p span.ql-font-Marathi,
+.qpCustomFontPopup .previewFontHelvetica Font[face="Arial"],
+.qpCustomFontPopup .previewFontHelvetica Font[face="Times New Roman"],
+.qpCustomFontPopup .previewFontHelvetica li,
+.qpCustomFontPopup .previewFontHelvetica td,
+.qpCustomFontPopup .previewFontHelvetica td strong,
+.qpCustomFontPopup .previewFontHelvetica td span,
+.qpCustomFontPopup .previewFontHelvetica tr span
+.qpCustomFontPopup .previewFontHelvetica td p,
+.LogoSectionBlock .previewFontHelvetica p,
+.LogoSectionBlock .previewFontHelvetica,
+.quePapPreviewforPrintPreview .previewFontHelvetica,
+.quePapPreviewforPrintPreview .previewFontHelvetica p,
+.quePapPreviewforPrintPreview .previewFontHelvetica p span,
+.quePapPreviewforPrintPreview .previewFontHelvetica li,
+.quePapPreviewforPrintPreview .previewFontHelvetica td,
+.quePapPreviewforPrintPreview .previewFontHelvetica td strong,
+.quePapPreviewforPrintPreview .previewFontHelvetica td span,
+.quePapPreviewforPrintPreview .previewFontHelvetica tr span
+.quePapPreviewforPrintPreview .previewFontHelvetica td p,
+.quePapPreviewforPrintPreview .previewFontHelvetica p span.ql-font-English,
+.quePapPreviewforPrintPreview .previewFontHelvetica p span.ql-font-Hindi,
+.quePapPreviewforPrintPreview .previewFontHelvetica p span.ql-font-Marathi,
+.quePapPreviewforPrintPreview .previewFontHelvetica Font[face="Arial"],
+.quePapPreviewforPrintPreview .previewFontHelvetica Font[face="Times New Roman"],
+.qpPrintSubSet .previewFontHelvetica,
+.qpPrintSubSet .previewFontHelvetica p,
+.qpPrintSubSet .previewFontHelvetica p span,
+.qpPrintSubSet .previewFontHelvetica li,
+.qpPrintSubSet .previewFontHelvetica td,
+.quePapPreviewforPrintPreview .templateHelveticaFont .quill > .ql-container .ql-editor > p,
+.quePapPreviewforPrintPreview .templateHelveticaFont .quill > .ql-container .ql-editor li,
+.quePapPreviewforPrintPreview .templateHelveticaFont .quill > .ql-container .ql-editor table tr td{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+.qpCustomFontPopup .previewFontArial .ql-font-English,
+.qpCustomFontPopup .previewFontArial .ql-font-Marathi,
+.qpCustomFontPopup .previewFontArial .ql-font-Hindi,
+.qpCustomFontPopup .previewFontArial .ql-font-TimesNewRoman{
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+.qpCustomFontPopup .previewFontTimesNewRoman .ql-font-English,
+.qpCustomFontPopup .previewFontTimesNewRoman .ql-font-Marathi,
+.qpCustomFontPopup .previewFontTimesNewRoman .ql-font-Hindi,
+.qpCustomFontPopup .previewFontTimesNewRoman .ql-font-TimesNewRoman{
+    font-family: "Times New Roman", Times, serif !important;
+}
+.qpCustomFontPopup .previewFontVerdana .ql-font-English,
+.qpCustomFontPopup .previewFontVerdana .ql-font-Marathi,
+.qpCustomFontPopup .previewFontVerdana .ql-font-Hindi,
+.qpCustomFontPopup .previewFontVerdana .ql-font-TimesNewRoman{
+    font-family: Verdana, Geneva, sans-serif !important;
+}
+.qpCustomFontPopup .previewFontHelvetica .ql-font-English,
+.qpCustomFontPopup .previewFontHelvetica .ql-font-Marathi,
+.qpCustomFontPopup .previewFontHelvetica .ql-font-Hindi,
+.qpCustomFontPopup .previewFontHelvetica .ql-font-TimesNewRoman{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+li.previewFontTimesNewRoman{
+    font-family: "Times New Roman", Times, serif !important;
+}
+
+div.previewFontTimesNewRoman p, div.previewFontTimesNewRoman font, .subQuestionListSect p.previewFontTimesNewRoman p, .subQuestionListSect p.previewFontTimesNewRoman font, .subQuestionListSect.previewFontTimesNewRoman .questionBullet{
+    font-family: "Times New Roman", Times, serif !important;
+}
+
+li.previewFontHelvetica{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+div.previewFontHelvetica p, div.previewFontHelvetica font, .subQuestionListSect p.previewFontHelvetica p, .subQuestionListSect p.previewFontHelvetica font, .subQuestionListSect.previewFontHelvetica .questionBullet{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+li.previewFontVerdana{
+    font-family: Verdana, Geneva, sans-serif !important;
+}
+
+div.previewFontVerdana p, div.previewFontVerdana font, .subQuestionListSect p.previewFontVerdana p, .subQuestionListSect p.previewFontVerdana font, .subQuestionListSect.previewFontVerdana .questionBullet{
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
+li.previewFontArial{
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+div.previewFontArial p, div.previewFontArial font, .subQuestionListSect p.previewFontArial p, .subQuestionListSect p.previewFontArial font, .subQuestionListSect.previewFontArial .questionBullet{
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+li.previewFontHelvetica{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+
+

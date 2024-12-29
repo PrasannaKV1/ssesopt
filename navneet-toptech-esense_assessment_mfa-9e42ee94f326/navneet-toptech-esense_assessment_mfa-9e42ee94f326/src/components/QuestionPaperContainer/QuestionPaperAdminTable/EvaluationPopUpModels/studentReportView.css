@@ -1,0 +1,41 @@
+
+
+.go_back_btn{
+    margin-left: -1% !important;  
+    margin-top: 1% !important;  
+    color: #9A9A9A !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+}
+.main_container .MuiTableContainer-root table tbody tr td .table-name-avatars-title > div:first-child,
+.main_container .MuiTableContainer-root table tbody tr td:nth-child(3)
+{
+    color: #1B1C1E;
+    font-size: 15px;
+    font-weight: 600;
+}
+.main_container .MuiTableContainer-root table tbody tr td .table-name-avatars-title > div:last-child{
+    font-size: 13px;
+    color: #9A9A9A;
+    font-weight: 500;
+}
+
+.teacherChapterAnalysis .chapterChallengeMainDiv {
+    max-width: 94.4% !important;
+}
+@media screen and (max-width:900px){
+    .go_back_btn{
+        margin-left:20px;
+    }
+   
+}
+@media screen and (max-width:500px){
+    .student-wrapper-analysis{
+        padding: 5px !important;
+        margin-top: 0px !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        width: 100% !important;
+        margin-bottom: 10px !important;
+    }
+}

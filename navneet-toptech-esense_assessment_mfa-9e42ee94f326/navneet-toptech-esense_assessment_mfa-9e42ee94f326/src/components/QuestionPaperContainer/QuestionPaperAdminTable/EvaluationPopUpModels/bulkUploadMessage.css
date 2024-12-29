@@ -1,0 +1,61 @@
+.deleteMsgPopover{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(15px);
+    background-color: rgb(6 6 6 / 10%);
+    -webkit-backdrop-filter: blur(15px);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: fixed;
+    z-index: 99999;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    left: 0;
+  }
+  .deleteMsgPopover .deleteMsgPopoverSect {
+    display: flex !important;
+    background-color: #ffff !important;
+    padding: 30px 70px !important;
+    border-radius: 10px !important;
+    gap :10px;
+    margin: auto !important;
+    width: 560px;
+    align-items: center;
+    justify-content: center;
+  }
+  .deleteMsgPopover .deleteMsgPopoverSect img{
+    margin-bottom: 0px;
+  }
+  .deleteMsgPopover .deleteMsgPopoverSect h5{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .deleteMsgPopover .deleteMsgPopoverSect h5 span{
+    font-weight: 700;
+  }
+  .deleteMsgPopover .deleteMsgPopoverSect h6{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 19px;
+    color: #9A9A9A;
+  }
+  .footereSecMsg span{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    color: #9A9A9A;
+    width: 100%;
+    padding-top: 20px;
+    float: left;
+    margin-bottom: 0px;
+  }
+
+@media (min-width: 320px) and (max-width: 550px) {
+  .deleteMsgPopover .deleteMsgPopoverSect {
+    padding: 30px 40px !important;
+  }
+}

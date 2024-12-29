@@ -1,0 +1,41 @@
+.qsnPaperModel>div {    
+    width: auto;
+    padding: 0px, 10px;
+    background: #FFFFFF;
+    border: 1px solid rgba(222, 222, 222, 0.6);
+    border-radius: 14px;
+    overflow: hidden;
+    position: relative;  
+}
+.qsnPaperModelChildScroll{
+    max-width: 100%;
+    max-height: 100%;
+    overflow-y: auto;
+    height: 761px;
+    padding-bottom: 30px;
+}
+.fontPreviewFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 5px 0px;
+    width: auto;
+    height: 27px;
+    background: #9A9A9A;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+
+.previewMode .qsnPaperModel,
+.previewMode .qsnPaperModelChild{
+    border: none;
+}
+.previewMode .qsnPaperModelChildScroll{
+    overflow: hidden;
+    height: auto;
+}
+.previewMode .fontPreviewFooter{
+    display: none;
+}

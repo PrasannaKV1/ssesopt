@@ -1,0 +1,81 @@
+.classDashboardTopNav .MuiTabs-scroller .MuiTabs-flexContainer button.Mui-selected,
+.stdDetailTab .MuiTabs-scroller .MuiTabs-flexContainer button.Mui-selected {
+    padding: 0px;
+    min-width: auto;
+    color: #000;
+    border: none;
+    font-size: 13px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin: 0px 15px;
+}
+
+.classDashboardTopNav .MuiTabs-scroller .MuiTabs-flexContainer button.Mui-selected:nth-child(1),
+.stdDetailTab .MuiTabs-scroller .MuiTabs-flexContainer button.Mui-selected:nth-child(1) {
+    margin: 0px 15px 0px 0px !important;
+}
+
+.classDashboardTopNav .MuiTabs-scroller .MuiTabs-flexContainer button:nth-child(1),
+.stdDetailTab .MuiTabs-scroller .MuiTabs-flexContainer button:nth-child(1) {
+    padding-left: 0px;
+}
+
+.classDashboardTopNav .MuiTabs-scroller .MuiTabs-flexContainer button,
+.stdDetailTab .MuiTabs-scroller .MuiTabs-flexContainer button {
+    color: #000;
+    font-weight: 500;
+    border: none;
+    font-size: 13px;
+    text-transform: capitalize;
+    padding: 0px 20px;
+}
+
+.classDashboardTopNav .MuiTabs-scroller .MuiTabs-indicator,
+.stdDetailTab .MuiTabs-scroller .MuiTabs-indicator {
+    background-color: #01b58a;
+}
+
+.classDashboardTopNav .MuiTabs-scroller .MuiTabs-flexContainer::after,
+.stdDetailTab .MuiTabs-scroller .MuiTabs-flexContainer::after {
+    content: '';
+    border-bottom: 3px solid;
+    border-color: rgb(222 222 222 / 40%);
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+
+.classDashboardTopNav>.MuiBox-root>div[role=tabpanel]>.MuiBox-root {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.MuiTooltip-popper>.MuiTooltip-tooltip {
+    margin-top: 0px !important;
+}
+
+.trianelSp {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid black;
+    position: absolute;
+    top: -8px;
+    left: calc(50% - 5px);
+}
+
+.myClsDissTab {
+    cursor: not-allowed !important;
+}
+
+/* Pushparaj CSS Res */
+@media only screen and (min-device-width: 320px) and (max-device-width: 479px) {
+    .live_cls_tabs {
+        background-color: #ffffff;
+    }
+
+    .live_cls_tabs .MuiTabs-flexContainer button:last-child {
+        padding: 0px 16px !important;
+    }
+}

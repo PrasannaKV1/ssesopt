@@ -1,0 +1,59 @@
+.modalPopupContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.modalPopupContainer .modalPopupBgSect{
+    width: 686px;
+    min-height: 289px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    position: relative;
+}
+.modalPopupContainer.duplicateEntryBlk .modalPopupBgSect{
+    width: auto !important;
+    min-height: auto;
+    padding: 50px;
+}
+.modalPopupContainer.duplicateEntryBlk .modalPopupBgSect .modalPopupBgSectCont{
+    height: auto;
+    align-items: start;
+}
+.modalPopupContainer.duplicateEntryBlk .modalPopupBgSect .modalPopupBgSectCont h2{
+    font-size: 25px !important;
+    text-align: left;
+    font-weight: 700;
+}
+.modalPopupContainer.duplicateEntryBlk .modalPopupBgSect .modalPopupBgSectCont h4{
+    text-align: left;
+    font-size: 17px !important;
+    font-weight: 400;
+}
+.modalPopupContainer .modalPopupBgSect > svg{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+}
+.modalPopupContainer .modalPopupBgSect .modalPopupBgSectCont{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 290px;
+    justify-content: center;
+    gap: 10px;
+}
+.modalPopupContainer .modalPopupBgSect .modalPopupBgSectCont h2{
+    font-weight: 700;
+    line-height: 26px;
+    margin: 0px;
+}
+.modalPopupContainer .modalPopupBgSect .modalPopupBgSectCont h4{
+    font-weight: 600;
+    line-height: 22px;
+    margin: 0px;
+    color: #9A9A9A;
+    width: 81%;
+}

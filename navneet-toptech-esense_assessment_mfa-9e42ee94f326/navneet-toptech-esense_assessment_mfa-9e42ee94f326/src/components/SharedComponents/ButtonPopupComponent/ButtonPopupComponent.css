@@ -1,0 +1,98 @@
+.buttonPopupAction > .MuiPaper-root ul{
+    /* box-shadow: 0px 4px 22px 0px #0000001F; */
+    border-radius: 14px;
+    border: 1px solid #DEDEDE;
+    padding: 0px 10px;
+    width: 250px;
+    z-index: 9;
+    background: #fff;
+}
+.buttonPopupAction > .MuiPaper-root {
+    padding-top: 15px;
+    background-color: transparent;
+    border-radius: 0px;
+    box-shadow: none;
+}
+.buttonPopupAction ul{
+    padding: 0px;
+    list-style: none;
+}
+.buttonPopupAction ul li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid #DEDEDE;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+.buttonPopupAction ul li:last-child{
+    border:none;
+}
+.buttonPopupAction ul li .buttonPopupActionContent{
+    display: flex;
+    flex-direction: column;
+}
+.buttonPopupAction ul li .buttonPopupActionContent h4,.buttonPopupAction ul li .buttonPopupActionContent p{
+    margin: 0px;
+}
+.buttonPopupAction ul li .buttonPopupActionContent h4{
+    font-size: 17px !important;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.buttonPopupAction ul li .buttonPopupActionContent p{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #9A9A9A;
+}
+/* .buttonPopupAction::before{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+} */
+
+.buttonPopupAction > .MuiPaper-root:after, .buttonPopupAction > .MuiPaper-root:before {
+    border: solid transparent;
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    top: -5px;
+    left: calc(50% - -6px);
+}
+
+.buttonPopupAction > .MuiPaper-root:after {
+    border-color: rgba(136, 183, 213, 0);
+    border-bottom-color: #ffffff;
+    border-width: 12px;
+    margin-left: -12px;
+    margin-top: -2px;
+}
+.buttonPopupAction > .MuiPaper-root:before {
+    border-color: rgba(194, 225, 245, 0);
+    border-bottom-color: #dedede;
+    border-width: 12px;
+    margin-left: -12px;
+    margin-top: -4px;
+}
+.buttonPopupAction.buttonPopupActionEmpty > .MuiPaper-root{
+    padding-top: 0px;
+    padding-bottom: 15px;
+    margin-top: -5px;
+    overflow: hidden;
+}
+.buttonPopupAction.buttonPopupActionEmpty > .MuiPaper-root:after, .buttonPopupAction.buttonPopupActionEmpty > .MuiPaper-root:before {
+    bottom: -8px;
+    transform: rotate(180deg);
+    top:auto !important;
+}
+.buttonPopupAction.buttonPopupActionEmpty > .MuiPaper-root:before{
+    border-bottom-color: #4e4e4e !important;
+}

@@ -1,0 +1,137 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+.preview-container {
+  padding: 20px;
+}
+.preview-heading {
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21.86px;
+  text-align: left;
+  color: #000000;
+}
+.card-container {
+  min-width: 275px;
+  border: 1px solid #c4c4c4;
+  border-radius: 8px;
+}
+.dashed-line {
+  border-top: 2px solid #ccc; /* Adjust color and thickness as needed */
+  margin: 16px 0; /* Space above and below the line */
+}
+
+.question-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.question-sec-heading {
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.86px;
+  text-align: left;
+}
+.question-sec-part {
+  font-family: Manrope;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  color: #9a9a9a;
+}
+.question-sec-marks {
+}
+.question-sec-input {
+  width: 16%;
+  border-radius: 5px;
+  border: 1px solid #dedede;
+}
+.question-sec-error {
+  font-family: Manrope;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  color: #9a9a9a;
+  text-transform: uppercase;
+}
+.input-box {
+  width: 100%;
+}
+.preview-teacher {
+  margin-top: 40px;
+}
+.preview-teacher-head {
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.86px;
+  text-align: left;
+  color: #000000;
+}
+.preview-teacher-area{
+  border:1px solid#D9D9D9;
+  border-radius: 8px;
+}
+.preview-container .preview-percentage{
+  background: #E7EEFD;
+  width: 171px;
+  height: 38px;
+  padding: 5px 15px;
+  gap: 3px;
+  border-radius: 4px;
+  font-size: 12px;
+  display: flex;
+  font-weight: 500;
+  justify-content: space-between;
+  align-items: center;
+}
+.preview-container .preview-marks{
+  background: #FEEEEC;
+  width: 171px;
+  height: 38px;
+  padding: 5px 15px;
+  gap: 3px;
+  border-radius: 4px;
+  font-size: 12px;
+  display: flex;
+  font-weight: 500;
+  justify-content: space-between;
+  align-items: center;
+}
+.preview-container .preview-status{
+  width: 116px;
+  height: 24px;
+  padding: 0px 10px 0px 10px;
+  gap: 8px;
+  border-radius: 4px 0px 0px 0px;
+  background: rgba(16, 85, 235, 0.1);
+  /* margin-top: 2rem; */
+  justify-content: center;
+  display: flex;
+  opacity: 1;
+}
+.preview-sets{
+  background-color:#F5F5F5;
+  /* height:auto; */
+  padding: 10px;
+}
+.preview-avatars{
+  margin-top: 16px;
+}
+.preview-status{
+  margin:unset
+}
+.preview-sets .MuiTabs-indicator{
+  height:3px;
+  border-radius: 11px;
+}
+.preview-sets .MuiTab-root.Mui-selected{
+ color: #000000;
+}

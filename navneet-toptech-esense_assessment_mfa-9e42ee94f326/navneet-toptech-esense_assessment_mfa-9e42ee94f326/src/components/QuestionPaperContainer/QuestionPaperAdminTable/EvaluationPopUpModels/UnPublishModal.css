@@ -1,0 +1,89 @@
+.UnPublishModalPopover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(15px);
+  /* background-color: rgb(6 6 6 / 10%); */
+  -webkit-backdrop-filter: blur(15px);
+  z-index: 9999;
+}
+
+.UnPublishModalPopover .UnPublishModalPopoverBody {
+  background-color: #ffff;
+  border-radius: 10px;
+  margin: auto;
+  width: 650px;
+  left: 140px;
+  top: 230px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 500px) {
+  .UnPublishModalPopover .UnPublishModalPopoverBody {
+    width: 100%;
+    margin-inline: 10px;
+  }
+}
+
+.UnPublishModalPopover
+  .UnPublishModalPopoverBody
+  .UnPublishModalPopoverBodyPadd {
+  position: relative;
+  padding: 40px 100px;
+}
+@media screen and (max-width: 500px) {
+  .UnPublishModalPopover
+    .UnPublishModalPopoverBody
+    .UnPublishModalPopoverBodyPadd {
+    padding: 14px 30px !important;
+  }
+}
+.closeDeleteIcon {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  cursor: pointer;
+  padding-top: 10px;
+}
+.UnPublishModalPopover
+  .UnPublishModalPopoverBody
+  .UnPublishModalPopoverBodyPadd
+  .UnPublishModalHead {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 32px;
+  padding: 0px;
+  color: #1b1c1e;
+}
+.UnPublishModalPopover
+  .UnPublishModalPopoverBody
+  .UnPublishModalPopoverBodyPadd
+  .UnPublishModalDesc {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #9a9a9a;
+  margin-top: 0px;
+  padding: 0px 21px;
+  display: flex;
+  flex-direction: column;
+}
+.UnPublishModalPopover
+  .UnPublishModalPopoverBody
+  .UnPublishModalPopoverBodyPadd
+  .UnPublishModalActionBtn {
+  display: flex;
+  gap: 15px;
+  margin: 25px auto 0px;
+}
+
+@media screen and (max-width: 500px) {
+  .UnPublishModalPopover
+    .UnPublishModalPopoverBody
+    .UnPublishModalPopoverBodyPadd
+    .UnPublishModalActionBtn {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+}

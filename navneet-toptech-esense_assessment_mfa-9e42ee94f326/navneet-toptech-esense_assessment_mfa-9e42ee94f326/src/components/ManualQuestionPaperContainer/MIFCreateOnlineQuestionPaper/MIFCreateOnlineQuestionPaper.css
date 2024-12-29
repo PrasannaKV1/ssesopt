@@ -1,0 +1,89 @@
+.createQuestOnlineSect h1{
+    font-weight: 700;
+    font-size: 24px !important;
+    line-height: 29px;
+    margin-bottom: 16px;
+}
+.createQuestOnlineSect h3{
+    font-weight: 400;
+    line-height: 19px;
+}
+.createQuestOnlineSectTemplateSect{
+    background: #FFFFFF;
+    border-radius: 14px;
+    padding: 20px 20px 150px 20px;
+    position: relative;
+}
+.createQuestOnlineSectTemplateSect .createQuestOnlineSectTemplateSectBlck{
+    background: #ECF0FD;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.templateSelectSect{
+    position: relative;
+    width: 150px;
+}
+.templateSelectSect input{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    width: 25px;
+    height: 25px;
+}
+.templateSelectSect h3{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 0px 10px;
+    margin-top: 5px;
+}
+.templateSelectSectWrapper form{
+    margin-top: 30px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    height: calc(100vh - 460px);
+}
+.templateSelectSectWrapper form .templateSelectSect{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.templateSelectSectWrapper form .templateSelectSect .templateSelectSectWrapper{
+    position: relative;
+    width: 150px;
+}
+.templateSelectSectWrapper form .templateSelectSect .templateSelectSectWrapper input[type='radio']:checked,
+.templateSelectSectWrapper form .templateSelectSect .templateSelectSectWrapper input[type='radio']:hover:checked{
+    accent-color: #31927b;
+}
+.createOnlineFooterSect{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    left: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px -7px 20px rgb(0 0 0 / 5%);
+    padding: 14px 20px;
+    border-radius: 0px 0px 14px 14px;
+}
+.createOnlineFooterSect p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+}
+.createOnlineFooterSect p span{
+    font-weight: 700;
+}
+.createOnlineFooterSect .createOnlineFooterSectRight{
+    display: flex;
+    gap: 20px;
+}

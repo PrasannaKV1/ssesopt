@@ -1,0 +1,131 @@
+.quillPopupTool .MuiPaper-root {
+  background: #ebedf0;
+  border: 1px solid #d2d2d2;
+  box-shadow: 0px -3px 10px #d7d7d7;
+  border-radius: 10px;
+  margin-top: -110px;
+  overflow: visible;
+}
+.quillPopupTool .MuiPaper-root > button:nth-child(1) {
+  position: absolute;
+  width: 45px;
+  background: #01b58a;
+  color: #fff;
+  right: 90px;
+  text-transform: CAPITALIZE;
+  top: 13px;
+  border: 1px solid #01b58a;
+  padding: 3px 0px;
+}
+.quillPopupTool .MuiPaper-root > button.popSuccessBtn {
+  width: 45px;
+  background: #01b58a;
+  color: #fff;
+  text-transform: CAPITALIZE;
+  border: 1px solid #01b58a;
+  padding: 3px 0px;
+}
+.quillPopupTool .MuiPaper-root > button:nth-child(2) {
+  position: absolute;
+  width: 53px;
+  background: #fff;
+  color: #000;
+  right: 15px;
+  text-transform: CAPITALIZE;
+  top: 13px;
+  border: 1px solid #01b58a;
+  padding: 3px 0px;
+}
+.quillPopupTool .MuiPaper-root > button.popResetBtn {
+  width: 53px;
+  background: #fff;
+  color: #000;
+  text-transform: CAPITALIZE;
+  border: 1px solid #01b58a;
+  padding: 3px 0px;
+}
+.quillPopupToolNumber.quillPopupTool .MuiPaper-root > button:nth-child(1) {
+  right: auto !important;
+  left: 10px !important;
+  top: 52px;
+}
+.quillPopupToolNumber.quillPopupTool .MuiPaper-root > button:nth-child(2) {
+  right: auto !important;
+  left: 80px !important;
+  top: 52px;
+}
+.quillPopupToolNumber.quillPopupTool .previewNumberTextBox {
+  padding: 5px 5px 45px 5px;
+}
+.quillPopupToolNumber.quillPopupTool
+  .previewNumberTextBox
+  .inputFieldStyling
+  .MuiInputBase-root:not(.Mui-focused)
+  fieldset {
+  background-color: transparent;
+  border-color: #cccccc;
+}
+.quillPopupToolNumber.quillPopupTool
+  .previewNumberTextBox
+  .inputFieldStyling
+  .MuiInputBase-root
+  input {
+  background: #fff;
+  border-radius: 8px;
+}
+.quillPopupTool .MuiPaper-root .quill .ql-toolbar {
+  padding-right: 150px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0px solid #ccc;
+}
+.quillPopupTool .MuiPaper-root .quill .ql-container {
+  background: #fff;
+  border-radius: 0px 0px 10px 10px;
+  border: none;
+}
+.quillPopupTool .quill .ql-toolbar .ql-formats .ql-font {
+  position: relative;
+  margin-left: 75px;
+}
+.quillPopupTool .quill .ql-toolbar .ql-formats .ql-font:after {
+  content: "Language:";
+  position: absolute;
+  left: -70px;
+  color: #000;
+}
+.quillPopTable .MuiPaper-root {
+  display: flex;
+  margin-top: -70px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 28%;
+  padding: 10px;
+  column-gap: 5px;
+}
+.quillPopTable .MuiOutlinedInput-input {
+  max-height: 0px;
+  background: #fff;
+  font-size: 14px;
+}
+.quillPopTableFullWidth .MuiPaper-root {
+  display: flex;
+  margin-top: -70px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  column-gap: 5px;
+}
+.quillPopTableFullWidth .MuiOutlinedInput-input {
+  max-height: 0px;
+  background: #fff;
+  font-size: 14px;
+}
+.disableBtn.Mui-disabled{
+  color: #fff !important;
+  opacity: 0.5;
+}

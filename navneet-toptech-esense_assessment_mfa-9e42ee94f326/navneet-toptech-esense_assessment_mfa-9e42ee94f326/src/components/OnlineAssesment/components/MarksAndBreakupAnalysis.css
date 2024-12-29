@@ -1,0 +1,83 @@
+.questionBankContScroll {
+  /* height: calc(100vh - 100px); */
+  /* overflow-y: auto; */
+  /* position: relative; */
+  background-color: rgba(255, 255, 255, 1);
+  padding: 24px 30px;
+  border-radius: 20px;
+  /* width: 90vw; */
+  margin: 20px auto;
+  border: 1px solid rgba(222, 222, 222, 1);
+  gap: 20px;
+}
+.questionBankFooterAdded .questionBankContScroll {
+  padding-bottom: 45px;
+}
+
+.ellipseText {
+  max-height: 3em;
+  position: relative;
+  margin-right: 5px !important;
+  /* overflow: hidden !important; */
+  float: left;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 1);
+}
+.ellipseText p {
+  margin: 0px;
+}
+
+.headerText {
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.assessmentTableSect
+  .tableContainer
+  .tableBody
+  .tableRow
+  .tableCellForMarks
+  .marksTextField
+  .MuiInputBase-root
+  .MuiOutlinedInput-notchedOutline {
+  border: 1px solid rgba(222, 222, 222, 1);
+  border-radius: 5px;
+  width: 133px;
+}
+.lateMarkSubmissionContainer {
+  margin: 20px 0px;
+}
+.tableCellForMarks .MuiFormControl-root .MuiInputBase-root{
+  height: 30px !important;
+}
+
+.lateMarkText {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(27, 28, 30, 1);
+}
+
+.questionBankContScroll
+  .lateMarkSubmissionContainer
+  .remarkTextField
+  .MuiInputBase-root
+  {
+  border: 1px solid rgba(222, 222, 222, 1);
+  border-radius: 5px;
+  width: 75vw;
+  height: 10vh;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+}
+
+.lateSubreason {
+  Width: 100%;
+  Height: 122px;
+  border-radius: 8px;
+  padding: 12px 15px 12px 15px;
+  gap: 10px;
+  border: 1px solid #D2D2D2;
+}

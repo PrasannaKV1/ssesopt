@@ -1,0 +1,218 @@
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersionSect .quePapPreviewforPrintVersion,
+.vh-feedback {
+    width: 280px;
+    padding: 15px 10px 15px 15px;
+}
+
+.quePapPreviewforPrintVersionSect {
+    border-right: 1px solid #DEDEDE;
+
+}
+
+.vh-feedback {
+    border-top: 1px solid #DEDEDE;
+    /* display: none; */
+}
+
+/* .quePapPreviewforPrintContent .quePapPreviewforPrintVersionSect .quePapPreviewforPrintVersion{
+    border-bottom: 1px solid #DEDEDE;
+} */
+/* .quePapPreviewforPrintContent .quePapPreviewforPrintVersionSect{
+    border-right: 1px solid #DEDEDE
+} */
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersionSect .quePapPreviewforPrintPreview {
+    /* width: calc(100% - 280px); */
+    width: 100%;
+    overflow: auto;
+}
+
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersionSect .quePapPreviewforPrintVersion>h2,
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersionSect .vh-feedback .versionHistory-tittle {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersionSect .vh-feedback .feedback-datetime {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-bottom: 10px;
+    color: #5F6061;
+}
+
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersionSect .quePapPreviewforPrintVersion>p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #9A9A9A;
+    padding-right: 70px;
+}
+
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersionSect .quePapPreviewforPrintVersion ul {
+    list-style: none;
+    padding-left: 16px;
+}
+
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersionSect .quePapPreviewforPrintVersion ul>li {
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersionSect .quePapPreviewforPrintVersion ul>li:last-child::after {
+    display: none;
+}
+
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersionSect .quePapPreviewforPrintVersion ul>li h4,
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersionSect .vh-feedback .feedback-title {
+    font-weight: 600;
+    line-height: 22px;
+    color: rgba(154, 154, 154, 1);
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersionSect .vh-feedback .attachmentRow {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-right: 5px;
+}
+
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersionSect .vh-feedback .attachmentItem {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersionSect .vh-feedback .attachmentItem .attachmentMeta {
+    font-size: 14px;
+    color: #1B1C1E;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    width: calc(100% - 60px);
+    overflow: hidden;
+}
+
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersionSect .vh-feedback .attachmentItem .attachmentAction {
+    display: flex;
+    align-items: start;
+    gap: 10px;
+}
+
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersionSect .vh-feedback .attachmentItem .attachmentAction img {
+    cursor: pointer;
+}
+
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersionSect .quePapPreviewforPrintVersion ul>li.activeDot h4 {
+    color: #01B58A;
+}
+
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersionSect .quePapPreviewforPrintVersion ul>li>div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersionSect .quePapPreviewforPrintVersion ul>li>div p {
+    background: rgba(239, 239, 239, 1);
+    color: rgba(154, 154, 154, 1);
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    margin: 0px;
+}
+
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersionSect .quePapPreviewforPrintVersion ul>li.activeDot>div p {
+    background: rgba(1, 181, 138, 0.1);
+    color: #01B58A;
+}
+
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersionSect .quePapPreviewforPrintVersion ul>li>div span {
+    font-size: 10px;
+    line-height: 16px;
+    font-weight: 700;
+}
+
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersionSect .quePapPreviewforPrintVersion ul>li:before {
+    left: -16px;
+    top: 5px;
+    content: "";
+    background: #DEDEDE;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    z-index: 1;
+    border-radius: 20px;
+}
+
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersionSect .quePapPreviewforPrintVersion ul>li::after {
+    content: "";
+    position: absolute;
+    border-left: 3px solid #DEDEDE;
+    height: calc(100% - 0px);
+    top: 6px;
+    left: -13px;
+}
+
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersionSect .quePapPreviewforPrintVersion ul>li.activeDot::before {
+    background: #01B58A;
+}
+
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersionSect .quePapPreviewforPrintVersion ul>li.activeLine::after {
+    border-color: #01B58A;
+}
+
+.gap-8 {
+    gap: 8px;
+}
+
+.preview-eval-hidden {
+    display: none;
+}
+
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersionSect .quePapPreviewforPrintVersion ul {
+    /* height: calc(100vh - 360px); */
+    overflow: auto;
+    margin: 0px;
+}
+
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersionSect .versionHistFeedBackScroll {
+    height: calc((100vh - 437px) / 2);
+    overflow: auto;
+    margin: 0px;
+}
+
+.quePapPreviewforPrintContent .quePapPreviewforPrintVersionSect .quePapPreviewforPrintVersion.feedbackVisible ul {
+    height: calc((100vh - 450px) / 2) !important;
+}
+
+.subtext {
+    background: #385DDF1A !important;
+    color: #385DDF !important;
+}
+
+.subtext_date {
+    font-size: 12px;
+    font-weight: 400;
+    color: #5F6061;
+}
+
+@media print {
+    .quePapPreviewforPrintContent .quePapPreviewforPrintPreview {
+        overflow: unset !important;
+    }
+
+    .quePapPreviewforPrintContent .quePapPreviewforPrintVersionSect .quePapPreviewforPrintVersion {
+        display: none;
+    }
+}
+
+.feedback-reason {
+    font-size: 14px;
+    font-weight: 500;
+    word-wrap: break-word;
+}

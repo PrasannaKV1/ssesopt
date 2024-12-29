@@ -1,0 +1,36 @@
+.questionTypeOptionSect{
+    display: flex;
+}
+.questionTypeOptionSect .questionTypeOptionSectSwitch{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 10px;
+    padding-top: 60px;
+    margin-right: 0px;
+}
+.questionTypeOptionSect .questionTypeOptionSectEditor{
+    width: calc(100% - 166px);
+}
+.questionCompAddOptionSect{
+    position: relative;
+}
+.questionCompAddOptionSect::before{
+    content: "";
+    background-color: var(--green);
+    width: 98%;
+    height: 1px;
+    position: absolute;
+    top: 21px;
+}
+.questionCompAddOptionSect > div{
+    background: #fff;
+    position: relative;
+    width: 200px;
+}
+.questionCompAddOptionSect button,.questionCompAddOptionSect button:hover{
+    padding: 0px !important;
+}
+body .compAddBtnSect::before{
+    background-color: #DEDEDE;
+}

@@ -1,0 +1,20 @@
+.tableFooter {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+    background-color: #fff;
+    box-shadow: 0px -7px 20px rgb(0 0 0 / 5%);
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+.assessmentContainerCreatSect h4 {
+    font-weight: 500;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #1B1C1E;
+}

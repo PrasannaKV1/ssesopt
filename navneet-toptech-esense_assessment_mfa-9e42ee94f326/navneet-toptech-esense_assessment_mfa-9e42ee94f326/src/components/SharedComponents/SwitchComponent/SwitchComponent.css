@@ -1,0 +1,13 @@
+.parentSwitch{
+    display: flex;
+    align-items: center;
+}
+.secondchildSwitch{
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    color: var(--textBlack1);
+}
+.parentSwitch .MuiSwitch-switchBase .MuiSwitch-thumb{
+    border-radius: 10px;
+}

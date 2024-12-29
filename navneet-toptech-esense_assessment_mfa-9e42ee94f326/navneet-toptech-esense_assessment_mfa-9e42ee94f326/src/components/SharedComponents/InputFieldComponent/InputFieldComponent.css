@@ -1,0 +1,117 @@
+.inputFieldStyling .MuiFormLabel-root.MuiInputLabel-root.Mui-focused {
+  background-color: #fff;
+  left: 0;
+  color: var(--green) !important;
+  padding: 0px 5px;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 600;
+  transform: translate(14px, -9px) scale(1);
+  opacity: 1;
+}
+.inputFieldStyling{
+  width: 100%;
+}
+.inputFieldStyling label {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--grey);
+}
+
+.inputFieldStyling .MuiFormLabel-root.MuiInputLabel-shrink {
+  color: var(--filledTextColor);
+  background-color: var(--white);
+  left: 0;
+  padding: 0px 5px;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 600;
+  transform: translate(14px, -10px) scale(1);
+  opacity: 1;
+}
+
+.inputFieldStyling fieldset,
+.inputFieldStyling .MuiOutlinedInput-root:hover fieldset {
+  border-radius: 8px !important;
+  padding: 0px 15px 0px 15px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--grey);
+  height: auto;
+  /* width: 100%; */
+  background-color: var(--inputBgGrey);
+  border: 1px solid var(--inputBgGrey);
+}
+
+.inputFieldStyling input {
+  border: none;
+}
+
+.inputFieldStyling .MuiOutlinedInput-root.Mui-focused fieldset {
+  background-color: transparent;
+  border: 1px solid var(--green) !important;
+}
+
+.inputFieldStyling label.Mui-focused {
+  color: var(--green);
+  background-color: var(--white);
+}
+
+.inputFieldStyling label.MuiInputLabel-shrink+.MuiOutlinedInput-root fieldset {
+  background-color: transparent;
+  border: 1px solid var(--textEditorBgGrey);
+}
+.inputFieldStyling .MuiOutlinedInput-input{
+  font-size: 14px;
+  font-weight: 600;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+.inputFieldStyling.mediumSize .MuiOutlinedInput-input{
+  height: 40px;
+}
+.inputFieldStyling.mediumSize label{
+  transform: translate(14px, 9px) scale(1);
+}
+.inputFieldStyling.largeSize .MuiOutlinedInput-input{
+  height: 52px;
+}
+.inputFieldStylingSect{
+  position: relative;
+}
+.inputFieldStylingSect.searchIconSect > .MuiFormControl-root > .MuiInputBase-root input {
+  padding-left: 40px;
+}
+.inputFieldStylingSect.searchIconSect > .MuiFormControl-root label{
+  transform: translate(40px, 10px) scale(1);
+}
+.inputFieldStylingSect.searchIconSect > .MuiFormControl-root label.MuiFormLabel-filled{
+  transform: translate(14px, -10px) scale(1)
+}
+.inputFieldStylingSect.searchIconSect > .MuiFormControl-root > .MuiInputBase-root::before{
+  content: url("../../../assets/images/SearchIcon.svg");
+  z-index: 9;
+  position: absolute;
+  left: 10px;
+  top: 9px;
+}
+input[type=number] { 
+  position: relative;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  opacity: 1;
+  cursor: pointer;
+}
+
+input[type=number]::-webkit-outer-spin-button, 
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: inner-spin-button !important;
+  width: 10px;
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  height: 50%;
+}

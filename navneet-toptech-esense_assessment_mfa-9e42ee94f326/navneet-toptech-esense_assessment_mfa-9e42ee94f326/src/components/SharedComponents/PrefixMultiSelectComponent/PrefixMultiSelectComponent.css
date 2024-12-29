@@ -1,0 +1,35 @@
+.selectInputStyling {
+    border-radius: 8px;
+  }
+  
+  .selectInputStyling .MuiFormControl-root {
+    width: 100%;
+  }
+  
+  .selectInputStyling .MuiFormControl-root .MuiInputBase-root {
+    height: 40px;
+    border-radius: 8px;
+  }
+  
+  .selectInputStyling .MuiFormControl-root .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #D6D6D6;
+  }
+  
+ 
+  
+  .selectInputStyling .MuiFormControl-root .MuiInputLabel-root {
+    background-color: #ffffff;
+    color: #6C6C6C;
+    opacity: 0.6;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    font-style: normal;
+  }
+  .selectInputStyling .MuiFormControl-root label{
+    margin-top: -5px;
+  }
+  .selectInputStyling .MuiFormControl-root label.MuiInputLabel-shrink{
+    top: 7px;
+    display: none !important;
+  }
